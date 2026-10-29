@@ -1,0 +1,3 @@
+SCPHF(6; 354, 9^3, 4): 643304376 sets of four columns checked, 0 always on one plane
+CA(39321; 4, 354, 9): 500 random sets of four columns, 0 missing a tuple
+PASS

@@ -1,0 +1,3 @@
+SCPHF(11; 5198, 4^2, 3): 23394129196 column triples checked, 0 never non-collinear
+CA(664; 3, 5198, 4): 2000 random column triples, 0 missing a tuple
+PASS

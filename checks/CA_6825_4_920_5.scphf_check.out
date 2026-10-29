@@ -1,0 +1,4 @@
+cells method: 3 rows bucketed by planes, 18 threads
+SCPHF(11; 920, 5^3, 4): 436038241 sets of four columns tested (the rest leave one plane in a bucketed row), 0 always on one plane
+CA(6825; 4, 920, 5): 500 random sets of four columns, 0 missing a tuple
+PASS

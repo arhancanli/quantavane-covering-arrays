@@ -1,0 +1,4 @@
+hybrid cyclic method: 9 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; 2 of them bucketed by hyperplanes through column 0's point, 18 threads; 114 sets holding column 0 fail in every such row, and their 18279 shifts were tested in the other 7 rows
+SCPHF(16; 1000, 17^5, 6): 32075315109 sets of six columns holding column 0 tested (the rest leave one hyperplane in a bucketed cyclic row), 0 always on one hyperplane
+CA(386200849; 6, 1000, 17): 1 random sets of six columns, 0 missing a tuple
+PASS
