@@ -1,0 +1,4 @@
+cells method: 3 rows bucketed by hyperplanes, 4 threads
+SCPHF(14; 1693, 8^4, 5): 335106163117 sets of five columns tested (the rest leave one hyperplane in a bucketed row), 0 always on one hyperplane
+CA(458648; 5, 1693, 8): 500 random sets of five columns, 0 missing a tuple
+PASS

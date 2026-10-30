@@ -1,8 +1,8 @@
 # New upper bounds for covering array numbers, strengths 3 to 6
 
-124 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
+150 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
 strengths t = 3 to 6, v = 4 to 25 and up to k = 10,000 columns. Together, through the standard constructions, they
-lower 368,387 cells of the covering array tables. Each family is in `families/`, with the exact check of it in
+lower 397,782 cells of the covering array tables. Each family is in `families/`, with the exact check of it in
 `checks/` and the checker in `checker/`.
 
 By Arhan Canli. Data and code under CC BY 4.0 (see LICENSE).
@@ -46,7 +46,7 @@ Shokri, Moura and Stevens (arXiv:2510.13122), Shokri's thesis (Ottawa, 2026), Be
 fewer columns; an array over v symbols serves v - 1; CAN(t-1, k-1, v) <= CAN(t, k, v) / v; the product construction
 for t = 2; and Roux's doubling for t = 3. A cell counts only if the table lists it.
 
-1,419 strength-3 cells (v = 4 to 9, k = 42 to 4672) are marked `held` until we have compared them with Table 5.6 of
+1,845 strength-3 cells (v = 4 to 9, k = 241 to 4672) are marked `held` until we have compared them with Table 5.6 of
 Shokri's thesis, which we could not read yet.
 
 ## Contact
