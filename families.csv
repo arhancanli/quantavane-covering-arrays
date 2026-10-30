@@ -110,6 +110,7 @@ t,q,n,k,N,family,check_log
 5,5,15,896,46805,families/CA_46805_5_896_5.cphf.txt,checks/CA_46805_5_896_5.scphf_check.out
 5,7,12,1002,201607,families/CA_201607_5_1002_7.cphf.txt,checks/CA_201607_5_1002_7.scphf_check.out
 5,7,13,1483,218407,families/CA_218407_5_1483_7.cphf.txt,checks/CA_218407_5_1483_7.scphf_check.out
+5,7,26,3000,436807,families/CA_436807_5_3000_7.cphf.txt,checks/CA_436807_5_3000_7.scphf_check.out
 5,8,11,970,360368,families/CA_360368_5_970_8.cphf.txt,checks/CA_360368_5_970_8.scphf_check.out
 5,8,14,1693,458648,families/CA_458648_5_1693_8.cphf.txt,checks/CA_458648_5_1693_8.scphf_check.out
 5,9,12,1647,708489,families/CA_708489_5_1647_9.cphf.txt,checks/CA_708489_5_1647_9.scphf_check.out
@@ -137,6 +138,7 @@ t,q,n,k,N,family,check_log
 5,25,8,915,78124825,families/CA_78124825_5_915_25.cphf.txt,checks/CA_78124825_5_915_25.scphf_check.out
 5,25,17,10000,166015225,families/CA_166015225_5_10000_25.cphf.txt,checks/CA_166015225_5_10000_25.scphf_check.out
 6,7,20,2000,2352847,families/CA_2352847_6_2000_7.cphf.txt,checks/CA_2352847_6_2000_7.scphf_check.out
+6,7,23,2800,2705773,families/CA_2705773_6_2800_7.cphf.txt,checks/CA_2705773_6_2800_7.scphf_check.out
 6,8,19,2000,4980592,families/CA_4980592_6_2000_8.cphf.txt,checks/CA_4980592_6_2000_8.scphf_check.out
 6,9,18,2000,9565785,families/CA_9565785_6_2000_9.cphf.txt,checks/CA_9565785_6_2000_9.scphf_check.out
 6,11,16,2000,28344811,families/CA_28344811_6_2000_11.cphf.txt,checks/CA_28344811_6_2000_11.scphf_check.out
