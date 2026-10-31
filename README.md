@@ -8,6 +8,9 @@ that give these cells are in `ca-tools/rows.csv`, ready to enter in the ca-tools
 
 By Arhan Canli. Data and code under CC BY 4.0 (see LICENSE).
 
+Paper: A. Canli, New upper bounds for covering array numbers from partly cyclic covering perfect hash families,
+preprint, Zenodo, 31 October 2026, https://doi.org/10.5281/zenodo.23839216 (Table 2 lists the 279 bounds).
+
 ## The construction
 
 Each file in `families/` is a Sherwood covering perfect hash family: an n x k array whose entries are points of the
