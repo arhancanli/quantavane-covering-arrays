@@ -1,9 +1,10 @@
 # New upper bounds for covering array numbers, strengths 3 to 6
 
 152 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
-strengths t = 3 to 6, v = 4 to 25 and up to k = 10,000 columns. Together, through the standard constructions, they
-lower 399,780 cells of the covering array tables. Each family is in `families/`, with the exact check of it in
-`checks/` and the checker in `checker/`.
+strengths t = 3 to 6, v = 4 to 25 and up to k = 10,000 columns. Together, through the standard constructions, 143 of
+them lower 399,382 cells of the covering array tables (the live ca-tools table on 29 October 2026, plus later papers).
+Each family is in `families/`, with the exact check of it in `checks/` and the checker in `checker/`. The 279 bounds
+that give these cells are in `ca-tools/rows.csv`, ready to enter in the ca-tools table (see below).
 
 By Arhan Canli. Data and code under CC BY 4.0 (see LICENSE).
 
@@ -38,16 +39,33 @@ family, ending in PASS.
 lists ("table"), and how the bound arises ("direct" from a named family with at least k columns, or "derived" through
 the constructions below). `families.csv` lists the families with their parameters.
 
-"Before" is the November 2024 copy of Charles Colbourn's covering array tables (the final one; the tables stopped when
-he retired), lowered by every later bound we found: Torres-Jimenez and Izquierdo-Marquez (Mathematics 12 (2024) 1908),
-Shokri, Moura and Stevens (arXiv:2510.13122), Shokri's thesis (Ottawa, 2026), Bergeron's strength-3 bounds
-(github.com/MichelBacon/covering-arrays-rms-extension), and the table at chrispbsmolen.github.io/ca-tools as of
-29 October 2026. Both sides are then closed under the same standard constructions: a bound for k columns holds for
+"Before" is Christopher Smolen's live table at chrispbsmolen.github.io/ca-tools (commit 392d8c9, 29 October 2026),
+which holds the November 2024 copy of Charles Colbourn's covering array tables (the final one; the tables stopped when
+he retired) together with later papers and verified arrays, lowered by every other later bound we found:
+Torres-Jimenez and Izquierdo-Marquez (Mathematics 12 (2024) 1908), Shokri, Moura and Stevens (arXiv:2510.13122),
+Shokri's thesis (Ottawa, 2026) and Bergeron's strength-3 bounds (github.com/MichelBacon/covering-arrays-rms-extension).
+Both sides are then closed under the same standard constructions: a bound for k columns holds for
 fewer columns; an array over v symbols serves v - 1; CAN(t-1, k-1, v) <= CAN(t, k, v) / v; the product construction
 for t = 2; and Roux's doubling for t = 3. A cell counts only if the table lists it.
 
 1,845 strength-3 cells (v = 4 to 9, k = 241 to 4672) are marked `held` until we have compared them with Table 5.6 of
-Shokri's thesis, which we could not read yet.
+Shokri's thesis, which we could not read yet. Nine families improve no cell on their own any more: six with q = 7 are
+matched or beaten by the order-seven bounds of Torres-Jimenez and Izquierdo-Marquez and by the cyclic families in the
+ca-tools table, and three strength-6 families with 1,000 columns are superseded by our families with more columns.
+
+## Entering the bounds in the ca-tools table
+
+`ca-tools/rows.csv` gives the 279 bounds behind the improved cells in the table's own form: a row (t, v, k, N) says
+that N runs suffice for up to k columns, and it improves the table from `k_from` to `k` (`cells` of them). Each row
+names the family it comes from and the constructions applied after it (`steps`: `symbols to v=...`, an array over
+v + 1 symbols serves v; `derive to t=...`, CAN(t-1, k-1, v) <= CAN(t, k, v) / v; or Roux's doubling), with the best
+value the table listed before (`previous_best`, `previous_source`) and a `held` note where Shokri's Table 5.6 still has
+to be read. `ca-tools/add_rows.py`, run from the root of github.com/chrispbsmolen/ca-tools with the paper's DOI or
+arXiv id, appends them to `table/ca_table.csv` as CITED rows, the way that repository's `tools/add_tjim7.py` enters the
+order-seven sizes of Torres-Jimenez and Izquierdo-Marquez. It recomputes every previous best from the table and leaves
+out any row that no longer improves it. On a copy of the table at commit 392d8c9 it adds all 279 rows, and the table's
+own rule then counts 400,110 improved cells (a little more than 399,382, which also counts the later papers and the
+constructions).
 
 ## Contact
 
