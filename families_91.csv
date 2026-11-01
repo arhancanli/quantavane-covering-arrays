@@ -1,0 +1,92 @@
+t,q,k,n,progression_rows,other_rows,sets_of_t_columns,our_exact_check,family
+3,4,5198,11,0,11,2.34e+10,full (every set of three columns),CA_664_3_5198_4
+3,4,9275,12,0,12,1.33e+11,full (every set of three columns),CA_724_3_9275_4
+3,5,9547,10,0,10,1.45e+11,full (every set of three columns),CA_1205_3_9547_5
+3,7,9776,8,0,8,1.56e+11,full (every set of three columns),CA_2695_3_9776_7
+3,8,6681,7,0,7,4.97e+10,full (every set of three columns),CA_3536_3_6681_8
+3,9,10000,7,0,7,1.67e+11,full (every set of three columns),CA_5049_3_10000_9
+3,11,6935,6,0,6,5.56e+10,full (every set of three columns),CA_7931_3_6935_11
+3,13,10000,6,0,6,1.67e+11,full (every set of three columns),CA_13117_3_10000_13
+3,16,5880,5,0,5,3.39e+10,full (every set of three columns),CA_20416_3_5880_16
+3,17,6849,5,0,5,5.35e+10,full (every set of three columns),CA_24497_3_6849_17
+3,19,9046,5,0,5,1.23e+11,full (every set of three columns),CA_34219_3_9046_19
+4,5,920,11,0,11,2.97e+10,"3 rows bucketed by hyperplanes, then the other rows",CA_6825_4_920_5
+4,5,1454,12,0,12,1.85e+11,"4 rows bucketed by hyperplanes, then the other rows",CA_7445_4_1454_5
+4,5,2301,13,0,13,1.16e+12,"4 rows bucketed by hyperplanes, then the other rows",CA_8065_4_2301_5
+4,5,3667,14,0,14,7.52e+12,"4 rows bucketed by hyperplanes, then the other rows",CA_8685_4_3667_5
+4,5,5625,15,0,15,4.17e+13,"5 rows bucketed by hyperplanes, then the other rows",CA_9305_4_5625_5
+4,5,7853,16,0,16,1.58e+14,"5 rows bucketed by hyperplanes, then the other rows",CA_9925_4_7853_5
+4,7,1083,9,0,9,5.7e+10,"3 rows bucketed by hyperplanes, then the other rows",CA_21553_4_1083_7
+4,7,1946,10,0,10,5.96e+11,"3 rows bucketed by hyperplanes, then the other rows",CA_23947_4_1946_7
+4,7,3498,11,0,11,6.23e+12,"4 rows bucketed by hyperplanes, then the other rows",CA_26341_4_3498_7
+4,7,9904,13,0,13,4.01e+14,"4 rows bucketed by hyperplanes, then the other rows",CA_31129_4_9904_7
+4,8,997,8,0,8,4.09e+10,"3 rows bucketed by hyperplanes, then the other rows",CA_32712_4_997_8
+4,8,1668,9,0,9,3.21e+11,"3 rows bucketed by hyperplanes, then the other rows",CA_36800_4_1668_8
+4,8,3148,10,0,10,4.08e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_40888_4_3148_8
+4,8,10000,12,0,12,4.16e+14,"4 rows bucketed by hyperplanes, then the other rows",CA_49064_4_10000_8
+4,9,1392,8,0,8,1.56e+11,"3 rows bucketed by hyperplanes, then the other rows",CA_52425_4_1392_9
+4,9,2430,9,0,9,1.45e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_58977_4_2430_9
+4,9,9135,11,0,11,2.9e+14,"4 rows bucketed by hyperplanes, then the other rows",CA_72081_4_9135_9
+4,9,10000,12,0,12,4.16e+14,"4 rows bucketed by hyperplanes, then the other rows",CA_78633_4_10000_9
+4,11,1166,7,0,7,7.66e+10,"2 rows bucketed by hyperplanes, then the other rows",CA_102421_4_1166_11
+4,11,2190,8,0,8,9.56e+11,"3 rows bucketed by hyperplanes, then the other rows",CA_117051_4_2190_11
+4,11,9660,10,0,10,3.63e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_146311_4_9660_11
+4,11,10000,11,0,11,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_160941_4_10000_11
+4,13,1755,7,0,7,3.94e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_199849_4_1755_13
+4,13,3498,8,0,8,6.23e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_228397_4_3498_13
+4,13,10000,10,0,10,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_285493_4_10000_13
+4,16,1196,6,0,6,8.48e+10,"2 rows bucketed by hyperplanes, then the other rows",CA_393136_4_1196_16
+4,16,2583,7,0,7,1.85e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_458656_4_2583_16
+4,16,10000,9,0,9,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_589696_4_10000_16
+4,17,1361,6,0,6,1.42e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_501041_4_1361_17
+4,17,2991,7,0,7,3.33e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_584545_4_2991_17
+4,17,10000,9,0,9,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_751553_4_10000_17
+4,19,1706,6,0,6,3.52e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_781831_4_1706_19
+4,19,3920,7,0,7,9.82e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_912133_4_3920_19
+4,19,10000,9,0,9,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_1172737_4_10000_19
+4,23,908,5,0,5,2.81e+10,"2 rows bucketed by hyperplanes, then the other rows",CA_1399113_4_908_23
+4,23,2532,6,0,6,1.71e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_1678931_4_2532_23
+4,23,10000,8,0,8,4.16e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_2238567_4_10000_23
+4,25,1048,5,0,5,5e+10,"2 rows bucketed by hyperplanes, then the other rows",CA_1953025_4_1048_25
+4,25,2996,6,0,6,3.35e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_2343625_4_2996_25
+4,25,10000,8,0,8,4.16e+14,"2 rows bucketed by hyperplanes, then the other rows",CA_3124825_4_10000_25
+5,11,10000,15,8,7,8.33e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_2415611_5_10000_11
+5,13,10000,21,11,10,8.33e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_7796893_5_10000_13
+5,17,10000,19,10,9,8.33e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_26976977_5_10000_17
+5,19,10000,19,10,9,8.33e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_47045539_5_10000_19
+5,23,10000,17,9,8,8.33e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_109417463_5_10000_23
+5,25,10000,17,9,8,8.33e+17,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_166015225_5_10000_25
+5,4,610,17,0,17,6.92e+11,"3 rows bucketed by hyperplanes, then the other rows",CA_17344_5_610_4
+5,5,896,15,0,15,4.76e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_46805_5_896_5
+5,7,1002,12,0,12,8.33e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_201607_5_1002_7
+5,7,1483,13,0,13,5.94e+13,"3 rows bucketed by hyperplanes, then the other rows",CA_218407_5_1483_7
+5,8,970,11,0,11,7.08e+12,"3 rows bucketed by hyperplanes, then the other rows",CA_360368_5_970_8
+5,8,1693,14,0,14,1.15e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_458648_5_1693_8
+5,9,1647,12,0,12,1e+14,"3 rows bucketed by hyperplanes, then the other rows",CA_708489_5_1647_9
+5,11,463,8,0,8,1.74e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_1288331_5_463_11
+5,11,812,9,0,9,2.91e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_1449371_5_812_11
+5,11,1365,10,0,10,3.92e+13,"2 rows bucketed by hyperplanes, then the other rows",CA_1610411_5_1365_11
+5,11,1683,11,0,11,1.12e+14,"2 rows bucketed by hyperplanes, then the other rows",CA_1771451_5_1683_11
+5,13,365,7,0,7,5.25e+10,"2 rows bucketed by hyperplanes, then the other rows",CA_2598973_5_365_13
+5,13,666,8,0,8,1.08e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_2970253_5_666_13
+5,13,1007,10,0,10,8.54e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_3712813_5_1007_13
+5,16,530,7,0,7,3.42e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_7339936_5_530_16
+5,16,1028,8,0,8,9.47e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_8388496_5_1028_16
+5,17,588,7,0,7,5.76e+11,"2 rows bucketed by hyperplanes, then the other rows",CA_9938897_5_588_17
+5,17,1164,8,0,8,1.77e+13,"2 rows bucketed by hyperplanes, then the other rows",CA_11358737_5_1164_17
+5,19,720,7,0,7,1.59e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_17332579_5_720_19
+5,23,472,6,0,6,1.91e+11,"1 rows bucketed by hyperplanes, then the other rows",CA_38617943_5_472_23
+5,23,1004,7,0,7,8.42e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_45054263_5_1004_23
+5,25,536,6,0,6,3.62e+11,"1 rows bucketed by hyperplanes, then the other rows",CA_58593625_5_536_25
+5,25,915,8,0,8,5.29e+12,"2 rows bucketed by hyperplanes, then the other rows",CA_78124825_5_915_25
+6,7,2000,20,20,0,8.82e+16,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_2352847_6_2000_7
+6,7,2800,23,23,0,6.66e+17,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_2705773_6_2800_7
+6,8,2000,19,19,0,8.82e+16,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_4980592_6_2000_8
+6,9,2000,18,18,0,8.82e+16,progression rows (shift to column 0) then 3 of them bucketed by hyperplanes,CA_9565785_6_2000_9
+6,11,2000,16,16,0,8.82e+16,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_28344811_6_2000_11
+6,13,2000,15,15,0,8.82e+16,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_72401953_6_2000_13
+6,16,2000,14,14,0,8.82e+16,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_234880816_6_2000_16
+6,17,2000,14,14,0,8.82e+16,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_337925745_6_2000_17
+6,19,3000,14,14,0,1.01e+18,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_658642087_6_3000_19
+6,23,3000,13,13,0,1.01e+18,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_1924466281_6_3000_23
+6,25,3000,13,13,0,1.01e+18,progression rows (shift to column 0) then 2 of them bucketed by hyperplanes,CA_3173827825_6_3000_25
