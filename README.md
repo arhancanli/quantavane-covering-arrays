@@ -36,6 +36,13 @@ argument described at the top of the source), then spot-checks random column set
 The checkers were written separately from the searches that found the families. `checks/` holds their output for every
 family, ending in PASS.
 
+`scphf5_fast.c` and `scphf6_fast.c` (added 1 November 2026) are a second, faster exact implementation of the same shift
+argument for strengths 5 and 6: each set that fails in every progression row is reached once from its first columns
+after column 0, the remaining columns are classified per row by one table lookup, and every candidate is confirmed by
+Gaussian elimination in the other rows. Their failing-set lists agree with brute force on test families, and they are
+8 to 15 times faster than `scphf5_check.c` and `scphf6_check.c` on our families (for example the strength-5 family with
+q = 23 and 10,000 columns in about 10 minutes on three threads).
+
 ## The improved cells
 
 `cells.csv` has one row per improved cell: t, v, k, our bound N, the best bound before ("before"), the value the table
