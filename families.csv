@@ -155,5 +155,6 @@ t,q,n,k,N,family,check_log
 6,17,16,5000,386200849,families/CA_386200849_6_5000_17.cphf.txt,checks/CA_386200849_6_5000_17.scphf6_fast_check.out
 6,19,14,3000,658642087,families/CA_658642087_6_3000_19.cphf.txt,checks/CA_658642087_6_3000_19.scphf_check.out
 6,19,15,1000,705687949,families/CA_705687949_6_1000_19.cphf.txt,checks/CA_705687949_6_1000_19.scphf_check.out
+6,19,16,5000,752733811,families/CA_752733811_6_5000_19.cphf.txt,checks/CA_752733811_6_5000_19.scphf6_fast_check.out
 6,23,13,3000,1924466281,families/CA_1924466281_6_3000_23.cphf.txt,checks/CA_1924466281_6_3000_23.scphf_check.out
 6,25,13,3000,3173827825,families/CA_3173827825_6_3000_25.cphf.txt,checks/CA_3173827825_6_3000_25.scphf_check.out

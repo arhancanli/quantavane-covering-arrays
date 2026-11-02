@@ -1,0 +1,105 @@
+Exact check of candidates/CA_752733811_6_5000_19.cphf.txt (q 19, t 6) on GitHub Actions: https://github.com/arhancanli/quantavane-covering-arrays/actions/runs/41443090350
+checker/scphf6_fast.c in 20 shards (CHECK_TASKS ranges of x1); combined by checker/combine.py
+== shard-0
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 52720125104 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1305977187888 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1..64 of 1..4995 only (the verdict needs every task)
+== shard-1
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 52894065028 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1294593517767 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 65..130 of 1..4995 only (the verdict needs every task)
+== shard-2
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 54508688872 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1316694506295 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 131..200 of 1..4995 only (the verdict needs every task)
+== shard-3
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 54384455782 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1295499644670 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 201..272 of 1..4995 only (the verdict needs every task)
+== shard-4
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 54863601521 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1287954339875 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 273..347 of 1..4995 only (the verdict needs every task)
+== shard-5
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 56556969275 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1306818746500 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 348..427 of 1..4995 only (the verdict needs every task)
+== shard-6
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 57275289430 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1300254465615 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 428..511 of 1..4995 only (the verdict needs every task)
+== shard-7
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 58361316218 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1300222997240 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 512..600 of 1..4995 only (the verdict needs every task)
+== shard-8
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 59722489263 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1303442087470 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 601..695 of 1..4995 only (the verdict needs every task)
+== shard-9
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 60658777217 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1294228541475 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 696..796 of 1..4995 only (the verdict needs every task)
+== shard-10
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 62271161021 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1295842359635 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 797..905 of 1..4995 only (the verdict needs every task)
+== shard-11
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 64308910118 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1301291825218 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 906..1024 of 1..4995 only (the verdict needs every task)
+== shard-12
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 66490500144 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1303483345657 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1025..1155 of 1..4995 only (the verdict needs every task)
+== shard-13
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 68496641054 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1295391858620 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1156..1300 of 1..4995 only (the verdict needs every task)
+== shard-14
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 71640601582 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1299820823565 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1301..1465 of 1..4995 only (the verdict needs every task)
+== shard-15
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 75216885469 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1299683310480 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1466..1657 of 1..4995 only (the verdict needs every task)
+== shard-16
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 79669837627 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1298031594118 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1658..1889 of 1..4995 only (the verdict needs every task)
+== shard-17
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 85632802206 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1298073679175 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 1890..2189 of 1..4995 only (the verdict needs every task)
+== shard-18
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 93032138060 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1296498129472 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 2190..2636 of 1..4995 only (the verdict needs every task)
+== shard-19
+fast method: 16 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 4 threads; 83808983469 candidate pairs tested in the other rows; 0 sets holding column 0 fail in every such row, and their 0 shifts were tested in the other 0 rows
+SCPHF(16; 5000, 19^5, 6): 1295804338010 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 0 always on one hyperplane
+CA(752733811; 6, 5000, 19): 1 random sets of six columns, 0 missing a tuple
+PARTIAL: tasks x1 = 2637..4995 of 1..4995 only (the verdict needs every task)
+== combined
+20 shards, x1 = 1..4995 covered once; 0 base sets on one hyperplane in every row; 0 random sets missing a tuple
+PASS
