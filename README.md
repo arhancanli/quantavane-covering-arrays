@@ -84,3 +84,12 @@ prepared with its maintainer (ca-tools issue #5).
 
 Corrections are welcome as GitHub issues. The families have also been offered to the ca-tools table
 (github.com/chrispbsmolen/ca-tools/issues/5).
+
+## Exact checks on GitHub
+
+`.github/workflows/verify.yml` checks one family exactly on GitHub's runners, in up to 20 parallel shards:
+`checker/shards.py` splits the outer task x1 into ranges of about equal work, every shard runs
+`checker/scphf5_fast.c` or `checker/scphf6_fast.c` on its range (`CHECK_TASKS`), and `checker/combine.py` accepts
+the family only if every range ran once and no shard found a set of columns left uncovered. Run it from the Actions
+tab or with `gh workflow run verify.yml -f family=families/NAME.cphf.txt -f q=Q -f t=T`.
+

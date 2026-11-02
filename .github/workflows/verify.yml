@@ -1,0 +1,48 @@
+# Exact check of one family of this repository on GitHub's runners, in parallel shards: checker/shards.py splits the
+# outer task x1 into ranges of about equal work, every shard runs checker/scphf{5,6}_fast.c on its range (CHECK_TASKS),
+# and checker/combine.py accepts the family only if every range ran once and none found an uncovered set of columns.
+name: verify
+on:
+  workflow_dispatch:
+    inputs:
+      family: {description: "family file in this repository", required: true}
+      q: {description: "field size q", required: true}
+      t: {description: "strength (5 or 6)", required: true}
+      shards: {description: "parallel shards (at most 20 run at once)", required: false, default: "20"}
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.p.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: python3 checker/shards.py "${{ inputs.family }}" "${{ inputs.t }}" "${{ inputs.shards }}" >> "$GITHUB_OUTPUT"
+  check:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: cc -O3 -march=native -o fastcheck checker/scphf${{ inputs.t }}_fast.c -lpthread
+      - run: |
+          CHECK_THREADS=$(nproc) CHECK_TASKS=${{ matrix.tasks }} ./fastcheck ${{ inputs.q }} "${{ inputs.family }}" > out.txt 2>&1 || true
+          tail -4 out.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.i }}
+          path: out.txt
+  combine:
+    needs: check
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: shards
+      - run: python3 checker/combine.py shards | tee -a "$GITHUB_STEP_SUMMARY"
