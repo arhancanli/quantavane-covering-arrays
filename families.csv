@@ -147,7 +147,7 @@ t,q,n,k,N,family,check_log
 6,11,16,2000,28344811,families/CA_28344811_6_2000_11.cphf.txt,checks/CA_28344811_6_2000_11.scphf_check.out
 6,13,15,2000,72401953,families/CA_72401953_6_2000_13.cphf.txt,checks/CA_72401953_6_2000_13.scphf_check.out
 6,16,14,2000,234880816,families/CA_234880816_6_2000_16.cphf.txt,checks/CA_234880816_6_2000_16.scphf_check.out
-6,16,17,1000,285212416,families/CA_285212416_6_1000_16.cphf.txt,checks/CA_285212416_6_1000_16.scphf_check.out
+6,16,17,5000,285212416,families/CA_285212416_6_5000_16.cphf.txt,checks/CA_285212416_6_5000_16.scphf6_fast_check.out
 6,17,14,2000,337925745,families/CA_337925745_6_2000_17.cphf.txt,checks/CA_337925745_6_2000_17.scphf_check.out
 6,17,16,1000,386200849,families/CA_386200849_6_1000_17.cphf.txt,checks/CA_386200849_6_1000_17.scphf_check.out
 6,19,14,3000,658642087,families/CA_658642087_6_3000_19.cphf.txt,checks/CA_658642087_6_3000_19.scphf_check.out
