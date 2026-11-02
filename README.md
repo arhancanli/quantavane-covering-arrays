@@ -1,8 +1,8 @@
 # New upper bounds for covering array numbers, strengths 3 to 6
 
-155 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
+156 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
 strengths t = 3 to 6, v = 4 to 25 and up to k = 10,000 columns. Together, through the standard constructions, they
-lower 413,649 cells of the covering array tables (the live ca-tools table on 2 November 2026 without our own rows, plus
+lower 419,649 cells of the covering array tables (the live ca-tools table on 2 November 2026 without our own rows, plus
 later papers). 52 of the families are in the live ca-tools table since 2 November 2026 (VERIFIED by its exact check).
 Each family is in `families/`, with the exact check of it in `checks/` and the checker in `checker/`. The 277 bounds
 that give these cells are in `ca-tools/rows.csv`, ready to enter in the ca-tools table (see below).
