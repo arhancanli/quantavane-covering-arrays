@@ -1,0 +1,3 @@
+SCPHF(8; 16454, 8^2, 3): 742307829204 column triples checked (largest column in [2, 16454)), 0 never non-collinear; 4 s, 1005363821 label tests beyond the splits
+CA(4040; 3, 16454, 8): 2000 random column triples, 0 missing a tuple
+PASS

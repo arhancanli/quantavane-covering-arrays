@@ -80,6 +80,18 @@ out any row that no longer improves it. (On a copy of the table at commit 392d8c
 31 October version.) The ca-tools table prefers checked certificates for families like these; that route is being
 prepared with its maintainer (ca-tools issue #5).
 
+## Strength 3 to 100,000 columns (4 November 2026)
+
+34 Sherwood covering perfect hash families of strength 3 (n x k arrays of points of AG(2, q), affine rule
+N = n(q^3 - q) + q) for q = 4, 5, 7, 8, 9, 11, 13, 16, 17, 19, 23 and 25, each reaching k = 100,000 or a width on the
+way (the ladder): together they give CA(N; 3, k, q) for every k from 10,001 to 100,000 at these twelve q. They were
+grown column by column by engine/native/pq_cphf3big.c, which never lists the pairs of old columns a new point spoils
+while they are many. Each family was checked exactly twice, every column triple (about 1.7 x 10^14 triples at
+k = 100,000): by checker/pq_scphf3_bigcheck.c in our own field coding, and again after conversion to the Conway-field
+coding that ca-tools uses (checker/cphf_conway_check.py); both logs are in checks/ (`.scphf_check.out`,
+`.conway_check.out`). The family files here are the certificates submitted to ca-tools, in its coding, with a one-line
+header. The ca-tools table extended its strength-3 range to 100,000 columns for them (ca-tools issue #50).
+
 ## Contact
 
 Corrections are welcome as GitHub issues. The families have also been offered to the ca-tools table

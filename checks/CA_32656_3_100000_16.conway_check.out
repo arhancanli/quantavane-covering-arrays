@@ -1,0 +1,5 @@
+c 71924 of [2, 100000): 60 s, 0 uncovered so far
+c 99898 of [2, 100000): 120 s, 0 uncovered so far
+SCPHF(8; 100000, 16^2, 3): 166661666700000 column triples checked (largest column in [2, 100000)), 0 never non-collinear; 120 s, 27723366206 label tests beyond the splits
+CA(32656; 3, 100000, 16): 2000 random column triples, 0 missing a tuple
+PASS
