@@ -92,6 +92,24 @@ coding that ca-tools uses (checker/cphf_conway_check.py); both logs are in check
 `.conway_check.out`). The family files here are the certificates submitted to ca-tools, in its coding, with a one-line
 header. The ca-tools table extended its strength-3 range to 100,000 columns for them (ca-tools issue #50).
 
+## Strength 3, q = 4, n = 16 (released 7 November 2026)
+
+`families/CA_964_3_90723_4.cphf.txt` is a Sherwood covering perfect hash family SCPHF(16; 90723, 4, 3), the missing
+rung of the q = 4 ladder: it gives CA(964; 3, k, 4) for every k <= 90,723 (964 = 16(4^3 - 4) + 4), between the
+n = 15 family (CA(904; 3, 49763, 4)) and the n = 17 family (CA(1024; 3, 100000, 4)). It was grown by
+engine/native/pq_cphf3big.c (run q4_n16, 3 November 2026 19:14 to 4 November 05:48, +04, when it stalled at 90,723
+columns). The file is in the coding of the other strength-3 certificates (Conway coding, leading coordinate 1), with
+the same two header lines. Three exact checks of every column triple (124,447,620,492,721 triples), each ending in PASS:
+
+- `checks/CA_964_3_90723_4.scphf_check.out`: checker/pq_scphf3_bigcheck.c on the search output in our own coding;
+- `checks/CA_964_3_90723_4.conway_check.out`: the same checker on this file;
+- `checks/CA_964_3_90723_4.fullcheck3.out`: checker/fullcheck3.c, a second exact checker written separately from
+  the searches and from pq_scphf3_bigcheck.c (Algorithm R from each largest column, every surviving pair confirmed by
+  a determinant; a self-test against all triples of random arrays runs first), on this file.
+
+The certificate for the ca-tools table, in the form of its pull request #51, is in
+`ca-tools/submissions/canli-2026-11-t3-k90723/` (certificates.csv and the family file, byte for byte this one).
+
 ## Contact
 
 Corrections are welcome as GitHub issues. The families have also been offered to the ca-tools table

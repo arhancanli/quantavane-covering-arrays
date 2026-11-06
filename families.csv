@@ -163,6 +163,7 @@ t,q,n,k,N,family,check_log
 3,4,13,15179,784,families/CA_784_3_15179_4.cphf.txt,checks/CA_784_3_15179_4.scphf_check.out
 3,4,14,27461,844,families/CA_844_3_27461_4.cphf.txt,checks/CA_844_3_27461_4.scphf_check.out
 3,4,15,49763,904,families/CA_904_3_49763_4.cphf.txt,checks/CA_904_3_49763_4.scphf_check.out
+3,4,16,90723,964,families/CA_964_3_90723_4.cphf.txt,checks/CA_964_3_90723_4.scphf_check.out
 3,4,17,100000,1024,families/CA_1024_3_100000_4.cphf.txt,checks/CA_1024_3_100000_4.scphf_check.out
 3,5,12,36548,1445,families/CA_1445_3_36548_5.cphf.txt,checks/CA_1445_3_36548_5.scphf_check.out
 3,5,13,75079,1565,families/CA_1565_3_75079_5.cphf.txt,checks/CA_1565_3_75079_5.scphf_check.out
