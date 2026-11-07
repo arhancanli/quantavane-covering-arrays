@@ -1,16 +1,29 @@
-# New upper bounds for covering array numbers, strengths 3 to 6
+# Covering arrays from Sherwood covering perfect hash families: families, checks and programs
 
-157 covering perfect hash families give covering arrays CA(N; t, k, v) smaller than the best known sizes, for
-strengths t = 3 to 6, v = 4 to 25 and up to k = 10,000 columns. Together, through the standard constructions, they
-lower 422,649 cells of the covering array tables (the live ca-tools table on 2 November 2026 without our own rows, plus
-later papers). 52 of the families are in the live ca-tools table since 2 November 2026 (VERIFIED by its exact check).
-Each family is in `families/`, with the exact check of it in `checks/` and the checker in `checker/`. The 277 bounds
-that give these cells are in `ca-tools/rows.csv`, ready to enter in the ca-tools table (see below).
+196 Sherwood covering perfect hash families SCPHF(n; k, q, t), for prime powers 4 <= q <= 25 and strengths t = 3 to 6,
+each giving a covering array CA(n(q^t - q) + q; t, k, q). 161 have at most 10,000 columns and 35 (strength 3) have more,
+up to 100,000. Each family is in `families/` (listed in `families.csv`), with its exact check in `checks/` and the
+checker in `checker/`. The programs that found the families, the closure and counting code behind the cell counts, and
+the computations of the paper's subfield obstructions are in `code/` (see `code/README.md`).
 
-By Arhan Canli. Data and code under CC BY 4.0 (see LICENSE).
+Against the archival tables (Colbourn's tables of November 2024 with the order-seven sizes of Torres-Jimenez and
+Izquierdo-Marquez 2024), 153 of the 161 families give smaller covering arrays, at 461,352 cells (t, v, k) with
+k <= 10,000 through the standard constructions. Against Christopher Smolen's live ca-tools table of 2 November 2026
+without our own rows, lowered by the later bounds listed below, 151 families improve 448,049 cells (`cells.csv`). Most
+of these cells are reached through derivation, deleting symbols or doubling, and the savings range from marginal to
+large; the paper gives the like-for-like comparisons. 185 of the families are VERIFIED in the ca-tools table by its own
+exact check (five strength-6 families on a prefix of their columns only).
 
-Paper: A. Canli, New upper bounds for covering array numbers from partly cyclic covering perfect hash families,
-preprint, Zenodo, 31 October 2026, https://doi.org/10.5281/zenodo.23839216 (Table 2 lists the 279 bounds).
+By Arhan Canli. The data (families, checks, tables) are under CC BY 4.0 (see LICENSE); the programs in `code/` are under
+the MIT licence (see `code/LICENSE`).
+
+Paper: A. Canli, Progression rows in Sherwood covering perfect hash families: subfield obstructions, exact
+certification and new covering arrays, manuscript, 2026 (reference to be added). First version: preprint, Zenodo,
+31 October 2026, https://doi.org/10.5281/zenodo.23839216.
+
+Two files in `families/` are not listed in `families.csv` and not counted: `CA_285212416_6_1000_16.cphf.txt` and
+`CA_386200849_6_1000_17.cphf.txt`, strength-6 families with 1,000 columns superseded by the families with the same
+numbers of rows and 5,000 columns (`CA_285212416_6_5000_16.cphf.txt`, `CA_386200849_6_5000_17.cphf.txt`).
 
 ## The construction
 
@@ -46,25 +59,27 @@ q = 23 and 10,000 columns in about 10 minutes on three threads).
 
 ## The improved cells
 
-`cells.csv` has one row per improved cell: t, v, k, our bound N, the best bound before ("before"), the value the table
-lists ("table"), and how the bound arises ("direct" from a named family with at least k columns, or "derived" through
-the constructions below). `families.csv` lists the families with their parameters.
+`cells.csv` has one row per cell improved against the live table: t, v, k, our bound N, the best bound before
+("before"), the value the table lists ("table"), how the bound arises ("direct" from a named family with at least k
+columns, or "derived" through the constructions below), and a note (`held`, see below). The list against the archival
+baseline used in the paper, `arch_cells.csv`, is in the paper's supporting information.
 
-"Before" is Christopher Smolen's live table at chrispbsmolen.github.io/ca-tools (commit 29a9344, 1 November 2026),
-which holds the November 2024 copy of Charles Colbourn's covering array tables (the final one; the tables stopped when
-he retired) together with later papers and verified arrays, lowered by every other later bound we found:
-Torres-Jimenez and Izquierdo-Marquez (Mathematics 12 (2024) 1908), Shokri, Moura and Stevens (arXiv:2510.13122),
-Shokri's thesis (Ottawa, 2026) and Bergeron's strength-3 bounds (github.com/MichelBacon/covering-arrays-rms-extension).
-Both sides are then closed under the same standard constructions: a bound for k columns holds for
-fewer columns; an array over v symbols serves v - 1; CAN(t-1, k-1, v) <= CAN(t, k, v) / v; the product construction
-for t = 2; and Roux's doubling for t = 3. A cell counts only if the table lists it.
+"Before" in `cells.csv` is Smolen's live table (github.com/chrispbsmolen/ca-tools, commit ec6c172, 2 November 2026)
+without our own rows. It holds the November 2024 copy of Charles Colbourn's covering array tables (the final one; the
+tables stopped when he retired) together with later papers and verified arrays, and we lowered it by every other later
+bound we found: Torres-Jimenez and Izquierdo-Marquez (Mathematics 12 (2024) 1908), Shokri, Moura and Stevens
+(arXiv:2510.13122), Shokri's thesis (Ottawa, 2026) and Bergeron's strength-3 bounds
+(github.com/MichelBacon/covering-arrays-rms-extension). Both sides are then closed under the same standard
+constructions: a bound for k columns holds for fewer columns; an array over v symbols serves v - 1;
+CAN(t-1, k-1, v) <= CAN(t, k, v) / v; the product construction for t = 2; and Roux's doubling for t = 3. A cell counts
+only if the table lists it.
 
-1,845 strength-3 cells (v = 4 to 9, k = 241 to 4672) are marked `held` until we have compared them with Table 5.6 of
-Shokri's thesis, which we could not read yet. Twelve families improve no cell on their own any more: six with q = 7
-are matched or beaten by the order-seven bounds of Torres-Jimenez and Izquierdo-Marquez and by the cyclic families in
-the ca-tools table; two with q = 9 and 6,560 columns (16 and 17 rows, found 1 November) are beaten by a 15-row family
-with 7,381 columns entered in the ca-tools table the same day; and three strength-6 families with 1,000 columns and a
-22-row family with q = 11 are superseded by our families with more columns or fewer rows.
+The `held` notes date from before Table 5.6 of Shokri's thesis had been compared; with its 39 strength-3 sizes added,
+every cell in `cells.csv` remains improved. Eight of the 161 families improve no cell of the archival tables:
+(t, q, n, k) = (5, 9, 17, 6560), (5, 11, 22, 10000) and (6, 19, 15, 1000) are dominated by other families of ours, and
+(3, 7, 4, 234), (3, 7, 5, 619), (4, 7, 4, 62), (4, 7, 6, 207) and (4, 7, 7, 379) are matched or beaten by the
+order-seven sizes of Torres-Jimenez and Izquierdo-Marquez. Against the live table two more improve nothing,
+(5, 7, 26, 3000) and (5, 9, 16, 6560), which Smolen's cyclic families in that table beat.
 
 ## Entering the bounds in the ca-tools table
 
@@ -72,20 +87,19 @@ with 7,381 columns entered in the ca-tools table the same day; and three strengt
 that N runs suffice for up to k columns, and it improves the table from `k_from` to `k` (`cells` of them). Each row
 names the family it comes from and the constructions applied after it (`steps`: `symbols to v=...`, an array over
 v + 1 symbols serves v; `derive to t=...`, CAN(t-1, k-1, v) <= CAN(t, k, v) / v; or Roux's doubling), with the best
-value the table listed before (`previous_best`, `previous_source`) and a `held` note where Shokri's Table 5.6 still has
-to be read. `ca-tools/add_rows.py`, run from the root of github.com/chrispbsmolen/ca-tools with the paper's DOI or
+value the table listed before (`previous_best`, `previous_source`) and a `held` note (historical, see above). `ca-tools/add_rows.py`, run from the root of github.com/chrispbsmolen/ca-tools with the paper's DOI or
 arXiv id, appends them to `table/ca_table.csv` as CITED rows, the way that repository's `tools/add_tjim7.py` enters the
 order-seven sizes of Torres-Jimenez and Izquierdo-Marquez. It recomputes every previous best from the table and leaves
 out any row that no longer improves it. (On a copy of the table at commit 392d8c9 it added all 279 rows of the
-31 October version.) The ca-tools table prefers checked certificates for families like these; that route is being
-prepared with its maintainer (ca-tools issue #5).
+31 October version.) The ca-tools table took the families as checked certificates instead (ca-tools issue #5 and
+the pull requests that followed); 185 are VERIFIED there.
 
 ## Strength 3 to 100,000 columns (4 November 2026)
 
 34 Sherwood covering perfect hash families of strength 3 (n x k arrays of points of AG(2, q), affine rule
 N = n(q^3 - q) + q) for q = 4, 5, 7, 8, 9, 11, 13, 16, 17, 19, 23 and 25, each reaching k = 100,000 or a width on the
 way (the ladder): together they give CA(N; 3, k, q) for every k from 10,001 to 100,000 at these twelve q. They were
-grown column by column by engine/native/pq_cphf3big.c, which never lists the pairs of old columns a new point spoils
+grown column by column by `code/search/pq_cphf3big.c`, which never lists the pairs of old columns a new point spoils
 while they are many. Each family was checked exactly twice, every column triple (about 1.7 x 10^14 triples at
 k = 100,000): by checker/pq_scphf3_bigcheck.c in our own field coding, and again after conversion to the Conway-field
 coding that ca-tools uses (checker/cphf_conway_check.py); both logs are in checks/ (`.scphf_check.out`,
@@ -97,7 +111,7 @@ header. The ca-tools table extended its strength-3 range to 100,000 columns for 
 `families/CA_964_3_90723_4.cphf.txt` is a Sherwood covering perfect hash family SCPHF(16; 90723, 4, 3), the missing
 rung of the q = 4 ladder: it gives CA(964; 3, k, 4) for every k <= 90,723 (964 = 16(4^3 - 4) + 4), between the
 n = 15 family (CA(904; 3, 49763, 4)) and the n = 17 family (CA(1024; 3, 100000, 4)). It was grown by
-engine/native/pq_cphf3big.c (run q4_n16, 3 November 2026 19:14 to 4 November 05:48, +04, when it stalled at 90,723
+`code/search/pq_cphf3big.c` (run q4_n16, 3 November 2026 19:14 to 4 November 05:48, +04, when it stalled at 90,723
 columns). The file is in the coding of the other strength-3 certificates (Conway coding, leading coordinate 1), with
 the same two header lines. Three exact checks of every column triple (124,447,620,492,721 triples), each ending in PASS:
 

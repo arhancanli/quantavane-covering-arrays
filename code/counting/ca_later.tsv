@@ -1,0 +1,337 @@
+# Covering array bounds published after the Nov 2024 copy of Colbourn's tables (which froze when he retired in May
+# 2024). Each line: CAN(t,k',v) <= N for every k' <= k. Read off the article page by eye on 28 Oct 2026; the CA
+# column of each table (rows with the same N as a later row are kept: harmless). Then the 78 strength-3 bounds of
+# MichelBacon/covering-arrays-rms-extension, and the rows of chrispbsmolen/ca-tools (table of 28 Oct 2026, tiers CITED
+# and VERIFIED) that lie below the copy and the bounds above.
+t	v	k	N	source
+3	7	64	973	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	80	1009	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	200	1309	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	209	1321	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	241	1351	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	264	1369	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	461	1615	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	471	1645	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	502	1663	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	650	1687	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	713	1711	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	753	1855	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	798	1861	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	810	1891	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	838	1897	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	952	1909	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	1200	1957	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	1300	2005	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+3	7	1700	2053	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 4
+4	7	15	4459	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	18	4753	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	19	4795	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	24	6517	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	29	6811	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	31	6853	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	34	7147	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	36	7189	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	37	7201	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	40	8575	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	46	8911	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	50	8917	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	52	9205	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	54	9211	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	55	9253	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	58	9259	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	59	9505	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	69	9583	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	70	9601	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	89	11305	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	100	11599	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	104	11641	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	114	11893	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	119	11935	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	120	11977	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	126	12001	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	128	13363	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	144	13657	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	161	13699	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	170	13717	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	180	13993	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	185	14035	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	189	14287	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	222	14371	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	247	15757	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	250	15775	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	267	16093	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	290	16117	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	312	16429	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	324	16681	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	379	16723	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	409	16801	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	427	18175	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	500	18517	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	543	19033	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	593	19075	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	640	19117	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	678	19201	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	800	20575	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	840	20917	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	986	21385	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	1218	21601	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	1399	22975	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	1500	23317	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	1778	23779	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	2387	25375	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	2899	26173	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	5758	28801	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+4	7	10000	31201	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 5
+5	7	15	33613	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	18	45619	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	19	47677	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	21	48013	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	22	50071	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	24	50371	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	28	62419	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	30	64477	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	34	64813	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	36	67207	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	37	67225	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	47	79219	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	52	81613	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	57	84007	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	71	96019	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	79	98413	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	85	100807	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	86	100837	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	93	110425	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	103	112819	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	117	115213	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	130	117607	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	131	117613	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	143	127225	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	160	129619	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	168	132013	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	205	134407	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	207	144025	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	220	146419	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	240	148813	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	294	151207	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	340	167671	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	450	168007	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	500	182413	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	658	184867	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	694	199273	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	1000	201673	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	1600	218479	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+5	7	1999	235285	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 6
+6	7	15	319333	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	18	336133	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	19	350539	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	21	436975	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	25	453775	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	26	468181	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	27	470575	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	28	537823	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	32	554617	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	34	571417	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	36	587881	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	37	588217	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	38	655471	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	44	672259	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	47	689059	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	51	705523	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	54	773101	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	60	789901	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	66	806701	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	70	823459	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	71	823501	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	77	890743	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	86	907543	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	92	924343	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	100	941101	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	109	1008385	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	130	1041985	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	139	1058833	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	150	1159627	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	196	1176481	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	250	1294129	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	350	1411777	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	500	1529425	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	700	1647073	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+6	7	800	1764721	Torres-Jimenez and Izquierdo-Marquez, New Upper Bounds for Covering Arrays of Order Seven, Mathematics 12(12) 1908 (June 2024), Table 7
+3	5	32	324	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	5	33	325	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	5	34	325	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	5	35	325	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	5	36	325	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	5	37	350	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	58	930	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	59	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	60	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	61	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	62	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	63	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	64	931	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	7	65	980	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	74	1407	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	75	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	76	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	77	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	78	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	79	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	80	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	8	81	1408	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	92	2024	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	93	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	94	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	95	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	96	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	97	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	98	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	99	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	100	2025	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	9	101	2106	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	134	3750	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	135	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	136	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	137	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	138	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	139	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	140	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	141	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	142	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	143	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	144	3751	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	11	145	3872	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	184	6252	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	185	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	186	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	187	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	188	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	189	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	190	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	191	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	192	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	193	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	194	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	195	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	196	6253	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	13	197	6422	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	382	19854	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	383	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	384	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	385	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	386	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	387	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	388	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	389	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	390	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	391	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	392	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	393	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	394	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	395	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	396	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	397	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	398	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	399	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	400	19855	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+3	19	401	20216	github.com/MichelBacon/covering-arrays-rms-extension improvements.csv (Oct 2026; arrays in arrays/; not yet checked by an independent expert, per its README)
+6	2	91	716	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca716.6.2.91, CAs 0.24
+4	2	297	167	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca167.4.2.297, CAs 0.24
+5	2	132	259	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca259.5.2.132, CAs 0.24
+5	2	130	258	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca258.5.2.130, CAs 0.24
+5	2	128	251	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca251.5.2.128, CAs 0.24
+4	2	281	164	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca164.4.2.281, CAs 0.24
+4	2	257	160	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca160.4.2.257, CAs 0.24
+4	2	225	158	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca158.4.2.225, CAs 0.24
+4	2	222	153	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca153.4.2.222, CAs 0.24
+4	2	200	152	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca152.4.2.200, CAs 0.24
+4	2	199	143	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca143.4.2.199, CAs 0.24
+4	2	192	142	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca142.4.2.192, CAs 0.24
+4	2	191	141	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca141.4.2.191, CAs 0.24
+4	2	187	140	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca140.4.2.187, CAs 0.24
+4	2	179	136	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca136.4.2.179, CAs 0.24
+4	2	173	134	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca134.4.2.173, CAs 0.24
+4	2	167	130	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca130.4.2.167, CAs 0.24
+4	2	162	129	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca129.4.2.162, CAs 0.24
+4	2	159	128	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca128.4.2.159, CAs 0.24
+4	2	156	127	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca127.4.2.156, CAs 0.24
+4	2	154	126	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca126.4.2.154, CAs 0.24
+4	2	150	125	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca125.4.2.150, CAs 0.24
+4	2	148	124	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca124.4.2.148, CAs 0.24
+3	2	486	51	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca51.3.2.486, CAs 0.24
+4	2	121	111	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca111.4.2.121, CAs 0.24
+3	2	359	49	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca49.3.2.359, CAs 0.24
+4	2	103	101	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca101.4.2.103, CAs 0.24
+3	2	244	44	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca44.3.2.244, CAs 0.24
+3	2	143	39	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca39.3.2.143, CAs 0.24
+6	2	29	421	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca421.6.2.29, CAs 0.24
+3	2	141	38	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca38.3.2.141, CAs 0.24
+3	2	58	30	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca30.3.2.58, CAs 0.24
+3	2	56	29	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): CAs data TJ2level_CAs ca29.3.2.56, CAs 0.24
+3	10	41	2615	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-08-23): aadwyer/CA_Database CA_2615_3_41_10.txt via CAs::dwyerCA, CAs 0.24
+3	10	16	2215	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-21): CAs::bestCA(3, 16, 10, seed = 20260829) via CK_doublingCA, CAs 0.24.4
+3	14	12	3381	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-21): CAs::bestCA(3, 12, 14, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	20	12	9330	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-21): CAs::bestCA(3, 12, 20, seed = 20260829) via ODbasedCA, CAs 0.24.4
+4	11	61	43921	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): tools/sms_theorem51.py 11 (Theorem 5.1 of Shokri, Moura and Stevens, arXiv:2510.13122v2; p = 0, primitive polynomial x^4 + 4x^3 + 2)
+4	13	85	85681	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): tools/sms_theorem51.py 13 (Theorem 5.1 of Shokri, Moura and Stevens, arXiv:2510.13122v2; p = 0, primitive polynomial x^4 + 6x^3 + 2x^2 + 2)
+3	10	8	1180	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 10, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	12	8	1992	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 12, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	14	8	3108	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 14, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	18	8	6444	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 18, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	20	8	8760	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 20, seed = 20260829) via ODbasedCA, CAs 0.24.4
+3	24	8	14928	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(3, 8, 24, seed = 20260829) via ODbasedCA, CAs 0.24.4
+2	11	1728	358	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(2, 1728, 11, seed = 20260829) via recBoseCA_CA, CAs 0.24.4
+2	19	8000	1078	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(2, 8000, 19, seed = 20260829) via recBoseCA_CA, CAs 0.24.4
+2	25	17576	1870	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): CAs::bestCA(2, 17576, 25, seed = 20260829) via recBoseCA_CA, CAs 0.24.4
+4	11	122	67782	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-25): tools/sms_theorem62.py 11 (Theorem 6.2 of Shokri, Moura and Stevens, arXiv:2510.13122v2, with the ingredient CA(2651; 3, 61, 11) built by the same script; primitive polynomials x^4 + 4x^3 + 2 and x^3 + x^2 + 3)
+5	2	128	251	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-27): tools/own_arrays, array file CA_251_5_128_2_3d377c3c.txt: CAs::paleyCA(5,128) [Double(paley_mat(127)[-1,]), 252 rows] then row elimination (tools/own_arrays/nck_lite.c)
+5	2	130	258	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-27): tools/own_arrays, array file CA_258_5_130_2_22d8d009.txt: our CA(259;5,132,2) (Paley doubling plus row elimination) cut to 130 columns, then row elimination (tools/own_arrays/nck_lite.c)
+5	2	132	259	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-27): tools/own_arrays, array file CA_259_5_132_2_bdd01627.txt: CAs::paleyCA(5,132) [Double(paley_mat(131)[-1,]), 260 rows] then row elimination (tools/own_arrays/nck_lite.c)
+5	3	121	2663	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/cphf, array file CA_2663_5_121_3_c96f14b7.txt: CA from the cyclic CPHF(11; 121, 3, 5) of table/certificates/CPHF_11_121_3_5.txt
+5	5	781	40613	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/cphf, certificate table/certificates/CPHF_13_781_5_5.txt (cyclic CPHF(13; 781, 5, 5)); no array file
+5	7	2801	218479	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/cphf, certificate table/certificates/CPHF_13_2801_7_5.txt (cyclic CPHF(13; 2801, 7, 5)); no array file
+# Added 29 Oct 2026: Shokri-Moura-Stevens strength-4 families for every listed q, Shokri thesis strength-3 values
+# (q >= 11), and ca-tools rows of the 29 Oct regeneration below the bounds above.
+4	13	170	133874	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 6.2 family N = 3q^4 + (2q^3 - q)(q - 2) at k = q^2+1 (Shokri thesis Table 4.8; formula checked)
+4	17	145	250561	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 5.1 family N = 3q^4 - 2 at k = (q^2+1)/2 (Table 4; formula checked)
+4	17	290	397698	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 6.2 family N = 3q^4 + (2q^3 - q)(q - 2) at k = q^2+1 (Shokri thesis Table 4.8; formula checked)
+4	19	181	390961	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 5.1 family N = 3q^4 - 2 at k = (q^2+1)/2 (Table 4; formula checked)
+4	19	362	623846	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 6.2 family N = 3q^4 + (2q^3 - q)(q - 2) at k = q^2+1 (Shokri thesis Table 4.8; formula checked)
+4	23	265	839521	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 5.1 family N = 3q^4 - 2 at k = (q^2+1)/2 (Table 4; formula checked)
+4	23	530	1350054	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 6.2 family N = 3q^4 + (2q^3 - q)(q - 2) at k = q^2+1 (Shokri thesis Table 4.8; formula checked)
+4	25	313	1171873	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 5.1 family N = 3q^4 - 2 at k = (q^2+1)/2 (Table 4; formula checked)
+4	25	626	1890050	Shokri, Moura and Stevens, arXiv:2510.13122 (v3 16 Oct 2026), Theorem 6.2 family N = 3q^4 + (2q^3 - q)(q - 2) at k = q^2+1 (Shokri thesis Table 4.8; formula checked)
+3	11	1463	5951	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	13	366	7969	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	13	2379	9997	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	16	546	15136	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	16	4368	18976	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	17	614	18241	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	17	5219	22865	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	19	762	25669	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	19	7239	32167	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	23	1106	46069	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+3	25	1302	59425	Shokri, PhD thesis, Ottawa, 9 Jan 2026, doi:10.20381/ruor-31663, Chapter 5 (Shokri and Moura, J. Combin. Des. 33 (2025) 156-171), read by a research helper 29 Oct; Table 5.6 for v 4-9 still to read
+6	3	121	10921	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/cphf, certificate table/certificates/CPHF_15_121_3_6.txt (cyclic CPHF(15; 121, 3, 6)); no array file
+4	2	148	123	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_123_4_148_2_e4f0ce46.txt: CAs::paleyCA(4,149) (Paley 1933; 146 rows, 149 columns), its first 148 columns, then row eli
+4	2	150	123	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_123_4_150_2_6f2e57eb.txt: CAs::paleyCA(4,151) (Paley 1933; 148 rows, 151 columns), its first 150 columns, then row eli
+4	2	156	126	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_126_4_156_2_c3f519f9.txt: CAs::paleyCA(4,157) (Paley 1933; 154 rows, 157 columns), its first 156 columns, then row eli
+4	2	162	128	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_128_4_162_2_7d2d5bb8.txt: CAs::paleyCA(4,163) (Paley 1933; 160 rows, 163 columns), its first 162 columns, then row eli
+4	2	173	133	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_133_4_173_2_a3eb43aa.txt: CAs::paleyCA(4,179) (Paley 1933; 175 rows, 179 columns), its first 173 columns, then row eli
+4	2	179	135	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_135_4_179_2_820ac3aa.txt: CAs::paleyCA(4,181) (Paley 1933; 180 rows, 181 columns), its first 179 columns, then row eli
+4	2	187	137	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_137_4_187_2_b45adf93.txt: CAs::paleyCA(4,191) (Paley 1933; 186 rows, 191 columns), its first 187 columns, then row eli
+4	2	191	138	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_138_4_191_2_9077ad9f.txt: CAs::paleyCA(4,193) (Paley 1933; 188 rows, 193 columns), its first 191 columns, then row eli
+4	2	192	138	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_138_4_192_2_f439a937.txt: CAs::paleyCA(4,193) (Paley 1933; 188 rows, 193 columns), a random 192-subset of its columns 
+4	2	199	141	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_141_4_199_2_444a29b5.txt: CAs::paleyCA(4,211) (Paley 1933; 206 rows, 211 columns), its first 199 columns, then row eli
+4	2	200	148	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_148_4_200_2_45d0f5a8.txt: CAs::paleyCA(4,211) (Paley 1933; 206 rows, 211 columns), its first 200 columns, then row eli
+4	2	222	149	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_149_4_222_2_bb64fc3e.txt: CAs::paleyCA(4,223) (Paley 1933; 217 rows, 223 columns), its first 222 columns, then row eli
+4	2	225	154	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_154_4_225_2_e2d909a0.txt: a CA(179;4,358,2) taken from the Paley matrix of order 359 (CAs:::paley_mat(359), Paley 1933
+4	2	257	156	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_156_4_257_2_e997a1db.txt: CAs::paleyCA(4,263) (Paley 1933; 256 rows, 263 columns), its first 257 columns, then row eli
+4	2	268	157	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_157_4_268_2_4ece58f8.txt: CAs::paleyCA(4,269) (Paley 1933; 261 rows, 269 columns), its first 268 columns, then row eli
+4	2	272	158	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_158_4_272_2_df7a02a7.txt: CAs::paleyCA(4,277) (Paley 1933; 269 rows, 277 columns), its first 272 columns, then row eli
+4	2	281	160	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_160_4_281_2_0499181a.txt: a CA(179;4,358,2) taken from the Paley matrix of order 359 (CAs:::paley_mat(359), Paley 1933
+4	2	289	161	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_161_4_289_2_d5bbb7eb.txt: a CA(179;4,358,2) taken from the Paley matrix of order 359 (CAs:::paley_mat(359), Paley 1933
+4	2	297	163	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_163_4_297_2_b48c5089.txt: a CA(179;4,358,2) taken from the Paley matrix of order 359 (CAs:::paley_mat(359), Paley 1933
+4	2	324	165	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-28): tools/own_arrays, array file CA_165_4_324_2_8dddc82c.txt: a CA(179;4,358,2) taken from the Paley matrix of order 359 (CAs:::paley_mat(359), Paley 1933
+6	2	28	411	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-29): tools/own_arrays, array file CA_411_6_28_2_f3c907eb.txt: row deletion with simulated-annealing repair built here (tools/own_arrays/binsa.c; after Torr
+6	2	27	401	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-29): tools/own_arrays, array file CA_401_6_27_2_dd3983eb.txt: row deletion with simulated-annealing repair built here (tools/own_arrays/binsa.c; after Torr
+6	2	29	420	github.com/chrispbsmolen/ca-tools table/ca_table.csv (VERIFIED, entered 2026-10-29): tools/own_arrays, array file CA_420_6_29_2_5ce5395c.txt: row deletion with simulated-annealing repair built here (tools/own_arrays/binsa.c; after Torr

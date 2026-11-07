@@ -1,0 +1,4 @@
+#!/bin/sh
+# Pure cyclic strength-6 rows for the queue runner: cphf6p q n seconds seed K = cphf6c with C = n (every row
+# gamma^(e j) for a primitive gamma^e, no search; independent/scphf6_check finds any set that still fails).
+exec "$(dirname "$0")/cphf6c" "$1" "$2" "$3" "$4" "$5" "$2"
