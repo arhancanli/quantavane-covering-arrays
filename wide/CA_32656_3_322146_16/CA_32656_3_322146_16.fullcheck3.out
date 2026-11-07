@@ -1,0 +1,9 @@
+fullcheck3.c (quantavane-covering-arrays checker/fullcheck3.c, sha256 1c68f4dd8ac25144c1a01979dbf70afb5be6d1611f88a443250d9ee0f8600488), a second exact checker written separately from the search and from pq_scphf3_bigcheck.c
+build: cc -O3 -o fullcheck3 fullcheck3.c -lpthread; run: nice -n 10 ./fullcheck3 16 FILE 2 (Apple M5 Pro, shared machine)
+self-test for q = 16: selftest q 16: 4 rows, 65 columns: brute force 1, Algorithm R 1 uncovered triples
+file checked: CA_32656_3_322146_16.txt, sha256 before 4c1e49caa4ab992946c73c06279ed44025cd6ac58cca8aaabbdc9c1838fe2e94
+run: 2026-11-07 22:11:32 +0400 to ...
+SCPHF(8; 322146, 16, 3) (CA_32656_3_322146_16.txt): all 5571895142146080 triples of columns decided by Algorithm R from each largest column; 303081379000 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 2 threads, 4695 s
+PASS
+exit 0
+file sha256 after 4c1e49caa4ab992946c73c06279ed44025cd6ac58cca8aaabbdc9c1838fe2e94; finished 2026-11-07 23:29:47 +0400

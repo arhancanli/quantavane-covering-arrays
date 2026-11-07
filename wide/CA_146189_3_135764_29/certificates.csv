@@ -1,0 +1,2 @@
+t,v,k,N,file,mode,source_detail,construction,builds_on,credit,notes
+3,29,135764,146189,CA_146189_3_135764_29.cphf.txt,auto,"search program code/search/pq_cphf3big_v3.c of this repository, seed 1029, started from the 100,000-column family CA_146189_3_100000_29 (our run q29_n6)",Sherwood covering perfect hash family (affine),cphf-smc2006;new doi:10.5281/zenodo.23839216,Arhan Canli (Quantavane),family_sha256 50e9a35337e76d65ee1dbb9e71b658e97e565eb504b3d5ce5fb790828a5eb7ef
