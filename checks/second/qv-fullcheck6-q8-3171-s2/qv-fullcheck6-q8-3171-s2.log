@@ -1,0 +1,17 @@
+[{"stream_name":"stdout","time":1.188447785,"data":"[2026-11-08T07:17:52Z +0.00 h] kernel qv-fullcheck6-q8-3171-s2: q 8, mode full (L = 0), chunks [4, 5, 6, 7]; dataset /kaggle/input/qv-fullcheck6-q8; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39\n"}
+,{"stream_name":"stdout","time":4.886940688,"data":"[2026-11-08T07:17:56Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n"}
+,{"stream_name":"stdout","time":7.62444318,"data":"[2026-11-08T07:17:59Z +0.00 h] selftest seed 1: selftest q 8 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (9115 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":11.584747984,"data":"[2026-11-08T07:18:03Z +0.00 h] selftest seed 2: selftest q 8 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (12913 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":13.621454152,"data":"[2026-11-08T07:18:05Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 672 uncovered base sets | fast: 672 uncovered base sets, 0 internal disagreements; lists identical\n"}
+,{"stream_name":"stdout","time":3476.379877705,"data":"[2026-11-08T08:15:47Z +0.97 h] chunk 4 (x1 307..400): done, exit 0, 0 uncovered base sets, 0.96 h, 1.01e+08 steps/s\n"}
+,{"stream_name":"stdout","time":6909.414217516,"data":"[2026-11-08T09:13:00Z +1.92 h] chunk 5 (x1 401..505): done, exit 0, 0 uncovered base sets, 0.95 h, 1.02e+08 steps/s\n"}
+,{"stream_name":"stdout","time":10274.668462812,"data":"[2026-11-08T10:09:06Z +2.85 h] chunk 6 (x1 506..623): done, exit 0, 0 uncovered base sets, 0.93 h, 1.02e+08 steps/s\n"}
+,{"stream_name":"stdout","time":13600.157532977,"data":"[2026-11-08T11:04:31Z +3.78 h] chunk 7 (x1 624..761): done, exit 0, 0 uncovered base sets, 0.92 h, 1.03e+08 steps/s\n"}
+,{"stream_name":"stdout","time":13600.158046163,"data":"[2026-11-08T11:04:31Z +3.78 h] summary: {'kernel': 'qv-fullcheck6-q8-3171-s2', 'q': 8, 'mode': 'full', 'tail': 0, 'assigned': [4, 5, 6, 7], 'finished': [4, 5, 6, 7], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 3.78}\n"}
+,{"stream_name":"stderr","time":13603.425528541,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13603.425564931,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13603.934527536,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13603.934557551,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13606.262265368,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13607.639041421,"data":"[NbConvertApp] Writing 319366 bytes to __results__.html\n"}
+]

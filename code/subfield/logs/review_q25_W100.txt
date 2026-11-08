@@ -1,0 +1,3 @@
+L = GF(5^10), primitive f (low first): 3 1 1 0 0 0 0 0 0 0 1
+q=25 d=5 w=521 W=100 Wmin=20  D1(q)=406901  Frobenius classes of rows=976885
+# q=25 d=5 w=521 W=100 Wmin=20: leaves=75275892 full_tests=6309473 universally_uncovered=0 (of which in <= d-1 residue classes mod D1(q): 0); residue-type sets counted without row tests: 0

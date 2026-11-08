@@ -7,7 +7,9 @@ paper's counts of improved table cells.
 - `counting/`: the closure under standard constructions, its input tables, and the scripts that count improved cells.
 - `PROVENANCE.csv`: for each of the 196 families, the program, the source revision and the run that produced it.
 - `subfield/`: the computations behind the paper's subfield obstructions and exact widths of families of
-  multiplicative rows (Theorem 4.5 and Section S7 of its supporting information).
+  multiplicative rows (Theorem 3.8 and Section S7 of the supporting information of the revised paper; Theorem 4.5 of
+  the earlier version), with their logs.
+- `conventional/`: checks of families and obstructions with the finite-field library galois.
 
 ## Licence and authorship
 
@@ -138,6 +140,24 @@ alone, given which second checks are complete: from the repository root,
 `second_checks_status.json` of the paper's supporting information. It reproduces the 461,352 archival cells of
 `v4_archival.py`.
 
+`v6_archival.py` (7 November 2026, for the revised paper) is `v4_archival.py` with two changes: the strength-3 sizes of
+Shokri and Moura (J. Combin. Des. 33 (2025) 156-171) join the baseline, generated from the formulas of their theorems
+for every prime power 2 <= q <= 25 and checked against every entry of Tables 5.6 and 5.7 of Shokri's thesis (Chapter 5
+of which is that paper); and the strength-6 families whose second check is not complete are counted only on the
+prefixes that two programs checked, as recorded in a status file. From the repository root:
+
+    python3 code/counting/v6_archival.py . ../ca-tools code/counting/v6/second_checks_status.json OUT
+
+It writes `OUT/data/arch_{cells,families,by_tv,rep}.csv` and `OUT/tables/v6arch.tex`. `v6/` holds the status file and
+the outputs of the paper's run; `v6/data/arch_cells.csv.gz` (gzip) lists every improved cell: t, v, k, the table's own size,
+the closed baseline ("before"), our size N, how it arises and the source of the previous size.
+
+`wide_v6.py` repeats the comparison beyond 10,000 columns of the earlier version (the strength-3 constructions of the
+ca-tools table, re-implemented from their formulas and evaluated at every width from 10,001 to 100,000 with the table's
+sizes as ingredients) once as before and once with the Shokri-Moura sizes added:
+`python3 code/counting/wide_v6.py ../ca-tools . OUT` (OUT/tables/ladder6.tex, OUT/tables/v6wide.tex; the paper's log
+is `v6/wide_v6.log`). Both runs find a smaller size at 11,904 of the 1,080,000 widths.
+
 ## subfield/
 
 The paper's Theorem 4.3 decides whether the columns wM (w = D_1(q)/D_1(r), q = r^g, gcd(g, d) = 1) are covered by a
@@ -157,4 +177,22 @@ multiplicative row of GF(q^d), or by none, through linear algebra over F_r in K 
 
 Build: `cc -O2 -o usearch usearch.c` (likewise `usearch2`, `allrows2`); the Python scripts need only the standard
 library.
+
+Added for the revised paper (7 November 2026):
+
+| file | what it does |
+|---|---|
+| `univ.c` | program U of the paper: `univ p e d w W [Wmin]` lists every base set wM (0 in M, Wmin <= max M <= W) uncovered by every row a^j of GF(q^d), q = p^e, deciding each candidate by ranks over F_p, first on one primitive row and then on one row from every Frobenius class; it does not use the criterion. Written by Claude in a separate session for an internal review of an earlier version of the paper, without this repository's code (the "referee" of its first comment is that internal reviewer); unchanged |
+| `crosscheck_v6.sh` | the three implementations of the criterion on the one case of the paper's Table 1 that `crosscheck.sh` lacks (d = 3, q = 16, r = 2) |
+| `logs/` | the logs behind the paper's Table 1 and Section S7: `subfield_*.log`, `crosscheck*.log`, `allrows.log`, `direct_q4.log`, `conjecture_rank*.log`, `check_arc_d3.log`, `test_criterion_a.log`, our runs of `univ.c` (`univ_*.log`, source hash `univ_source.sha256`) and the internal review's (`review_*.txt`) |
+
+## conventional/
+
+`galois_checks.py` repeats checks with the finite-field library galois (M. Hostetter, github.com/mhostetter/galois,
+written by people), version 0.4.11 on numpy 2.0.2: every t-set of four small families, random sets of every
+strength-5 family with at least 3,000 columns and of one other, random base sets of every strength-6 family and of the
+23-row family with q = 8 (first 3,171 columns), and the universally uncovered sets of the paper's Theorem 3.8 for
+q = 4 and q = 8 over every row class. All field arithmetic and linear algebra are galois calls; the driver script was
+written with AI help. Run: `python galois_checks.py ../.. q4_sets.txt q8_sets.txt > galois_checks.log` from this folder, with galois
+installed (log `galois_checks.log`).
 

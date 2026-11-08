@@ -1,0 +1,19 @@
+{
+ "kernel": "qv-fullcheck6-tail-q9-s4",
+ "q": 9,
+ "mode": "tail",
+ "tail": 3950,
+ "assigned": [
+  30,
+  31,
+  32
+ ],
+ "finished": [
+  30,
+  31,
+  32
+ ],
+ "remaining": [],
+ "uncovered_base_sets_this_session": 0,
+ "hours": 2.59
+}

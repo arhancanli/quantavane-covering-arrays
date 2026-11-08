@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":1.930494473,"data":"[2026-11-07T08:46:08Z +0.00 h] kernel qv-fullcheck6-tail-q11-s1: q 11, mode tail (L = 4200), chunks [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; dataset /kaggle/input/qv-fullcheck6; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39\n"}
+,{"stream_name":"stdout","time":5.247880119,"data":"[2026-11-07T08:46:11Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n"}
+,{"stream_name":"stdout","time":5.506124543,"data":"[2026-11-07T08:46:11Z +0.00 h] selftest seed 1: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (3390 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":6.023623332,"data":"[2026-11-07T08:46:12Z +0.00 h] selftest seed 2: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (7425 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":6.352610867,"data":"[2026-11-07T08:46:12Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 232 uncovered base sets | fast: 232 uncovered base sets, 0 internal disagreements; lists identical\n"}
+,{"stream_name":"stdout","time":3941.36128663,"data":"[2026-11-07T09:51:47Z +1.09 h] chunk 0 (x1 1..79): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s\n"}
+,{"stream_name":"stdout","time":7856.82597847,"data":"[2026-11-07T10:57:03Z +2.18 h] chunk 1 (x1 80..160): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s\n"}
+,{"stream_name":"stdout","time":11772.492486311,"data":"[2026-11-07T12:02:18Z +3.27 h] chunk 2 (x1 161..244): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s\n"}
+,{"stream_name":"stdout","time":15654.911376717,"data":"[2026-11-07T13:07:01Z +4.35 h] chunk 3 (x1 245..332): done, exit 0, 0 uncovered base sets, 1.08 h, 1.67e+08 steps/s\n"}
+,{"stream_name":"stdout","time":19490.536158233,"data":"[2026-11-07T14:10:56Z +5.41 h] chunk 4 (x1 333..423): done, exit 0, 0 uncovered base sets, 1.07 h, 1.68e+08 steps/s\n"}
+,{"stream_name":"stdout","time":23360.380870421,"data":"[2026-11-07T15:15:26Z +6.49 h] chunk 5 (x1 424..519): done, exit 0, 0 uncovered base sets, 1.07 h, 1.68e+08 steps/s\n"}
+,{"stream_name":"stdout","time":27187.829797305,"data":"[2026-11-07T16:19:14Z +7.55 h] chunk 6 (x1 520..619): done, exit 0, 0 uncovered base sets, 1.06 h, 1.68e+08 steps/s\n"}
+,{"stream_name":"stdout","time":30978.504921049,"data":"[2026-11-07T17:22:24Z +8.60 h] chunk 7 (x1 620..724): done, exit 0, 0 uncovered base sets, 1.05 h, 1.69e+08 steps/s\n"}
+,{"stream_name":"stdout","time":34776.369277452,"data":"[2026-11-07T18:25:42Z +9.66 h] chunk 8 (x1 725..836): done, exit 0, 0 uncovered base sets, 1.05 h, 1.69e+08 steps/s\n"}
+,{"stream_name":"stdout","time":38514.027279871,"data":"[2026-11-07T19:28:00Z +10.70 h] chunk 9 (x1 837..954): done, exit 0, 0 uncovered base sets, 1.04 h, 1.7e+08 steps/s\n"}
+,{"stream_name":"stdout","time":38514.029330354,"data":"[2026-11-07T19:28:00Z +10.70 h] summary: {'kernel': 'qv-fullcheck6-tail-q11-s1', 'q': 11, 'mode': 'tail', 'tail': 4200, 'assigned': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'finished': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 10.7}\n"}
+,{"stream_name":"stderr","time":38517.468283558,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":38517.46833025,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":38518.117720325,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":38518.117771336,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":38520.862538709,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":38522.627895275,"data":"[NbConvertApp] Writing 319668 bytes to __results__.html\n"}
+]

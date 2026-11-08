@@ -1,0 +1,21 @@
+{
+ "kernel": "qv-fullcheck6-q8-3171-s1",
+ "q": 8,
+ "mode": "full",
+ "tail": 0,
+ "assigned": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "finished": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "remaining": [],
+ "uncovered_base_sets_this_session": 0,
+ "hours": 3.38
+}

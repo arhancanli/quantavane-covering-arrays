@@ -1,0 +1,22 @@
+[{"stream_name":"stdout","time":1.283330398,"data":"[2026-11-07T07:11:17Z +0.00 h] kernel qv-fullcheck6-tail-q9-s2: q 9, mode tail (L = 3950), chunks [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]; dataset /kaggle/input/qv-fullcheck6; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39\n"}
+,{"stream_name":"stdout","time":4.471076916,"data":"[2026-11-07T07:11:20Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n"}
+,{"stream_name":"stdout","time":5.720140423,"data":"[2026-11-07T07:11:21Z +0.00 h] selftest seed 1: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (15858 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":7.214302661,"data":"[2026-11-07T07:11:23Z +0.00 h] selftest seed 2: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (8675 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":8.18333648,"data":"[2026-11-07T07:11:24Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 480 uncovered base sets | fast: 480 uncovered base sets, 0 internal disagreements; lists identical\n"}
+,{"stream_name":"stdout","time":4823.147525344,"data":"[2026-11-07T08:31:39Z +1.34 h] chunk 10 (x1 514..571): done, exit 0, 0 uncovered base sets, 1.34 h, 9.83e+07 steps/s\n"}
+,{"stream_name":"stdout","time":9672.787780663,"data":"[2026-11-07T09:52:28Z +2.69 h] chunk 11 (x1 572..632): done, exit 0, 0 uncovered base sets, 1.35 h, 9.89e+07 steps/s\n"}
+,{"stream_name":"stdout","time":14462.640890679,"data":"[2026-11-07T11:12:18Z +4.02 h] chunk 12 (x1 633..695): done, exit 0, 0 uncovered base sets, 1.33 h, 9.96e+07 steps/s\n"}
+,{"stream_name":"stdout","time":19204.294217278,"data":"[2026-11-07T12:31:20Z +5.33 h] chunk 13 (x1 696..760): done, exit 0, 0 uncovered base sets, 1.32 h, 1e+08 steps/s\n"}
+,{"stream_name":"stdout","time":23867.83244353,"data":"[2026-11-07T13:49:03Z +6.63 h] chunk 14 (x1 761..827): done, exit 0, 0 uncovered base sets, 1.30 h, 1.01e+08 steps/s\n"}
+,{"stream_name":"stdout","time":28541.475749636,"data":"[2026-11-07T15:06:57Z +7.93 h] chunk 15 (x1 828..897): done, exit 0, 0 uncovered base sets, 1.30 h, 1.01e+08 steps/s\n"}
+,{"stream_name":"stdout","time":33129.270977373,"data":"[2026-11-07T16:23:25Z +9.20 h] chunk 16 (x1 898..969): done, exit 0, 0 uncovered base sets, 1.27 h, 1.01e+08 steps/s\n"}
+,{"stream_name":"stdout","time":37739.373842721,"data":"[2026-11-07T17:40:15Z +10.48 h] chunk 17 (x1 970..1045): done, exit 0, 0 uncovered base sets, 1.28 h, 1.02e+08 steps/s\n"}
+,{"stream_name":"stdout","time":37739.373884094,"data":"[2026-11-07T17:40:15Z +10.48 h] stop: chunk 18 needs about 1.31 h, 1.02 h left\n"}
+,{"stream_name":"stdout","time":37739.374503532,"data":"[2026-11-07T17:40:15Z +10.48 h] summary: {'kernel': 'qv-fullcheck6-tail-q9-s2', 'q': 9, 'mode': 'tail', 'tail': 3950, 'assigned': [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], 'finished': [10, 11, 12, 13, 14, 15, 16, 17], 'remaining': [18, 19], 'uncovered_base_sets_this_session': 0, 'hours': 10.48}\n"}
+,{"stream_name":"stderr","time":37742.770320385,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":37742.770383867,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":37743.183182391,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":37743.183210603,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":37744.984939335,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":37746.219890843,"data":"[NbConvertApp] Writing 319676 bytes to __results__.html\n"}
+]

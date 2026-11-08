@@ -1,0 +1,126 @@
+Shokri-Moura 2025 bounds added to the baseline: 70 (all entries of the thesis' Tables 5.6 and 5.7 reproduced by the formulas)
+archival rows used: 13863 (CITED, snapshots colbourn-2024-11-ug, doi:10.3390/math12121908, and Shokri-Moura 2025)
+families counted: 161; cut to their doubly checked prefixes (second check pending): [(13, 4400)]; q = 8 prefix family not included (second check INCOMPLETE)
+ARCHIVAL STANDARD: 461352 cells improved; by t {3: 25775, 4: 170062, 5: 171584, 6: 93931}; direct 194142, derived 267210; median relative saving 34.3%
+families with at most 10,000 columns that improve at least one cell directly: 153 of 161
+  improves no cell directly: t 3 q 7 n 4 k 234 N 1351 (before at k: 1351, covering perfect hash family CPHF(4; 241, 7, 3) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 4 * 7^3 rows less repeated rows)
+  improves no cell directly: t 3 q 7 n 5 k 619 N 1687 (before at k: 1687, covering perfect hash family CPHF(5; 650, 7, 3) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 5 * 7^3 rows less repeated rows)
+  improves no cell directly: t 4 q 7 n 4 k 62 N 9583 (before at k: 9583, covering perfect hash family CPHF(4; 69, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 4 * 7^4 rows less repeated rows)
+  improves no cell directly: t 4 q 7 n 6 k 207 N 14371 (before at k: 14371, covering perfect hash family CPHF(6; 222, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 6 * 7^4 rows less repeated rows)
+  improves no cell directly: t 4 q 7 n 7 k 379 N 16765 (before at k: 16723, covering perfect hash family CPHF(7; 379, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 7 * 7^4 rows less repeated rows)
+  improves no cell directly: t 5 q 9 n 17 k 6560 N 1003689 (before at k: 3123432, Power N-CT89^2Arc(9)T2)
+  improves no cell directly: t 5 q 11 n 22 k 10000 N 3542891 (before at k: 8524690, perfect hash family9,12769,113T24)
+  improves no cell directly: t 6 q 19 n 15 k 1000 N 705687949 (before at k: 2550381498, Power N-CT41^2Trin4,4,10)
+  by (t,v): t 3 v  4: families 3, cells 402, derived 0, k 2872-9275, median 0.8%, largest 0.9%
+  by (t,v): t 3 v  5: families 6, cells 916, derived 0, k 241-9547, median 0.8%, largest 2.6%
+  by (t,v): t 3 v  7: families 5, cells 1341, derived 0, k 1474-9776, median 1.3%, largest 1.5%
+  by (t,v): t 3 v  8: families 4, cells 1005, derived 0, k 291-6681, median 1.2%, largest 10.0%
+  by (t,v): t 3 v  9: families 4, cells 2198, derived 0, k 365-10000, median 0.9%, largest 10.7%
+  by (t,v): t 3 v 10: families 0, cells 1770, derived 1770, k 551-6935, median 0.6%, largest 10.7%
+  by (t,v): t 3 v 11: families 3, cells 1770, derived 0, k 551-6935, median 0.6%, largest 11.7%
+  by (t,v): t 3 v 12: families 0, cells 1381, derived 1381, k 774-10000, median 0.3%, largest 12.5%
+  by (t,v): t 3 v 13: families 3, cells 1381, derived 0, k 774-10000, median 0.3%, largest 12.5%
+  by (t,v): t 3 v 14: families 0, cells 1225, derived 1225, k 325-5880, median 6.4%, largest 12.9%
+  by (t,v): t 3 v 15: families 0, cells 1236, derived 1236, k 314-5880, median 8.5%, largest 13.2%
+  by (t,v): t 3 v 16: families 3, cells 1378, derived 0, k 314-5880, median 9.7%, largest 13.9%
+  by (t,v): t 3 v 17: families 2, cells 1576, derived 0, k 1329-6849, median 13.5%, largest 14.3%
+  by (t,v): t 3 v 18: families 0, cells 1904, derived 1904, k 401-9046, median 13.0%, largest 13.8%
+  by (t,v): t 3 v 19: families 3, cells 2188, derived 0, k 396-9046, median 13.0%, largest 15.5%
+  by (t,v): t 3 v 20: families 0, cells 645, derived 645, k 2493-3137, median 5.7%, largest 7.7%
+  by (t,v): t 3 v 21: families 0, cells 645, derived 645, k 2493-3137, median 7.8%, largest 7.9%
+  by (t,v): t 3 v 22: families 0, cells 645, derived 645, k 2493-3137, median 14.6%, largest 14.6%
+  by (t,v): t 3 v 23: families 1, cells 645, derived 0, k 2493-3137, median 15.8%, largest 15.8%
+  by (t,v): t 3 v 24: families 0, cells 762, derived 762, k 2977-3738, median 13.3%, largest 13.4%
+  by (t,v): t 3 v 25: families 1, cells 762, derived 0, k 2977-3738, median 16.1%, largest 16.1%
+  by (t,v): t 4 v  5: families 9, cells 6693, derived 0, k 247-7853, median 0.6%, largest 6.8%
+  by (t,v): t 4 v  7: families 8, cells 5051, derived 0, k 641-9904, median 0.2%, largest 8.5%
+  by (t,v): t 4 v  8: families 8, cells 9245, derived 0, k 68-10000, median 30.0%, largest 38.7%
+  by (t,v): t 4 v  9: families 8, cells 9052, derived 0, k 79-10000, median 32.9%, largest 39.4%
+  by (t,v): t 4 v 10: families 0, cells 8683, derived 8683, k 100-10000, median 34.1%, largest 40.0%
+  by (t,v): t 4 v 11: families 7, cells 8683, derived 0, k 100-10000, median 34.1%, largest 40.0%
+  by (t,v): t 4 v 12: families 0, cells 9022, derived 9022, k 125-10000, median 32.4%, largest 39.0%
+  by (t,v): t 4 v 13: families 6, cells 9022, derived 0, k 125-10000, median 33.7%, largest 40.5%
+  by (t,v): t 4 v 14: families 0, cells 8687, derived 8687, k 159-10000, median 29.0%, largest 37.5%
+  by (t,v): t 4 v 15: families 0, cells 8687, derived 8687, k 159-10000, median 29.0%, largest 40.8%
+  by (t,v): t 4 v 16: families 5, cells 8687, derived 158, k 159-10000, median 30.3%, largest 40.8%
+  by (t,v): t 4 v 17: families 5, cells 8932, derived 0, k 176-10000, median 23.9%, largest 40.7%
+  by (t,v): t 4 v 18: families 0, cells 8796, derived 8796, k 200-10000, median 14.5%, largest 32.4%
+  by (t,v): t 4 v 19: families 5, cells 8796, derived 0, k 200-10000, median 14.5%, largest 33.3%
+  by (t,v): t 4 v 20: families 0, cells 8667, derived 8667, k 248-10000, median 16.0%, largest 22.7%
+  by (t,v): t 4 v 21: families 0, cells 8667, derived 8667, k 248-10000, median 17.8%, largest 24.6%
+  by (t,v): t 4 v 22: families 0, cells 8667, derived 8667, k 248-10000, median 17.8%, largest 24.6%
+  by (t,v): t 4 v 23: families 4, cells 8667, derived 0, k 248-10000, median 17.8%, largest 24.6%
+  by (t,v): t 4 v 24: families 0, cells 8679, derived 8679, k 280-10000, median 18.0%, largest 24.8%
+  by (t,v): t 4 v 25: families 4, cells 8679, derived 0, k 280-10000, median 18.0%, largest 24.8%
+  by (t,v): t 5 v  4: families 1, cells 10, derived 0, k 601-610, median 0.4%, largest 0.4%
+  by (t,v): t 5 v  5: families 1, cells 196, derived 0, k 701-896, median 0.1%, largest 0.1%
+  by (t,v): t 5 v  6: families 0, cells 1790, derived 1790, k 695-3000, median 30.8%, largest 45.7%
+  by (t,v): t 5 v  7: families 3, cells 2568, derived 1578, k 695-6560, median 7.2%, largest 51.9%
+  by (t,v): t 5 v  8: families 2, cells 5938, derived 4867, k 623-6560, median 45.3%, largest 67.3%
+  by (t,v): t 5 v  9: families 3, cells 9182, derived 3440, k 819-10000, median 61.9%, largest 69.8%
+  by (t,v): t 5 v 10: families 0, cells 9579, derived 9579, k 341-10000, median 66.5%, largest 71.7%
+  by (t,v): t 5 v 11: families 6, cells 9579, derived 0, k 341-10000, median 66.6%, largest 71.7%
+  by (t,v): t 5 v 12: families 0, cells 9540, derived 9540, k 273-10000, median 52.9%, largest 62.8%
+  by (t,v): t 5 v 13: families 4, cells 9540, derived 3392, k 273-10000, median 53.2%, largest 62.8%
+  by (t,v): t 5 v 14: families 0, cells 9561, derived 9561, k 208-10000, median 42.0%, largest 68.8%
+  by (t,v): t 5 v 15: families 0, cells 9561, derived 9561, k 208-10000, median 42.0%, largest 68.8%
+  by (t,v): t 5 v 16: families 3, cells 9561, derived 8972, k 208-10000, median 42.0%, largest 68.8%
+  by (t,v): t 5 v 17: families 3, cells 9460, derived 3835, k 408-10000, median 55.4%, largest 70.3%
+  by (t,v): t 5 v 18: families 0, cells 9397, derived 9397, k 471-10000, median 52.3%, largest 55.7%
+  by (t,v): t 5 v 19: families 2, cells 9398, derived 4147, k 471-10000, median 52.4%, largest 55.7%
+  by (t,v): t 5 v 20: families 0, cells 9472, derived 9472, k 345-10000, median 18.7%, largest 61.0%
+  by (t,v): t 5 v 21: families 0, cells 9472, derived 9472, k 345-10000, median 19.0%, largest 62.3%
+  by (t,v): t 5 v 22: families 0, cells 9472, derived 9472, k 345-10000, median 19.0%, largest 63.2%
+  by (t,v): t 5 v 23: families 3, cells 9472, derived 3995, k 345-10000, median 19.0%, largest 64.0%
+  by (t,v): t 5 v 24: families 0, cells 9418, derived 9418, k 407-10000, median 19.0%, largest 57.9%
+  by (t,v): t 5 v 25: families 3, cells 9418, derived 4084, k 407-10000, median 19.0%, largest 58.8%
+  by (t,v): t 6 v  6: families 0, cells 4200, derived 4200, k 801-5000, median 7.9%, largest 76.3%
+  by (t,v): t 6 v  7: families 2, cells 4200, derived 2200, k 801-5000, median 7.9%, largest 76.3%
+  by (t,v): t 6 v  8: families 1, cells 4762, derived 3000, k 239-5000, median 53.2%, largest 77.1%
+  by (t,v): t 6 v  9: families 2, cells 4789, derived 0, k 212-5000, median 75.0%, largest 77.9%
+  by (t,v): t 6 v 10: families 0, cells 4790, derived 4790, k 211-5000, median 77.0%, largest 78.3%
+  by (t,v): t 6 v 11: families 2, cells 4791, derived 0, k 210-5000, median 77.0%, largest 78.3%
+  by (t,v): t 6 v 12: families 0, cells 4749, derived 4749, k 252-5000, median 75.0%, largest 78.2%
+  by (t,v): t 6 v 13: families 2, cells 4749, derived 600, k 252-5000, median 75.0%, largest 78.2%
+  by (t,v): t 6 v 14: families 0, cells 4732, derived 4732, k 269-5000, median 75.4%, largest 78.4%
+  by (t,v): t 6 v 15: families 0, cells 4732, derived 4732, k 269-5000, median 75.4%, largest 78.4%
+  by (t,v): t 6 v 16: families 2, cells 4732, derived 0, k 269-5000, median 75.4%, largest 78.4%
+  by (t,v): t 6 v 17: families 2, cells 4731, derived 0, k 270-5000, median 76.6%, largest 78.8%
+  by (t,v): t 6 v 18: families 0, cells 4797, derived 4797, k 204-5000, median 75.3%, largest 78.1%
+  by (t,v): t 6 v 19: families 3, cells 4797, derived 0, k 204-5000, median 75.3%, largest 78.1%
+  by (t,v): t 6 v 20: families 0, cells 4709, derived 4709, k 292-5000, median 76.5%, largest 79.5%
+  by (t,v): t 6 v 21: families 0, cells 4735, derived 4735, k 266-5000, median 76.5%, largest 79.5%
+  by (t,v): t 6 v 22: families 0, cells 4735, derived 4735, k 266-5000, median 76.5%, largest 79.5%
+  by (t,v): t 6 v 23: families 2, cells 4735, derived 0, k 266-5000, median 76.5%, largest 79.5%
+  by (t,v): t 6 v 24: families 0, cells 4733, derived 4733, k 268-5000, median 76.2%, largest 79.1%
+  by (t,v): t 6 v 25: families 2, cells 4733, derived 0, k 268-5000, median 76.2%, largest 79.1%
+  prior kind cphf   : 65061 cells, 43088 direct, median saving 10.0%
+  prior kind phf    : 73464 cells, 18823 direct, median saving 42.0%
+  prior kind power  : 176544 cells, 63001 direct, median saving 65.9%
+  prior kind roux   : 139537 cells, 62987 direct, median saving 24.8%
+  prior kind add    : 793 cells, 339 direct, median saving 46.8%
+  prior kind cyclic : 5953 cells, 5904 direct, median saving 30.0%
+  power labels: [('Power CT23^3', 11874), ('Power N-CT89^2', 3738), ('Power N-CT73^2T11', 2482), ('Power CT23^3T17', 2114)]
+without the families the table never checked: 10654 cells lost or larger (2741 no longer improved, 7913 improved by less); by t {5: 10654}
+  macro aCells = 461{,}352
+  macro aCellsTThree = 25{,}775
+  macro aCellsTFour = 170{,}062
+  macro aCellsTFive = 171{,}584
+  macro aCellsTSix = 93{,}931
+  macro aDirect = 194{,}142
+  macro aDerived = 267{,}210
+  macro aMedian = 34.3\%
+  macro aFamImproving = 153
+  macro aRows = 13{,}863
+  macro aDep = 0
+  macro aDepLost = 0
+  macro aDepWorse = 0
+  macro aDepTSix = 0
+  macro aDepTFive = 0
+  macro aDepAll = 10{,}654
+  macro aDepAllLost = 2{,}741
+  macro aDepAllWorse = 7{,}913
+  macro aCphf = 65{,}061
+  macro aCphfMed = 10.0\%
+  macro aFamCounted = 161
+  macro aSM = 70

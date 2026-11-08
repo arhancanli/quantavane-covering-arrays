@@ -1,0 +1,16 @@
+[2026-11-07T08:46:08Z +0.00 h] kernel qv-fullcheck6-tail-q11-s1: q 11, mode tail (L = 4200), chunks [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; dataset /kaggle/input/qv-fullcheck6; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39
+[2026-11-07T08:46:11Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+[2026-11-07T08:46:11Z +0.00 h] selftest seed 1: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (3390 uncovered base sets in all)
+[2026-11-07T08:46:12Z +0.00 h] selftest seed 2: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (7425 uncovered base sets in all)
+[2026-11-07T08:46:12Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 232 uncovered base sets | fast: 232 uncovered base sets, 0 internal disagreements; lists identical
+[2026-11-07T09:51:47Z +1.09 h] chunk 0 (x1 1..79): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s
+[2026-11-07T10:57:03Z +2.18 h] chunk 1 (x1 80..160): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s
+[2026-11-07T12:02:18Z +3.27 h] chunk 2 (x1 161..244): done, exit 0, 0 uncovered base sets, 1.09 h, 1.67e+08 steps/s
+[2026-11-07T13:07:01Z +4.35 h] chunk 3 (x1 245..332): done, exit 0, 0 uncovered base sets, 1.08 h, 1.67e+08 steps/s
+[2026-11-07T14:10:56Z +5.41 h] chunk 4 (x1 333..423): done, exit 0, 0 uncovered base sets, 1.07 h, 1.68e+08 steps/s
+[2026-11-07T15:15:26Z +6.49 h] chunk 5 (x1 424..519): done, exit 0, 0 uncovered base sets, 1.07 h, 1.68e+08 steps/s
+[2026-11-07T16:19:14Z +7.55 h] chunk 6 (x1 520..619): done, exit 0, 0 uncovered base sets, 1.06 h, 1.68e+08 steps/s
+[2026-11-07T17:22:24Z +8.60 h] chunk 7 (x1 620..724): done, exit 0, 0 uncovered base sets, 1.05 h, 1.69e+08 steps/s
+[2026-11-07T18:25:42Z +9.66 h] chunk 8 (x1 725..836): done, exit 0, 0 uncovered base sets, 1.05 h, 1.69e+08 steps/s
+[2026-11-07T19:28:00Z +10.70 h] chunk 9 (x1 837..954): done, exit 0, 0 uncovered base sets, 1.04 h, 1.7e+08 steps/s
+[2026-11-07T19:28:00Z +10.70 h] summary: {'kernel': 'qv-fullcheck6-tail-q11-s1', 'q': 11, 'mode': 'tail', 'tail': 4200, 'assigned': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'finished': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 10.7}

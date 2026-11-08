@@ -1,0 +1,11 @@
+p f d g W = 2 1 5 2 30: usearch 53, usearch2 53, explore.py 53 sets: IDENTICAL
+p f d g W = 2 1 5 3 30: usearch 7, usearch2 7, explore.py 7 sets: IDENTICAL
+p f d g W = 2 1 5 4 30: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL
+p f d g W = 2 1 4 3 14: usearch 10, usearch2 10, explore.py 10 sets: IDENTICAL
+p f d g W = 2 1 3 2 6: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL
+p f d g W = 3 1 3 2 12: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL
+p f d g W = 2 2 3 2 20: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL
+p f d g W = 5 1 3 2 30: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL
+p f d g W = 2 2 4 3 34: usearch 7, usearch2 7, explore.py 7 sets: IDENTICAL
+p f d g W = 3 1 4 3 20: usearch 4, usearch2 4, explore.py 4 sets: IDENTICAL
+p f d g W = 3 1 5 2 40: usearch 0, usearch2 0, explore.py 0 sets: IDENTICAL

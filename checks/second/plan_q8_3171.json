@@ -1,0 +1,116 @@
+{
+ "dataset": "arhancanli12/qv-fullcheck6-q8",
+ "data_repository": "github.com/arhancanli/quantavane-covering-arrays",
+ "checker": "fullcheck6.c",
+ "checker_sha256": "720c75d572ea67b52d3a70842339011c69d3568cf0a4fdf6c5f4fe174714964c",
+ "families": [
+  {
+   "q": 8,
+   "n": 23,
+   "k": 3171,
+   "file": "CA_6029136_6_3171_8.cphf.txt",
+   "sha256": "31ed5956782dd3e75c48baa89ac298d6261c74962c87ae5a3e90d7765d3ed4f3",
+   "steps": 4199552135592,
+   "table_prefix": 0,
+   "tail_steps_beyond_prefix": 4199552135592,
+   "est_rate": 100000000.0,
+   "est_hours_full": 11.7,
+   "chunks": [
+    {
+     "id": 0,
+     "x1_from": 1,
+     "x1_to": 70,
+     "steps": 354035752768
+    },
+    {
+     "id": 1,
+     "x1_from": 70,
+     "x1_to": 143,
+     "steps": 349682525924
+    },
+    {
+     "id": 2,
+     "x1_from": 143,
+     "x1_to": 221,
+     "steps": 346689546203
+    },
+    {
+     "id": 3,
+     "x1_from": 221,
+     "x1_to": 307,
+     "steps": 351645106912
+    },
+    {
+     "id": 4,
+     "x1_from": 307,
+     "x1_to": 401,
+     "steps": 349754900093
+    },
+    {
+     "id": 5,
+     "x1_from": 401,
+     "x1_to": 506,
+     "steps": 350743119755
+    },
+    {
+     "id": 6,
+     "x1_from": 506,
+     "x1_to": 624,
+     "steps": 347637153437
+    },
+    {
+     "id": 7,
+     "x1_from": 624,
+     "x1_to": 762,
+     "steps": 349606360995
+    },
+    {
+     "id": 8,
+     "x1_from": 762,
+     "x1_to": 930,
+     "steps": 351684095826
+    },
+    {
+     "id": 9,
+     "x1_from": 930,
+     "x1_to": 1146,
+     "steps": 349519456782
+    },
+    {
+     "id": 10,
+     "x1_from": 1146,
+     "x1_to": 1468,
+     "steps": 349321821072
+    },
+    {
+     "id": 11,
+     "x1_from": 1468,
+     "x1_to": 3167,
+     "steps": 349232295825
+    }
+   ],
+   "sessions": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6,
+     7
+    ],
+    [
+     8,
+     9,
+     10,
+     11
+    ]
+   ],
+   "tail_chunks": [],
+   "tail_sessions": []
+  }
+ ]
+}

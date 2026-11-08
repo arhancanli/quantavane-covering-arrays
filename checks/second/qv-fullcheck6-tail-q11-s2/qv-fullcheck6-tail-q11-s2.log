@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":1.2750041730000001,"data":"[2026-11-07T11:14:57Z +0.00 h] kernel qv-fullcheck6-tail-q11-s2: q 11, mode tail (L = 4200), chunks [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]; dataset /kaggle/input/qv-fullcheck6; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39\n"}
+,{"stream_name":"stdout","time":4.452474217,"data":"[2026-11-07T11:15:00Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n"}
+,{"stream_name":"stdout","time":4.72008234,"data":"[2026-11-07T11:15:00Z +0.00 h] selftest seed 1: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (3390 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":5.256905624,"data":"[2026-11-07T11:15:01Z +0.00 h] selftest seed 2: selftest q 11 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (7425 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":5.60445378,"data":"[2026-11-07T11:15:01Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 232 uncovered base sets | fast: 232 uncovered base sets, 0 internal disagreements; lists identical\n"}
+,{"stream_name":"stdout","time":3882.28122356,"data":"[2026-11-07T12:19:38Z +1.08 h] chunk 10 (x1 955..1081): done, exit 0, 0 uncovered base sets, 1.08 h, 1.69e+08 steps/s\n"}
+,{"stream_name":"stdout","time":7746.266953718,"data":"[2026-11-07T13:24:02Z +2.15 h] chunk 11 (x1 1082..1218): done, exit 0, 0 uncovered base sets, 1.07 h, 1.69e+08 steps/s\n"}
+,{"stream_name":"stdout","time":11573.648765364,"data":"[2026-11-07T14:27:49Z +3.21 h] chunk 12 (x1 1219..1366): done, exit 0, 0 uncovered base sets, 1.06 h, 1.69e+08 steps/s\n"}
+,{"stream_name":"stdout","time":15362.710529191,"data":"[2026-11-07T15:30:58Z +4.27 h] chunk 13 (x1 1367..1530): done, exit 0, 0 uncovered base sets, 1.05 h, 1.7e+08 steps/s\n"}
+,{"stream_name":"stdout","time":19127.222142007,"data":"[2026-11-07T16:33:43Z +5.31 h] chunk 14 (x1 1531..1713): done, exit 0, 0 uncovered base sets, 1.05 h, 1.71e+08 steps/s\n"}
+,{"stream_name":"stdout","time":22827.890248503,"data":"[2026-11-07T17:35:23Z +6.34 h] chunk 15 (x1 1714..1922): done, exit 0, 0 uncovered base sets, 1.03 h, 1.72e+08 steps/s\n"}
+,{"stream_name":"stdout","time":26495.875946708,"data":"[2026-11-07T18:36:31Z +7.36 h] chunk 16 (x1 1923..2171): done, exit 0, 0 uncovered base sets, 1.02 h, 1.73e+08 steps/s\n"}
+,{"stream_name":"stdout","time":30116.794854681,"data":"[2026-11-07T19:36:52Z +8.37 h] chunk 17 (x1 2172..2484): done, exit 0, 0 uncovered base sets, 1.01 h, 1.73e+08 steps/s\n"}
+,{"stream_name":"stdout","time":33671.730433924,"data":"[2026-11-07T20:36:07Z +9.35 h] chunk 18 (x1 2485..2931): done, exit 0, 0 uncovered base sets, 0.99 h, 1.74e+08 steps/s\n"}
+,{"stream_name":"stdout","time":37145.909299313,"data":"[2026-11-07T21:34:01Z +10.32 h] chunk 19 (x1 2932..4995): done, exit 0, 0 uncovered base sets, 0.97 h, 1.76e+08 steps/s\n"}
+,{"stream_name":"stdout","time":37145.910876438,"data":"[2026-11-07T21:34:01Z +10.32 h] summary: {'kernel': 'qv-fullcheck6-tail-q11-s2', 'q': 11, 'mode': 'tail', 'tail': 4200, 'assigned': [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], 'finished': [10, 11, 12, 13, 14, 15, 16, 17, 18, 19], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 10.32}\n"}
+,{"stream_name":"stderr","time":37148.815231673,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":37148.815273787,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":37149.244581477,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":37149.244616979,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":37151.205189068,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":37152.534122001,"data":"[NbConvertApp] Writing 319678 bytes to __results__.html\n"}
+]

@@ -1,0 +1,15 @@
+{
+ "kernel": "local-q9-c18",
+ "q": 9,
+ "mode": "tail",
+ "tail": 3950,
+ "assigned": [
+  18
+ ],
+ "finished": [
+  18
+ ],
+ "remaining": [],
+ "uncovered_base_sets_this_session": 0,
+ "hours": 3.75
+}

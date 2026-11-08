@@ -1,0 +1,7 @@
+[2026-11-07T17:49:38Z +0.00 h] kernel local-q9-c18: q 9, mode tail (L = 3950), chunks [18]; dataset /private/tmp/claude-501/-Users-arhancanli/b708eb61-4552-44f0-9250-22fbe8424b35/scratchpad/q9local18/input/qv-fullcheck6; 1 CPUs (); macOS-26.6.2-arm64-arm-64bit
+[2026-11-07T17:49:40Z +0.00 h] Apple clang version 21.0.0 (clang-2100.3.34.2)
+[2026-11-07T17:49:43Z +0.00 h] selftest seed 1: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (15858 uncovered base sets in all)
+[2026-11-07T17:49:45Z +0.00 h] selftest seed 2: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (8675 uncovered base sets in all)
+[2026-11-07T17:49:46Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 480 uncovered base sets | fast: 480 uncovered base sets, 0 internal disagreements; lists identical
+[2026-11-07T21:34:30Z +3.75 h] chunk 18 (x1 1046..1124): done, exit 0, 0 uncovered base sets, 3.75 h, 3.56e+07 steps/s
+[2026-11-07T21:34:30Z +3.75 h] summary: {'kernel': 'local-q9-c18', 'q': 9, 'mode': 'tail', 'tail': 3950, 'assigned': [18], 'finished': [18], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 3.75}

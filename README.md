@@ -7,8 +7,10 @@ checker in `checker/`. The programs that found the families, the closure and cou
 the computations of the paper's subfield obstructions are in `code/` (see `code/README.md`).
 
 Against the archival tables (Colbourn's tables of November 2024 with the order-seven sizes of Torres-Jimenez and
-Izquierdo-Marquez 2024), 153 of the 161 families give smaller covering arrays, at 461,352 cells (t, v, k) with
-k <= 10,000 through the standard constructions. Against Christopher Smolen's live ca-tools table of 2 November 2026
+Izquierdo-Marquez 2024 and the strength-3 sizes of Shokri and Moura 2025), 153 of the 161 families give smaller
+covering arrays, at 461,352 cells (t, v, k) with k <= 10,000 through the standard constructions, with the strength-6
+family with q = 13 counted only on the 4,400 columns that two programs have checked (count of the revised paper;
+`code/counting/v6/` has the list and the current count). Against Christopher Smolen's live ca-tools table of 2 November 2026
 without our own rows, lowered by the later bounds listed below, 151 families improve 448,049 cells (`cells.csv`). Most
 of these cells are reached through derivation, deleting symbols or doubling, and the savings range from marginal to
 large; the paper gives the like-for-like comparisons. 185 of the families are VERIFIED in the ca-tools table by its own
@@ -17,8 +19,8 @@ exact check (five strength-6 families on a prefix of their columns only).
 By Arhan Canli. The data (families, checks, tables) are under CC BY 4.0 (see LICENSE); the programs in `code/` are under
 the MIT licence (see `code/LICENSE`).
 
-Paper: A. Canli, Progression rows in Sherwood covering perfect hash families: subfield obstructions, exact
-certification and new covering arrays, manuscript, 2026 (reference to be added). First version: preprint, Zenodo,
+Paper: A. Canli, Multiplicative rows in covering perfect hash families: subfield obstructions and exactly certified
+covering arrays, manuscript, November 2026. First version: preprint, Zenodo,
 31 October 2026, https://doi.org/10.5281/zenodo.23839216.
 
 Two files in `families/` are not listed in `families.csv` and not counted: `CA_285212416_6_1000_16.cphf.txt` and
@@ -62,7 +64,9 @@ q = 23 and 10,000 columns in about 10 minutes on three threads).
 `cells.csv` has one row per cell improved against the live table: t, v, k, our bound N, the best bound before
 ("before"), the value the table lists ("table"), how the bound arises ("direct" from a named family with at least k
 columns, or "derived" through the constructions below), and a note (`held`, see below). The list against the archival
-baseline used in the paper, `arch_cells.csv`, is in the paper's supporting information.
+baseline used in the paper is `code/counting/v6/data/arch_cells.csv.gz` (gzip; t, v, k, the table's own size, the closed
+baseline "before", our size N, how it arises, and the source of the previous size), written by
+`code/counting/v6_archival.py`.
 
 "Before" in `cells.csv` is Smolen's live table (github.com/chrispbsmolen/ca-tools, commit ec6c172, 2 November 2026)
 without our own rows. It holds the November 2024 copy of Charles Colbourn's covering array tables (the final one; the
@@ -123,6 +127,39 @@ the same two header lines. Three exact checks of every column triple (124,447,62
 
 The certificate for the ca-tools table, in the form of its pull request #51, is in
 `ca-tools/submissions/canli-2026-11-t3-k90723/` (certificates.csv and the family file, byte for byte this one).
+
+## Strength 6, q = 8: the 23-row family (released 7 November 2026)
+
+`record/q8_n23_k4600/CA_6029136_6_4600_8.cphf.txt` is a draw of 23 multiplicative rows j -> a_r^j of GF(8^5), with
+a_r = gamma^(e_r) (field polynomial, gamma and the exponents e_r in its header), on 4,600 columns. Its exact check by
+`checker/scphf6_fast.c` (`CA_6029136_6_4600_8.scphf6_fast_check.out`, progress file
+`CA_6029136_6_4600_8.scphf6_fast.progress`) found nine base sets uncovered by every row, the least with largest
+column 3,171, so it is not a covering perfect hash family at 4,600 columns. Seven of the nine are the sets
+151 * M that the paper proves to be uncovered by every multiplicative row of GF(8^5); the other two are covered by
+some rows.
+
+`families/CA_6029136_6_3171_8.cphf.txt` is its first 3,171 columns. Every set of six columns that no row covers is a
+shift of one of the nine (the rows are progressions), so its least and largest columns differ by at least 3,171; the
+first 3,171 columns therefore form an SCPHF(23; 3171, 8, 6), which gives CA(6,029,136; 6, 3171, 8)
+(6,029,136 = 23(8^6 - 8) + 8). No strength-6 family of multiplicative rows over F_8 has more than 3,171 columns. The second
+exact check, by the separately written `checker/fullcheck6.c` in mode full, passed on 8 November 2026: all
+4,199,552,135,592 steps in 12 chunks on three Kaggle CPU sessions, no uncovered set (`checks/second/q8_3171_combine.txt`,
+with each session's log in `checks/second/qv-fullcheck6-q8-3171-s1` to `-s3`). It enters `families.csv` and the cell
+counts at the next recount; its certificate goes to the ca-tools table.
+
+## Second checks of the strength-6 families
+
+`checker/fullcheck6.c` is a second exact checker for strength-6 families of progression rows, written separately from
+the searches and from `scphf6_check.c` and `scphf6_fast.c`: for a pair of columns x1 < x2 it reduces every row modulo
+the span of the differences of x1, x2 and column 0 to points of PG(2, q), labels later columns by the lines through
+the point of the largest column, groups them by their labels in four rows, tests each surviving pair in the other rows
+and confirms it by a rank over F_p; its mode `tail` decides exactly the base sets whose largest column is at least a
+given L. `checks/second/` holds its runs on the five 5,000-column families beyond the prefixes that the ca-tools table
+checked (3,950, 4,200, 4,400, 4,800 and 4,900 columns): the plan (`plan.json`, chunks of the second column x1), the
+results of every chunk (`*/results_*.jsonl`; Kaggle CPU sessions, and chunks 18 and 19 of q = 9 on our computer with
+the same runner, `checker/fullcheck6_runner.py`) and the log of the local runs for q = 16 and 17. Verdicts:
+`python3 -I checker/combine_fullcheck.py checks/second/plan.json checks/second/*/` gives "tail: PASS" for q = 9 and
+q = 11 (and the log gives PASS for q = 16 and 17); for q = 13 the tail was not complete on 8 November 2026.
 
 ## Contact
 

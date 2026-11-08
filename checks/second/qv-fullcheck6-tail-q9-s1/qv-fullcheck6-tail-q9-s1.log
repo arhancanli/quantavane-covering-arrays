@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":1.097891076,"data":"[2026-11-07T00:21:57Z +0.00 h] kernel qv-fullcheck6-tail-q9-s1: q 9, mode tail (L = 3950), chunks [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; dataset /kaggle/input/qv-fullcheck6; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39\n"}
+,{"stream_name":"stdout","time":3.9373002599999998,"data":"[2026-11-07T00:22:00Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n"}
+,{"stream_name":"stdout","time":5.11589436,"data":"[2026-11-07T00:22:01Z +0.00 h] selftest seed 1: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (15858 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":6.517166635,"data":"[2026-11-07T00:22:02Z +0.00 h] selftest seed 2: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (8675 uncovered base sets in all)\n"}
+,{"stream_name":"stdout","time":7.438757985,"data":"[2026-11-07T00:22:03Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 480 uncovered base sets | fast: 480 uncovered base sets, 0 internal disagreements; lists identical\n"}
+,{"stream_name":"stdout","time":4102.049908244,"data":"[2026-11-07T01:30:18Z +1.14 h] chunk 0 (x1 1..47): done, exit 0, 0 uncovered base sets, 1.14 h, 1.2e+08 steps/s\n"}
+,{"stream_name":"stdout","time":8097.525486641,"data":"[2026-11-07T02:36:53Z +2.25 h] chunk 1 (x1 48..94): done, exit 0, 0 uncovered base sets, 1.11 h, 1.2e+08 steps/s\n"}
+,{"stream_name":"stdout","time":12061.70543129,"data":"[2026-11-07T03:42:57Z +3.35 h] chunk 2 (x1 95..142): done, exit 0, 0 uncovered base sets, 1.10 h, 1.2e+08 steps/s\n"}
+,{"stream_name":"stdout","time":16034.838085418,"data":"[2026-11-07T04:49:11Z +4.45 h] chunk 3 (x1 143..191): done, exit 0, 0 uncovered base sets, 1.10 h, 1.2e+08 steps/s\n"}
+,{"stream_name":"stdout","time":19991.577687162,"data":"[2026-11-07T05:55:07Z +5.55 h] chunk 4 (x1 192..241): done, exit 0, 0 uncovered base sets, 1.10 h, 1.21e+08 steps/s\n"}
+,{"stream_name":"stdout","time":23959.753070744,"data":"[2026-11-07T07:01:16Z +6.66 h] chunk 5 (x1 242..293): done, exit 0, 0 uncovered base sets, 1.10 h, 1.21e+08 steps/s\n"}
+,{"stream_name":"stdout","time":27801.289901216,"data":"[2026-11-07T08:05:17Z +7.72 h] chunk 6 (x1 294..345): done, exit 0, 0 uncovered base sets, 1.07 h, 1.21e+08 steps/s\n"}
+,{"stream_name":"stdout","time":31753.55972646,"data":"[2026-11-07T09:11:09Z +8.82 h] chunk 7 (x1 346..400): done, exit 0, 0 uncovered base sets, 1.10 h, 1.21e+08 steps/s\n"}
+,{"stream_name":"stdout","time":35589.244172657,"data":"[2026-11-07T10:15:05Z +9.89 h] chunk 8 (x1 401..455): done, exit 0, 0 uncovered base sets, 1.07 h, 1.22e+08 steps/s\n"}
+,{"stream_name":"stdout","time":39540.59486319,"data":"[2026-11-07T11:20:56Z +10.98 h] chunk 9 (x1 456..513): done, exit 0, 0 uncovered base sets, 1.10 h, 1.22e+08 steps/s\n"}
+,{"stream_name":"stdout","time":39540.595814308,"data":"[2026-11-07T11:20:56Z +10.98 h] summary: {'kernel': 'qv-fullcheck6-tail-q9-s1', 'q': 9, 'mode': 'tail', 'tail': 3950, 'assigned': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'finished': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 10.98}\n"}
+,{"stream_name":"stderr","time":39543.401369971,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39543.401412857,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":39543.829891171,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":39543.829925912,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":39545.682994667,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":39547.015286639,"data":"[NbConvertApp] Writing 319666 bytes to __results__.html\n"}
+]

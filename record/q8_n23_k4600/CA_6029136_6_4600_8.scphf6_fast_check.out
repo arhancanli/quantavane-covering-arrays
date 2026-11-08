@@ -1,0 +1,4 @@
+fast method: 23 rows are affine progressions v, Tv, T^2 v, ... (T invertible), so a set of six columns fails in all of them exactly when its shift to column 0 does; for every three columns x1 < x2 < x3 after column 0 the later columns were classed by the hyperplanes through column 0, x1, x2, x3 in each such row (signatures of up to 6 rows hashed), 3 threads; 2244225140671 candidate pairs tested in the other rows; 9 sets holding column 0 fail in every such row, and their 4939 shifts were tested in the other 0 rows
+SCPHF(23; 4600, 8^5, 6): 18615530284845 (set of four columns after column 0, later column) steps (every set of six columns is a shift of one holding column 0), 4939 always on one hyperplane (first: columns 0, 151, 1057, 2114, 3322, 4379)
+CA(6029136; 6, 4600, 8): 55 random sets of six columns, 0 missing a tuple
+FAIL

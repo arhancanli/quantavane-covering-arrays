@@ -1,0 +1,13 @@
+$ ./usearch2 3 1 5 2 120
+K = F_3[x]/(1 0 0 0 2 1 )
+r=3 q=9 d=5 w=61 D1r=121 D1q=7381 W=120 reps=24 (beta in F_r omitted)
+prefixes=7940751 fulltests=807012 fallback_prefixes=0 found=0
+# the enumerating program on the same case (two slices, run earlier):
+$ ./usearch 3 1 5 2 120 100000 0 2
+K = F_3[x]/(1 0 0 0 2 1 )
+r=3 q=9 d=5 x=61 D1r=121 D1q=7381 W=120 reps=25
+tested=93270032 found=0
+$ ./usearch 3 1 5 2 120 100000 1 2
+K = F_3[x]/(1 0 0 0 2 1 )
+r=3 q=9 d=5 x=61 D1r=121 D1q=7381 W=120 reps=25
+tested=97307992 found=0

@@ -1,0 +1,162 @@
+t,q,n,k,k_family,N,before_N_at_k,saving_pct,before_label_at_k,before_kind_at_k,before_width_at_N,width_gain_pct,direct_cells
+3,4,10,2876,2876,604,607,0.49,"Restricted CPHF Ext 10( 0, 9) WCS",cphf,2871,0.17,5
+3,4,11,5198,5198,664,670,0.9,"Restricted CPHF Ext 11( 0, 9) WCS",cphf,5184,0.27,14
+3,4,12,9275,9275,724,730,0.82,"Restricted CPHF Ext 13( 6, 7) WCS",cphf,8892,4.31,383
+3,5,5,247,247,605,621,2.58,Restricted CPHF Sim Annealing (TJ-IM),cphf,240,2.92,7
+3,5,6,529,529,725,733,1.09,"Restricted CPHF Ext  6( 0, 4) WCS",cphf,505,4.75,24
+3,5,7,1136,1136,845,857,1.4,"Restricted CPHF Ext  7( 0, 4) WCS",cphf,1083,4.89,53
+3,5,8,2375,2375,965,977,1.23,"Restricted CPHF Ext  8( 0, 5) WCS",cphf,2290,3.71,85
+3,5,9,4750,4750,1085,1097,1.09,"Restricted CPHF Ext  9( 0, 6) WCS",cphf,4571,3.92,179
+3,5,10,9547,9547,1205,1225,1.63,"Restricted CPHF Ext 10( 0, 5) WCS",cphf,8979,6.33,568
+3,7,4,234,234,1351,1351,0.0,"covering perfect hash family CPHF(4; 241, 7, 3) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 4 * 7^3 rows less repeated rows",cphf,241,-2.9,0
+3,7,5,619,619,1687,1687,0.0,"covering perfect hash family CPHF(5; 650, 7, 3) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 5 * 7^3 rows less repeated rows",cphf,650,-4.77,0
+3,7,6,1629,1629,2023,2053,1.46,"covering perfect hash family CPHF(6; 1700, 7, 3) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 6 * 7^3 rows less repeated rows",cphf,1473,10.59,156
+3,7,7,4072,4072,2359,2395,1.5,CPHF IPO 7 (WCS),cphf,3739,8.91,333
+3,7,8,9776,9776,2695,2737,1.53,CPHF IPO 8 (WCS),cphf,8924,9.55,852
+3,8,4,313,313,2024,2192,7.66,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,290,7.93,23
+3,8,5,889,889,2528,2808,9.97,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,793,12.11,96
+3,8,6,2525,2525,3032,3312,8.45,"Restricted CPHF Ext  7( 4, 7) WCS",cphf,2234,13.03,291
+3,8,7,6681,6681,3536,3816,7.34,"Restricted CPHF Ext  8( 4, 8) WCS",cphf,6086,9.78,595
+3,9,4,405,405,2889,3177,9.07,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,364,11.26,41
+3,9,5,1247,1247,3609,4041,10.69,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,1063,17.31,184
+3,9,6,3695,3695,4329,4761,9.07,"Restricted CPHF Ext  7( 4, 7) WCS",cphf,3249,13.73,446
+3,9,7,10000,10000,5049,5097,0.94,CPHF IPO 7 (WCS),cphf,8473,18.02,1527
+3,11,4,629,629,5291,5951,11.09,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,550,14.36,79
+3,11,5,2146,2146,6611,7491,11.75,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,1802,19.09,344
+3,11,6,6935,6935,7931,8811,9.99,"Restricted CPHF Ext  7( 4, 7) WCS",cphf,5588,24.11,1347
+3,13,4,912,912,8749,9997,12.48,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,773,17.98,139
+3,13,5,3393,3393,10933,12493,12.49,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,2758,23.02,635
+3,13,6,10000,10000,13117,13153,0.27,"Restricted CPHF Ext  6( 0, 3) WCS",cphf,9393,6.46,607
+3,16,3,338,338,12256,12286,0.24,CPHF Sim Annealing (TJ-IM),cphf,313,7.99,25
+3,16,4,1429,1429,16336,18976,13.91,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,1184,20.69,245
+3,16,5,5880,5880,20416,23536,13.26,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,4772,23.22,1108
+3,17,4,1633,1633,19601,22865,14.28,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,1328,22.97,305
+3,17,5,6849,6849,24497,28305,13.45,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,5578,22.79,1271
+3,19,3,446,446,20539,24303,15.49,SCPHF LFSR (TJ-IM),cphf,395,12.91,51
+3,19,4,2083,2083,27379,32167,14.88,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,1651,26.17,432
+3,19,5,9046,9046,34219,39691,13.79,"Restricted CPHF Ext  6( 4, 6) WCS",cphf,7341,23.23,1705
+3,23,4,3137,3137,48599,57707,15.78,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,2492,25.88,645
+3,25,4,3738,3738,62425,74425,16.12,"Shokri-Moura 2025, Thm 5.2.8 (q-plication)",roux,2976,25.6,762
+4,5,8,257,257,4965,4993,0.56,Restricted CPHF Sim Annealing (TJ-IM),cphf,246,4.47,11
+4,5,9,416,416,5585,5617,0.57,Restricted CPHF Sim Annealing (TJ-IM),cphf,309,34.63,107
+4,5,10,646,646,6205,6241,0.58,Restricted CPHF Sim Annealing (TJ-IM),cphf,464,39.22,182
+4,5,11,920,920,6825,6865,0.58,Restricted CPHF Sim Annealing (TJ-IM),cphf,702,31.05,218
+4,5,12,1454,1454,7445,7489,0.59,Restricted CPHF Sim Annealing (TJ-IM),cphf,1064,36.65,390
+4,5,13,2301,2301,8065,8113,0.59,CPHF IPO 13 (WCS),cphf,1600,43.81,701
+4,5,14,3667,3667,8685,8737,0.6,CPHF IPO 14 (WCS),cphf,2550,43.8,1117
+4,5,15,5625,5625,9305,9985,6.81,Restricted CPHF Sim Annealing (TJ-IM),cphf,3886,44.75,1739
+4,5,16,7853,7853,9925,9985,0.6,Restricted CPHF Sim Annealing (TJ-IM),cphf,5000,57.06,2228
+4,7,4,62,62,9583,9583,0.0,"covering perfect hash family CPHF(4; 69, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 4 * 7^4 rows less repeated rows",cphf,69,-10.14,0
+4,7,6,207,207,14371,14371,0.0,"covering perfect hash family CPHF(6; 222, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 6 * 7^4 rows less repeated rows",cphf,222,-6.76,0
+4,7,7,379,379,16765,16723,-0.25,"covering perfect hash family CPHF(7; 379, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 7 * 7^4 rows less repeated rows",cphf,379,0.0,0
+4,7,8,681,681,19159,20575,6.88,"covering perfect hash family CPHF(9; 800, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 9 * 7^4 rows less repeated rows",cphf,640,6.41,41
+4,7,9,1083,1083,21553,21601,0.22,CPHF IPO 9 (WCS),cphf,986,9.84,97
+4,7,10,1946,1946,23947,24001,0.22,CPHF IPO 10 (WCS),cphf,1778,9.45,168
+4,7,11,3498,3498,26341,28801,8.54,"covering perfect hash family CPHF(12; 5758, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 12 * 7^4 rows less repeated rows",cphf,2899,20.66,599
+4,7,13,9904,9904,31129,31201,0.23,"covering perfect hash family CPHF(13; 10000, 7, 4) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 13 * 7^4 rows less repeated rows",cphf,5758,72.0,4146
+4,8,4,74,74,16360,16381,0.13,CPHF IPO 4 (WCS),cphf,67,10.45,7
+4,8,5,145,145,20448,20476,0.14,CPHF IPO 5 (WCS),cphf,121,19.83,24
+4,8,6,274,274,24536,27616,11.15,"3,3-Restricted SCPHF RE (CL)",cphf,218,25.69,56
+4,8,7,535,535,28624,32208,11.13,3-Restricted SCPHF RE (CL),cphf,378,41.53,157
+4,8,8,997,997,32712,36688,10.84,"2,2-Restricted SCPHF RE (CL)",cphf,674,47.92,323
+4,8,9,1668,1668,36800,40888,10.0,SCPHF Random Extension (CLS),cphf,1175,41.96,493
+4,8,10,3148,3148,40888,66298,38.33,Colbourn-Martirosyan-TVT-Walker,roux,1815,73.44,1333
+4,8,12,10000,10000,49064,80072,38.73,Cyclotomy (Colbourn),cyclic,2812,255.62,6852
+4,9,4,87,87,26217,26241,0.09,CPHF IPO 4 (WCS),cphf,78,11.54,9
+4,9,5,176,176,32769,37161,11.82,"3,3,3-Restricted SCPHF RE (CL)",cphf,147,19.73,29
+4,9,6,354,354,39321,44433,11.5,"3,3-Restricted SCPHF RE (CL)",cphf,276,28.26,78
+4,9,7,712,712,45873,51633,11.16,"3,2-Restricted SCPHF RE (CL)",cphf,495,43.84,217
+4,9,8,1392,1392,52425,58833,10.89,"2,2-Restricted SCPHF RE (CL)",cphf,909,53.14,483
+4,9,9,2430,2430,58977,65529,10.0,SCPHF Random Extension (CLS),cphf,1561,55.67,869
+4,9,11,9135,9135,72081,118937,39.4,Colbourn-Martirosyan-TVT-Walker,roux,2633,246.94,6502
+4,9,12,10000,10000,78633,119841,34.39,Colbourn-Martirosyan-TVT-Walker,roux,2633,279.79,865
+4,11,4,114,114,58531,58561,0.05,CPHF IPO 4 (WCS),cphf,99,15.15,15
+4,11,5,248,248,73161,85151,14.08,"3,3-Restricted SCPHF RE (CL)",cphf,203,22.17,45
+4,11,6,544,544,87791,100991,13.07,"3,2-Restricted SCPHF RE (CL)",cphf,394,38.07,150
+4,11,7,1166,1166,102421,115621,11.42,"3,2-Restricted SCPHF RE (CL)",cphf,781,49.3,385
+4,11,8,2190,2190,117051,131681,11.11,SCPHF Random Extension (CLS),cphf,1507,45.32,683
+4,11,10,9660,9660,146311,244051,40.05,Colbourn-Martirosyan-TVT-Walker,roux,2595,272.25,7065
+4,11,11,10000,10000,160941,244051,34.05,Colbourn-Martirosyan-TVT-Walker,roux,2595,285.36,340
+4,13,4,145,145,114205,136045,16.05,Colbourn-Martirosyan-TVT-Walker,roux,124,16.94,21
+4,13,5,337,337,142753,166933,14.48,"3,3-Restricted SCPHF RE (CL)",cphf,265,27.17,72
+4,13,6,780,780,171301,197509,13.27,"3,2-Restricted SCPHF RE (CL)",cphf,533,46.34,247
+4,13,7,1755,1755,199849,228397,12.5,SCPHF Random Extension (CLS),cphf,1083,62.05,672
+4,13,8,3498,3498,228397,383983,40.52,Colbourn-Martirosyan-TVT-Walker,roux,1990,75.78,1508
+4,13,10,10000,10000,285493,460681,38.03,Colbourn-Martirosyan-TVT-Walker,roux,3112,221.34,6502
+4,16,4,192,192,262096,315136,16.83,Colbourn-Martirosyan-TVT-Walker,roux,158,21.52,34
+4,16,5,483,483,327616,384976,14.9,"3,3-Restricted SCPHF RE (CL)",cphf,360,34.17,123
+4,16,6,1196,1196,393136,454336,13.47,"3,2-Restricted SCPHF RE (CL)",cphf,791,51.2,405
+4,16,7,2583,2583,458656,524176,12.5,SCPHF Random Extension (CLS),cphf,1625,58.95,958
+4,16,9,10000,10000,589696,995296,40.75,Colbourn-Martirosyan-TVT-Walker,roux,2833,252.98,7009
+4,17,4,210,210,334033,402577,17.03,Colbourn-Martirosyan-TVT-Walker,roux,175,20.0,35
+4,17,5,537,537,417537,491249,15.01,"3,3-Restricted SCPHF RE (CL)",cphf,385,39.48,152
+4,17,6,1361,1361,501041,574753,12.82,"3,3-Restricted SCPHF RE (CL)",cphf,873,55.9,488
+4,17,7,2991,2991,584545,805457,27.43,Colbourn-Martirosyan-TVT-Walker,roux,1743,71.6,1248
+4,17,9,10000,10000,751553,1268337,40.75,Colbourn-Martirosyan-TVT-Walker,roux,2955,238.41,7009
+4,19,4,244,244,521227,630667,17.35,Colbourn-Martirosyan-TVT-Walker,roux,199,22.61,45
+4,19,5,656,656,651529,768151,15.18,"3,3-Restricted SCPHF RE (CL)",cphf,462,41.99,194
+4,19,6,1706,1706,781831,912133,14.29,SCPHF Random Extension (CLS),cphf,1070,59.44,636
+4,19,7,3920,3920,912133,1261711,27.71,Colbourn-Martirosyan-TVT-Walker,roux,2079,88.55,1841
+4,19,9,10000,10000,1172737,1758819,33.32,Colbourn-Martirosyan-TVT-Walker,roux,3525,183.69,6080
+4,23,4,320,320,1119295,1362175,17.83,Colbourn-Martirosyan-TVT-Walker,roux,247,29.55,73
+4,23,5,908,908,1399113,1654643,15.44,"3,3-Restricted SCPHF RE (CL)",cphf,619,46.69,289
+4,23,6,2532,2532,1678931,1958749,14.29,SCPHF Random Extension (CLS),cphf,1421,78.18,1111
+4,23,8,10000,10000,2238567,2967713,24.57,Colbourn-Martirosyan-TVT-Walker,roux,2806,256.38,7194
+4,25,4,360,360,1562425,1905625,18.01,Colbourn-Martirosyan-TVT-Walker,roux,279,29.03,81
+4,25,5,1048,1048,1953025,2296825,14.97,"3,3,3-Restricted SCPHF RE (CL)",cphf,708,48.02,340
+4,25,6,2996,2996,2343625,2734225,14.29,SCPHF Random Extension (CLS),cphf,1675,78.87,1321
+4,25,8,10000,10000,3124825,4155025,24.79,Colbourn-Martirosyan-TVT-Walker,roux,3063,226.48,6937
+5,4,17,610,610,17344,17410,0.38,CPHF 3-stage (IM-TJ-AJ-AG),cphf,600,1.67,10
+5,5,15,896,896,46805,46861,0.12,Restricted CPHF Sim Annealing (TJ-IM),cphf,700,28.0,196
+5,7,12,1002,1002,201607,218479,7.72,"covering perfect hash family CPHF(13; 1600, 7, 5) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 13 * 7^5 rows less repeated rows",cphf,694,44.38,308
+5,7,13,1483,1483,218407,218479,0.03,"covering perfect hash family CPHF(13; 1600, 7, 5) found by the authors' greedy column extension algorithm (Torres-Jimenez and Izquierdo-Marquez 2024), converted to a covering array of 13 * 7^5 rows less repeated rows",cphf,1000,48.3,481
+5,7,26,3000,3000,436807,805080,45.74,"perfect hash family4,3125,625",phf,1999,50.08,201
+5,8,11,970,970,360368,1077141,66.54,Martirosyan-Colbourn,roux,622,55.95,348
+5,8,14,1693,1693,458648,1400679,67.26,Power N-CT43^2+2,power,812,108.5,723
+5,9,12,1647,1647,708489,2124912,66.66,Power N-CT43^2T4,power,818,101.34,829
+5,9,16,6560,6560,944649,3123432,69.76,Power N-CT89^2Arc(9)T2,power,819,700.98,4913
+5,9,17,6560,6560,1003689,3123432,67.87,Power N-CT89^2Arc(9)T2,power,819,700.98,0
+5,11,8,463,463,1288331,1434741,10.2,4-Restricted SCPHF RE (CL),cphf,340,36.18,123
+5,11,9,812,812,1449371,1609091,9.93,3-Restricted SCPHF RE (CL),cphf,529,53.5,283
+5,11,10,1365,1365,1610411,5625840,71.37,Power N-CT47^2T17T1,power,827,65.05,538
+5,11,11,1683,1683,1771451,5725810,69.06,Power N-CT43^2Arc(4),power,827,103.51,318
+5,11,15,10000,10000,2415611,8524690,71.66,"perfect hash family9,12769,113T24",phf,828,1107.73,8317
+5,11,22,10000,10000,3542891,8524690,58.44,"perfect hash family9,12769,113T24",phf,838,1093.32,0
+5,13,7,365,365,2598973,2941705,11.65,4-Restricted SCPHF RE (CL),cphf,272,34.19,93
+5,13,8,666,666,2970253,3339349,11.05,3-Restricted SCPHF RE (CL),cphf,452,47.35,214
+5,13,10,1007,1007,3712813,9991680,62.84,"perfect hash family3,1122,749T96",phf,767,31.29,240
+5,13,21,10000,10000,7796893,16707936,53.33,"perfect hash family9,11881,109T17",phf,781,1180.41,5601
+5,16,6,273,273,6291376,7208896,12.73,"4,4-Restricted SCPHF RE (CL)",cphf,207,31.88,66
+5,16,7,530,530,7339936,8322976,11.81,4-Restricted SCPHF RE (CL),cphf,379,39.84,151
+5,16,8,1028,1028,8388496,26869245,68.78,"perfect hash family3,1146,765T115",phf,656,56.71,372
+5,17,7,588,588,9938897,11275233,11.85,4-Restricted SCPHF RE (CL),cphf,407,44.47,181
+5,17,8,1164,1164,11358737,38247344,70.3,"Power N-CT41^2Trin2,4,7",power,721,61.44,443
+5,17,19,10000,10000,26976977,63057904,57.22,"perfect hash family9,11449,107T10",phf,852,1073.71,5001
+5,19,7,720,720,17332579,19678357,11.92,4-Restricted SCPHF RE (CL),cphf,470,53.19,250
+5,19,19,10000,10000,47045539,101513160,53.66,Power CT23^3T3T1,power,870,1049.43,5001
+5,23,6,472,472,38617943,44494627,13.21,"4,4-Restricted SCPHF RE (CL)",cphf,344,37.21,128
+5,23,7,1004,1004,45054263,125066065,63.98,Martirosyan-TVT,roux,656,53.05,348
+5,23,17,10000,10000,109417463,135162743,19.05,"perfect hash family21,12167,23,c",phf,808,1137.62,5001
+5,25,6,536,536,58593625,67578025,13.29,"4,4-Restricted SCPHF RE (CL)",cphf,406,32.02,130
+5,25,8,915,915,78124825,189423675,58.76,Martirosyan-TVT,roux,712,28.51,203
+5,25,17,10000,10000,166015225,205078104,19.05,Power CT23^3,power,738,1255.01,5001
+6,7,20,2000,2000,2352847,9882432,76.19,Power N-CT47^2+2,power,800,150.0,1200
+6,7,23,2800,2800,2705773,11411856,76.29,Power N-CT67^2T18,power,800,250.0,800
+6,8,19,2000,2000,4980592,21757869,77.11,Power N-CT53^2T14,power,238,740.34,1762
+6,9,18,2000,2000,9565785,43341480,77.93,Power N-CT47^2T3,power,211,847.87,1789
+6,9,21,5000,5000,11160081,48292736,76.89,Power N-CT73^2T4,power,213,2247.42,3000
+6,11,16,2000,2000,28344811,123994530,77.14,Power N-CT47^2T4,power,209,856.94,1791
+6,11,19,5000,5000,33659461,154930620,78.27,Power N-CT73^2+1,power,211,2269.67,3000
+6,13,15,2000,2000,72401953,332677968,78.24,Power N-CT47^2+2,power,251,696.81,1749
+6,13,18,4400,5000,86882341,371637288,76.62,Power N-CT79^2T23,power,252,1646.03,2400
+6,16,14,2000,2000,234880816,1086324390,78.38,Power N-CT47^2Arc(4),power,268,646.27,1732
+6,16,17,5000,5000,285212416,1266678915,77.48,Power N-CT79^2T15,power,289,1630.1,3000
+6,17,14,2000,2000,337925745,1351703808,75.0,Power N-CT47^2+1,power,269,643.49,1731
+6,17,16,5000,5000,386200849,1823090816,78.82,Power N-CT79^2T14T2,power,289,1630.1,3000
+6,19,14,3000,3000,658642087,3010476096,78.12,"Power N-CT73^2Trin3,3,28",power,203,1377.83,2797
+6,19,15,1000,1000,705687949,2550381498,72.33,"Power N-CT41^2Trin4,4,10",power,204,390.2,0
+6,19,16,5000,5000,752733811,3057768882,75.38,Power N-CT73^2T3,power,361,1285.04,2000
+6,23,13,3000,3000,1924466281,9377750910,79.48,"Power N-CT73^2Trin3,3,28",power,265,1032.08,2735
+6,23,15,5000,5000,2220538013,9532223096,76.7,Power N-CT73^2T3,power,265,1786.79,2000
+6,25,13,3000,3000,3173827825,15165624312,79.07,Power N-CT73^2T19T17,power,267,1023.6,2733
+6,25,15,5000,5000,3662109025,15615233712,76.55,Power N-CT73^2+3,power,268,1765.67,2000

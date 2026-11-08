@@ -2,6 +2,6 @@ fullcheck3.c (checker/fullcheck3.c, sha256 1c68f4dd8ac25144c1a01979dbf70afb5be6d
 on families/CA_964_3_90723_4.cphf.txt as released (Conway coding): cc -O3 -o fullcheck3 fullcheck3.c -lpthread; ./fullcheck3 4 FILE 2
 Apple M5 Pro (shared machine, nice 10), Apple clang 21.0.0; self-test (Algorithm R against all triples of 8 random arrays for q = 3, 4, 5, 7, 8, 9, 16, 25) passed before the run
 file checked: submissions/catools-t3-k100000/staged/CA_964_3_90723_4.txt of the private records, sha256 5c491386db250e4cf5d852e6bbc1a00553fe1a2d72f725df885940fa989e2b14, byte for byte the released families/CA_964_3_90723_4.cphf.txt
-SCPHF(16; 90723, 4, 3) (/Users/arhancanli/quantavane-hq/submissions/catools-t3-k100000/staged/CA_964_3_90723_4.txt): all 124447620492721 triples of columns decided by Algorithm R from each largest column; 100392472025 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 2 threads, 1391 s
+SCPHF(16; 90723, 4, 3) (CA_964_3_90723_4.txt): all 124447620492721 triples of columns decided by Algorithm R from each largest column; 100392472025 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 2 threads, 1391 s
 PASS
 run: 2026-11-07 00:11:12 +0400 to 2026-11-07 00:34:23 +0400

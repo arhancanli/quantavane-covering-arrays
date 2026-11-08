@@ -1,0 +1,10 @@
+[2026-11-08T08:53:42Z +0.00 h] kernel qv-fullcheck6-q8-3171-s3: q 8, mode full (L = 0), chunks [8, 9, 10, 11]; dataset /kaggle/input/qv-fullcheck6-q8; 4 CPUs (Intel(R) Xeon(R) CPU @ 2.20GHz); Linux-6.18.55+-x86_64-with-glibc2.39
+[2026-11-08T08:53:45Z +0.00 h] gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+[2026-11-08T08:53:48Z +0.00 h] selftest seed 1: selftest q 8 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (9115 uncovered base sets in all)
+[2026-11-08T08:53:52Z +0.00 h] selftest seed 2: selftest q 8 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (12913 uncovered base sets in all)
+[2026-11-08T08:53:54Z +0.00 h] subarray (first 34 columns, first 3 rows): brute: 672 uncovered base sets | fast: 672 uncovered base sets, 0 internal disagreements; lists identical
+[2026-11-08T09:50:13Z +0.94 h] chunk 8 (x1 762..929): done, exit 0, 0 uncovered base sets, 0.94 h, 1.04e+08 steps/s
+[2026-11-08T10:44:41Z +1.85 h] chunk 9 (x1 930..1145): done, exit 0, 0 uncovered base sets, 0.91 h, 1.05e+08 steps/s
+[2026-11-08T11:37:47Z +2.73 h] chunk 10 (x1 1146..1467): done, exit 0, 0 uncovered base sets, 0.88 h, 1.07e+08 steps/s
+[2026-11-08T12:28:05Z +3.57 h] chunk 11 (x1 1468..3166): done, exit 0, 0 uncovered base sets, 0.84 h, 1.09e+08 steps/s
+[2026-11-08T12:28:05Z +3.57 h] summary: {'kernel': 'qv-fullcheck6-q8-3171-s3', 'q': 8, 'mode': 'full', 'tail': 0, 'assigned': [8, 9, 10, 11], 'finished': [8, 9, 10, 11], 'remaining': [], 'uncovered_base_sets_this_session': 0, 'hours': 3.57}

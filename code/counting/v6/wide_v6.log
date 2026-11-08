@@ -1,0 +1,12 @@
+run A (without the Shokri-Moura theorem sizes): first entries 1,080,000, of them above a construction 11,904 (98.9% clear); 2 rounds
+  q = 5: k = 10,001 to 10,215 (215 widths): CMTW34, 1,441 rows against our 1,445
+  q = 23: k = 10,001 to 12,719 (2,719 widths): SM, 58,236 rows against our 60,743
+  q = 23: k = 13,872 to 14,973 (1,102 widths): CMTW34, 67,127 to 67,655 rows against our 72,887
+  q = 25: k = 10,001 to 16,275 (6,275 widths): SM, 75,050 rows against our 78,025
+  q = 25: k = 17,333 to 18,925 (1,593 widths): CMTW34, 84,911 to 86,185 rows against our 93,625
+run B (with the Shokri-Moura theorem sizes): first entries 1,080,000, of them above a construction 11,904 (98.9% clear); 2 rounds
+  q = 5: k = 10,001 to 10,215 (215 widths): CMTW34, 1,441 rows against our 1,445
+  q = 23: k = 10,001 to 12,719 (2,719 widths): SMthm 5.2.8, 57,707 rows against our 60,743
+  q = 23: k = 13,872 to 14,973 (1,102 widths): CMTW34, 67,127 to 67,655 rows against our 72,887
+  q = 25: k = 10,001 to 16,275 (6,275 widths): SMthm 5.2.8, 74,425 rows against our 78,025
+  q = 25: k = 17,333 to 18,925 (1,593 widths): CMTW34, 84,911 to 86,185 rows against our 93,625

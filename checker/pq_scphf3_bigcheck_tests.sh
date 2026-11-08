@@ -8,7 +8,9 @@
 #    conversions done without the field isomorphism (q 9, 25), checked in the Conway field.
 # Prints one line per test and "ALL TESTS PASSED" or "SOME TEST FAILED".
 W=${1:?work dir}; mkdir -p $W
-E=/Users/arhancanli/quantavane-engine; R=/Users/arhancanli/quantavane-covering-arrays
+# QV_ENGINE: a checkout of the engine that holds independent/pq_scphf3_bigcheck and engine/ca_certificates.py;
+# the repository is found from this script's own path.
+E=${QV_ENGINE:?set QV_ENGINE to the engine checkout}; R=${QV_REPO:-${0:A:h:h}}
 BIG=$E/independent/pq_scphf3_bigcheck; OLD=$E/independent/scphf_check
 ok=1
 cat > $W/pq_randarr.py <<'EOF'
@@ -67,8 +69,8 @@ res=$($BIG 13 $W/broken_one.txt 200 | tail -1); sh=$($BIG 13 $W/broken_one.txt 1
 echo "broken (one entry; planted triple $2 $3 $4): $res; shard of column $4: $(echo $sh | sed -E 's/.*\), ([0-9]+ never non-collinear[^;]*);.*/\1/')"
 [ "$res" = FAIL ] && echo $sh | grep -q "first: columns $2, $3, $4" || ok=0
 cat > $W/pq_conway_conv.py <<'EOF'
-import sys
-sys.path.insert(0, "/Users/arhancanli/quantavane-engine/engine")
+import os, sys
+sys.path.insert(0, os.path.join(os.environ["QV_ENGINE"], "engine"))
 import ca_certificates as cc
 src, q, out, mode = sys.argv[1], int(sys.argv[2]), sys.argv[3], sys.argv[4]
 if mode == "nomap": cc.isomorphism = lambda qq: list(range(qq))
