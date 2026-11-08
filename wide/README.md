@@ -1,7 +1,7 @@
 # Strength 3 past 100,000 columns, and alphabets 27 to 32 (8 November 2026)
 
-Fifteen Sherwood covering perfect hash families of strength 3 are kept here, one folder each. Eleven take the ladders
-of q = 5 to 25 past 100,000 columns, up to 408,135. Four are over the alphabets 27, 29, 31 and 32. All of them lie
+Sixteen Sherwood covering perfect hash families of strength 3 are kept here, one folder each. Twelve take the ladders
+of q = 4 to 25 past 100,000 columns, up to 408,135. Four are over the alphabets 27, 29, 31 and 32. All of them lie
 outside the scope of the ca-tools covering array table, which keeps strengths 2 to 6, alphabets up to 25 and widths
 up to 100,000 (Christopher Smolen, ca-tools issue #54, 7 November 2026). So the table does not list them, and we keep
 them here.
@@ -21,10 +21,11 @@ A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted whe
 
 That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
 
-In all, 4,338,171 cells: 1,657,587 at the families' own alphabets and 2,680,584 by fusing. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
+In all, 4,403,175 cells: 1,722,591 at the families' own alphabets and 2,680,584 by fusing. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
 
 | folder | family | array | cells at v = q | cells by fusing |
 |---|---|---|---|---|
+| [CA_1024_3_165004_4](CA_1024_3_165004_4/) | SCPHF(17; 165004, 4^2, 3) | CA(1,024; 3, 165,004, 4) | 65,004 (k 100,001 to 165,004) | none |
 | [CA_1685_3_154375_5](CA_1685_3_154375_5/) | SCPHF(14; 154375, 5^2, 3) | CA(1,685; 3, 154,375, 5) | 54,375 (k 100,001 to 154,375) | none |
 | [CA_3703_3_137618_7](CA_3703_3_137618_7/) | SCPHF(11; 137618, 7^2, 3) | CA(3,703; 3, 137,618, 7) | 37,618 (k 100,001 to 137,618) | v = 6: 37,618 (CA(3,701; 3, k, 6), k 100,001 to 137,618) |
 | [CA_5048_3_116455_8](CA_5048_3_116455_8/) | SCPHF(10; 116455, 8^2, 3) | CA(5,048; 3, 116,455, 8) | 16,455 (k 100,001 to 116,455) | none |
@@ -68,7 +69,6 @@ The search can remove columns, so a family does not contain its start unchanged.
 
 ## Still running
 
-- q = 4, n = 17: the search stopped at 165,004 columns on 8 November 2026. Its folder is added when all three checks pass.
 - q = 27, 29, 31 and 32 with n = 7: still growing. At 01:30 on 8 November they had 533,316, 676,940, 845,154 and 848,743 columns. Each is added once it has finished and passed all three checks.
 
 The search, the checkers and these files were prepared with the help of Claude, an AI system from Anthropic. Arhan
