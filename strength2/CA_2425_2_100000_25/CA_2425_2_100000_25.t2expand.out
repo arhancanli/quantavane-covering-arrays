@@ -1,0 +1,4 @@
+family CA_2425_2_100000_25.cphf.txt: n 4 k 100000 q 25 -> expanded array 2425 rows
+first window of 1500 columns: 1124250 column pairs of the expanded array checked, 0 missing a symbol pair (all q^2 pairs present)
+random window of 1500 columns: 1124245 column pairs of the expanded array checked, 0 missing a symbol pair (all q^2 pairs present)
+RESULT PASS (expanded-array windows)

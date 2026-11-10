@@ -1,0 +1,2 @@
+CA_1105_2_83521_17.cphf.txt: n = 4, k = 83521, q = 17, distinct column tuples 83521, repeats 0
+RESULT PASS: SCPHF(4; 83521, 17, 2) gives CA(1105; 2, 83521, 17)

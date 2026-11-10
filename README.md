@@ -174,3 +174,8 @@ Corrections are welcome as GitHub issues. The families have also been offered to
 the family only if every range ran once and no shard found a set of columns left uncovered. Run it from the Actions
 tab or with `gh workflow run verify.yml -f family=families/NAME.cphf.txt -f q=Q -f t=T`.
 
+## Strength 2 (10 November 2026)
+
+`strength2/` holds nine strength-2 families whose columns are all n-tuples of GF(q) (q = 8 to 25), giving the classical
+products CA(n(q^2 - q) + q; 2, k, q) up to 100,000 columns, each with three checks and its ca-tools certificate row
+(`strength2/README.md`). The checkers are `checker/t2pairs.c`, `checker/t2distinct.py` and `checker/t2expand.c`.

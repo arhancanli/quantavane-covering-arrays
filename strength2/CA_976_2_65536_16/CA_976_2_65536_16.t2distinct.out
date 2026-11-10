@@ -1,0 +1,2 @@
+CA_976_2_65536_16.cphf.txt: n = 4, k = 65536, q = 16, distinct column tuples 65536, repeats 0
+RESULT PASS: SCPHF(4; 65536, 16, 2) gives CA(976; 2, 65536, 16)

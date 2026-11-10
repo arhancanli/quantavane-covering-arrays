@@ -1,4 +1,4 @@
-[2026-11-07T17:49:38Z +0.00 h] kernel local-q9-c18: q 9, mode tail (L = 3950), chunks [18]; dataset /private/tmp/claude-501/-Users-arhancanli/b708eb61-4552-44f0-9250-22fbe8424b35/scratchpad/q9local18/input/qv-fullcheck6; 1 CPUs (); macOS-26.6.2-arm64-arm-64bit
+[2026-11-07T17:49:38Z +0.00 h] kernel local-q9-c18: q 9, mode tail (L = 3950), chunks [18]; dataset q9local18/input/qv-fullcheck6; 1 CPUs (); macOS-26.6.2-arm64-arm-64bit
 [2026-11-07T17:49:40Z +0.00 h] Apple clang version 21.0.0 (clang-2100.3.34.2)
 [2026-11-07T17:49:43Z +0.00 h] selftest seed 1: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (15858 uncovered base sets in all)
 [2026-11-07T17:49:45Z +0.00 h] selftest seed 2: selftest q 9 (signature rows 4): 12 random families, brute force, signature table and Algorithm R agree (8675 uncovered base sets in all)

@@ -1,0 +1,2 @@
+CA_288_2_32768_8.cphf.txt: n = 5, k = 32768, q = 8, distinct column tuples 32768, repeats 0
+RESULT PASS: SCPHF(5; 32768, 8, 2) gives CA(288; 2, 32768, 8)

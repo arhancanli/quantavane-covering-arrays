@@ -1,0 +1,2 @@
+CA_1387_2_100000_19.cphf.txt: n = 4, k = 100000, q = 19, distinct column tuples 100000, repeats 0
+RESULT PASS: SCPHF(4; 100000, 19, 2) gives CA(1387; 2, 100000, 19)

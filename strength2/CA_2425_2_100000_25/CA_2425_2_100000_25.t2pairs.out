@@ -1,0 +1,3 @@
+family CA_2425_2_100000_25.cphf.txt: n = 4 rows, k = 100000 columns, q = 25
+pairs tested 4999950000 (C(k,2) = 4999950000), covered 4999950000, uncovered 0
+RESULT PASS: SCPHF(4; 100000, 25, 2), CA(2425; 2, 100000, 25)

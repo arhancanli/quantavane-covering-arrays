@@ -1,4 +1,4 @@
-# fullcheck6 tails beyond the table's prefixes; checker source sha256 720c75d572ea67b52d3a70842339011c69d3568cf0a4fdf6c5f4fe174714964c; outputs in /private/tmp/claude-501/-Users-arhancanli/84d40635-3436-42ac-8c29-072827473345/scratchpad/tail
+# fullcheck6 tails beyond the table's prefixes; checker source sha256 720c75d572ea67b52d3a70842339011c69d3568cf0a4fdf6c5f4fe174714964c; outputs in tail
 q 17 x1 1..106 (L 4900): 126,976,856,750 steps (expected 126,976,856,750), 3,115,194,465 candidate pairs, 0 uncovered, 0 internal disagreements, rows certified 16 of 16, 4 threads, 460.7 s wall, 667.6 s CPU
 q 17 x1 107..216 (L 4900): 126,018,318,250 steps (expected 126,018,318,250), 3,022,774,119 candidate pairs, 0 uncovered, 0 internal disagreements, rows certified 16 of 16, 4 threads, 405.9 s wall, 652.2 s CPU
 q 17 x1 217..331 (L 4900): 125,627,201,750 steps (expected 125,627,201,750), 2,942,115,045 candidate pairs, 0 uncovered, 0 internal disagreements, rows certified 16 of 16, 4 threads, 389.7 s wall, 639.6 s CPU

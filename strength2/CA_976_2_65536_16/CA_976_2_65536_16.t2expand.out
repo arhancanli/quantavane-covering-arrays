@@ -1,0 +1,4 @@
+family CA_976_2_65536_16.cphf.txt: n 4 k 65536 q 16 -> expanded array 976 rows
+first window of 1500 columns: 1124250 column pairs of the expanded array checked, 0 missing a symbol pair (all q^2 pairs present)
+random window of 1500 columns: 1124237 column pairs of the expanded array checked, 0 missing a symbol pair (all q^2 pairs present)
+RESULT PASS (expanded-array windows)

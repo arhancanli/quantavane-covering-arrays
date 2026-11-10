@@ -1,0 +1,3 @@
+family CA_1105_2_83521_17.cphf.txt: n = 4 rows, k = 83521 columns, q = 17
+pairs tested 3487836960 (C(k,2) = 3487836960), covered 3487836960, uncovered 0
+RESULT PASS: SCPHF(4; 83521, 17, 2), CA(1105; 2, 83521, 17)
