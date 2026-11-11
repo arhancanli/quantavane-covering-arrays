@@ -1,0 +1,27 @@
+$ cphfcheck CA_4757281_4_100000_23.cphf.txt 4 23 progression 4   (ca-tools tools/cphf/cphfcheck.c, last changed in commit dcd6910; gcc -O3 -march=native -fopenmp, Kaggle CPU, 4 threads)
+$ ./cphfcheck CA_4757281_4_100000_23.cphf.txt 4 23 progression 4
+CPHF candidate: n=17 k=100000 q=23 t=4 mode=progression
+row 0: progression, A = [ 0 0 0 13 ; 1 0 0 10 ; 0 1 0 12 ; 0 0 1 20 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 1: progression, A = [ 0 0 0 3 ; 1 0 0 3 ; 0 1 0 0 ; 0 0 1 8 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 2: progression, A = [ 0 0 0 18 ; 1 0 0 8 ; 0 1 0 7 ; 0 0 1 5 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 3: progression, A = [ 0 0 0 2 ; 1 0 0 5 ; 0 1 0 13 ; 0 0 1 14 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 4: progression, A = [ 0 0 0 6 ; 1 0 0 13 ; 0 1 0 9 ; 0 0 1 13 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 5: progression, A = [ 0 0 0 8 ; 1 0 0 4 ; 0 1 0 4 ; 0 0 1 2 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 6: progression, A = [ 0 0 0 13 ; 1 0 0 0 ; 0 1 0 9 ; 0 0 1 20 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 7: progression, A = [ 0 0 0 16 ; 1 0 0 22 ; 0 1 0 21 ; 0 0 1 12 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 8: progression, A = [ 1 0 0 0 ; 0 0 0 15 ; 0 1 0 1 ; 0 0 1 17 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 9: progression, A = [ 1 0 0 0 ; 0 0 0 20 ; 0 1 0 14 ; 0 0 1 9 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 10: progression, A = [ 1 0 0 0 ; 0 0 0 5 ; 0 1 0 9 ; 0 0 1 4 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 11: progression, A = [ 1 0 0 0 ; 0 0 9 0 ; 0 1 5 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 12: progression, A = [ 1 0 0 0 ; 0 0 8 0 ; 0 1 5 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 13: progression, A = [ 1 0 0 0 ; 0 0 18 0 ; 0 1 8 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 14: other (u_5 != A u_4)
+row 15: other (u_5 != A u_4)
+row 16: other (u_5 != A u_4)
+progression rows 14, other rows 3, dead rows 0
+enumeration: prefixes 99999 (expected 99999), candidate columns 4999850001 (expected 4999850001), wildcard (prefix,row) 104, WILD classifications 44442461405
+completeness: pairs failing every progression row 23640 + pairs ruled out 166656666826359 = 166656666849999 (expected 166656666849999)
+representatives failing every progression row 23640, shifts tested in other rows 563351537
+checked 4166416671249975000 t-sets (all, by translation from the representatives), uncovered 0
+RESULT: CPHF(17; 100000, 23, 4) - gives CA(4757281; 4, 100000, 23)
+(Kaggle: finished, exit 0, wall 1724.1 s, 11 Nov 2026)

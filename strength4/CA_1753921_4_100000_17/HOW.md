@@ -1,0 +1,9 @@
+Construction: a covering perfect hash family of strength 4, CPHF(21; 100000, 17, 4), found by our search, expanded into CA(1753921; 4, 100000, 17) by the theorem of Sherwood, Martirosyan and Colbourn (2006) (N = n(q^4 - 1) + 1; the vectors are not all affine). Its first 16 rows are progressions u_(c+1) = M u_c of GF(17)^4, one invertible M per row: 8 rows multiply by a primitive element of GF(17^4) (from the vector (1, 0, 0, 0)), 4 rows are affine, a^j in GF(17^3) from the point 1, and 4 rows are affine, (b^j, j) in GF(17^2) x GF(17) from (1, 0, 0). The polynomials are listed in the family file's second comment line. In a progression row four columns fail exactly when their shift to column 0 does, so the search lists the sets holding column 0 that fail in every progression row, and draws 5 random affine rows to cover all of their shifts. The last random row is repaired by local search until it covers every shifted set the others leave. This is the partly cyclic method of Canli (2026), doi:10.5281/zenodo.23839216.
+
+Built from: nothing. There is no ingredient array; the family is fixed by the program, its parameters and its seed.
+
+Program: code/search/cphf4p/t4ref_v2.c (with gfq.h and famio.h) in github.com/arhancanli/quantavane-covering-arrays (MIT), built with `cc -O3 -pthread -o t4ref t4ref_v2.c`, run as `t4ref build 17 100000 4 4 5 1 OUT 1 8` (q, columns, rows a^j, rows (b^j, j), random rows, seed, output, threads, Singer rows). With the same seed and thread count it writes the same family.
+
+Checks before submission: our refinement checker t4ref (code/search/cphf4p/t4ref_v1.c, mode check) PASS, and ca-tools tools/cphf/cphfcheck.c in mode progression, run locally, PASS (every t-set covered); our cells checker t4cells (checker/t4cells.c) not yet run.
+
+This submission was prepared with the help of Claude, an AI system from Anthropic. Arhan Canli takes responsibility for it.

@@ -1,0 +1,28 @@
+$ t4ref check CA_1753921_4_100000_17.cphf.txt 17 1
+row 0: progression
+row 1: progression
+row 2: progression
+row 3: progression
+row 4: progression
+row 5: progression
+row 6: progression
+row 7: progression
+row 8: progression
+row 9: progression
+row 10: progression
+row 11: progression
+row 12: progression
+row 13: progression
+row 14: progression
+row 15: progression
+row 16: other
+row 17: other
+row 18: other
+row 19: other
+row 20: other
+family CA_1753921_4_100000_17.cphf.txt: n = 21 rows, k = 100000, q = 17: 16 progression, 5 other, 0 dead
+enumeration: x = 1..99997 (99997 done), (x, row) wildcards 312, pairs failing every progression row 1710598 + ruled out 166656665139401 = 166656666849999 (C(k-1,3) = 166656666849999)
+representatives (sets {0,x,y,z} failing every progression row) 1710598, rechecked by rank; shifts tested in the 5 other rows 29177329886, uncovered 0
+RESULT PASS
+SCPHF-type CPHF(21; 100000, 17, 4): every set of four columns covered
+time: 2539.91 s user CPU (one thread, Apple arm64), checked 10-11 Nov 2026

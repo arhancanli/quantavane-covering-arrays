@@ -1,0 +1,30 @@
+$ cphfcheck CA_1753921_4_100000_17.cphf.txt 4 17 progression 1   (ca-tools tools/cphf/cphfcheck.c, last changed in commit dcd6910; cc -O3, no OpenMP, one thread)
+CPHF candidate: n=21 k=100000 q=17 t=4 mode=progression
+row 0: progression, A = [ 0 0 0 6 ; 1 0 0 8 ; 0 1 0 4 ; 0 0 1 13 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 1: progression, A = [ 0 0 0 3 ; 1 0 0 13 ; 0 1 0 16 ; 0 0 1 2 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 2: progression, A = [ 0 0 0 10 ; 1 0 0 10 ; 0 1 0 14 ; 0 0 1 15 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 3: progression, A = [ 0 0 0 5 ; 1 0 0 5 ; 0 1 0 7 ; 0 0 1 16 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 4: progression, A = [ 0 0 0 6 ; 1 0 0 6 ; 0 1 0 5 ; 0 0 1 11 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 5: progression, A = [ 0 0 0 7 ; 1 0 0 5 ; 0 1 0 12 ; 0 0 1 16 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 6: progression, A = [ 0 0 0 5 ; 1 0 0 4 ; 0 1 0 14 ; 0 0 1 7 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 7: progression, A = [ 0 0 0 5 ; 1 0 0 10 ; 0 1 0 11 ; 0 0 1 2 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 8: progression, A = [ 1 0 0 0 ; 0 0 0 14 ; 0 1 0 5 ; 0 0 1 3 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 9: progression, A = [ 1 0 0 0 ; 0 0 0 12 ; 0 1 0 9 ; 0 0 1 9 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 10: progression, A = [ 1 0 0 0 ; 0 0 0 7 ; 0 1 0 11 ; 0 0 1 13 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 11: progression, A = [ 1 0 0 0 ; 0 0 0 12 ; 0 1 0 8 ; 0 0 1 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 12: progression, A = [ 1 0 0 0 ; 0 0 10 0 ; 0 1 16 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 13: progression, A = [ 1 0 0 0 ; 0 0 14 0 ; 0 1 6 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 14: progression, A = [ 1 0 0 0 ; 0 0 7 0 ; 0 1 13 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 15: progression, A = [ 1 0 0 0 ; 0 0 5 0 ; 0 1 15 0 ; 1 0 0 1 ] (rows of A, field element codes; u_c = A u_(c-1) checked for c = 1..99999)
+row 16: other (u_5 != A u_4)
+row 17: other (u_5 != A u_4)
+row 18: other (u_5 != A u_4)
+row 19: other (u_5 != A u_4)
+row 20: other (u_5 != A u_4)
+progression rows 16, other rows 5, dead rows 0
+enumeration: prefixes 99999 (expected 99999), candidate columns 4999850001 (expected 4999850001), wildcard (prefix,row) 312, WILD classifications 47843828639
+completeness: pairs failing every progression row 1710598 + pairs ruled out 166656665139401 = 166656666849999 (expected 166656666849999)
+representatives failing every progression row 1710598, shifts tested in other rows 29177329886
+checked 4166416671249975000 t-sets (all, by translation from the representatives), uncovered 0
+RESULT: CPHF(21; 100000, 17, 4) - gives CA(1753921; 4, 100000, 17)
+time: 3031.73 s user CPU (one thread, Apple arm64), checked 10-11 Nov 2026
