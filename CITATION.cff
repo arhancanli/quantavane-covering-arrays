@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below, and credit the table that lists them."
+type: dataset
+title: "Covering arrays from Sherwood covering perfect hash families: families, checks and programs"
+abstract: "Sherwood covering perfect hash families for strengths 3 to 6, each giving a covering array, with exact checks, the checkers and the programs that found them."
+authors:
+  - family-names: Canli
+    given-names: Arhan
+    affiliation: Quantavane
+    email: arhan@quantavane.com
+license:
+  - CC-BY-4.0
+  - MIT
+url: "https://quantavane.com"
+repository-code: "https://github.com/arhancanli/quantavane-covering-arrays"
+keywords:
+  - covering arrays
+  - covering perfect hash families
+  - combinatorial testing
+references:
+  - type: article
+    title: "New upper bounds for covering array numbers from partly cyclic covering perfect hash families"
+    authors:
+      - family-names: Canli
+        given-names: Arhan
+    year: 2026
+    doi: 10.5281/zenodo.23839216

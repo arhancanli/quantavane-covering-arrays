@@ -187,3 +187,30 @@ CA(7,031,233; 4, 100000, 25), CA(4,757,281; 4, 100000, 23), CA(2,345,761; 4, 100
 17), each with its ca-tools
 certificate row, HOW.md and check logs (`strength4/README.md`). The builder and refinement checker is
 `code/search/cphf4p/t4ref_v1.c` (v2 for q = 17); the cells checker is `checker/t4cells.c`.
+
+## How to cite
+
+Cite the preprint for the construction and this repository for the families, checks and programs. For a single
+covering array, also cite Christopher Smolen's ca-tools table (github.com/chrispbsmolen/ca-tools), which lists the
+sizes.
+
+```bibtex
+@misc{canli-cphf-2026,
+  author    = {Canli, Arhan},
+  title     = {New upper bounds for covering array numbers from partly cyclic covering perfect hash families},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23839216},
+  note      = {Preprint, first version}
+}
+
+@misc{quantavane-covering-arrays,
+  author       = {Canli, Arhan},
+  title        = {Covering arrays from Sherwood covering perfect hash families: families, checks and programs},
+  year         = {2026},
+  howpublished = {\url{https://github.com/arhancanli/quantavane-covering-arrays}},
+  note         = {Quantavane; data CC BY 4.0, code MIT}
+}
+```
+
+[CITATION.cff](CITATION.cff) gives the repository reference for GitHub's "Cite this repository" button.
