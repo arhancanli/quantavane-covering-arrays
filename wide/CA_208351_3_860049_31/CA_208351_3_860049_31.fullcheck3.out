@@ -1,0 +1,17 @@
+fullcheck3.c (quantavane-covering-arrays checker/fullcheck3.c, sha256 1c68f4dd8ac25144c1a01979dbf70afb5be6d1611f88a443250d9ee0f8600488), a second exact checker written separately from the search and from pq_scphf3_bigcheck.c
+build: cc -O3 -o fullcheck3 fullcheck3.c -lpthread; run: nice -n 10 ./fullcheck3 31 FILE 2 (Apple M5 Pro, shared machine)
+file checked: CA_208351_3_860049_31.txt, sha256 before eff5779bd78e6f9a7812dcf073e3dca8941ef452804f8226501c3951b9cc07b0
+run: 2026-11-11 08:40:00 +0400 to ...
+SCPHF(7; 860049, 31, 3) (CA_208351_3_860049_31.txt): all 106027084723928424 triples of columns decided by Algorithm R from each largest column; 1748054273828 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 2 threads, 10249 s
+PASS
+exit 0
+file sha256 after eff5779bd78e6f9a7812dcf073e3dca8941ef452804f8226501c3951b9cc07b0; finished 2026-11-11 11:30:49 +0400
+self-test for q = 31 (run separately on 11 Nov 2026 after the check; local folder prefixes removed from this log):
+selftest q 31: 1 rows, 30 columns: brute force 126, Algorithm R 126 uncovered triples
+selftest q 31: 2 rows, 35 columns: brute force 8, Algorithm R 8 uncovered triples
+selftest q 31: 3 rows, 40 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 31: 4 rows, 45 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 31: 1 rows, 50 columns: brute force 634, Algorithm R 634 uncovered triples
+selftest q 31: 2 rows, 55 columns: brute force 41, Algorithm R 41 uncovered triples
+selftest q 31: 3 rows, 60 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 31: 4 rows, 65 columns: brute force 0, Algorithm R 0 uncovered triples
