@@ -182,7 +182,8 @@ products CA(n(q^2 - q) + q; 2, k, q) up to 100,000 columns, each with three chec
 
 ## Strength 4 at 100,000 columns (11 November 2026)
 
-`strength4/` holds three partly cyclic strength-4 families at 100,000 columns, for q = 25, 23 and 17. They give
-CA(7,031,233; 4, 100000, 25), CA(4,757,281; 4, 100000, 23) and CA(1,753,921; 4, 100000, 17), each with its ca-tools
+`strength4/` holds four partly cyclic strength-4 families at 100,000 columns, for q = 25, 23, 19 and 17. They give
+CA(7,031,233; 4, 100000, 25), CA(4,757,281; 4, 100000, 23), CA(2,345,761; 4, 100000, 19) and CA(1,753,921; 4, 100000,
+17), each with its ca-tools
 certificate row, HOW.md and check logs (`strength4/README.md`). The builder and refinement checker is
 `code/search/cphf4p/t4ref_v1.c` (v2 for q = 17); the cells checker is `checker/t4cells.c`.

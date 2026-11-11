@@ -1,0 +1,26 @@
+$ t4ref check CA_2345761_4_100000_19.cphf.txt 19 4   (code/search/cphf4p/t4ref_v1.c, gcc -O3 -march=native, Kaggle CPU, 4 threads)
+$ ./t4ref check CA_2345761_4_100000_19.cphf.txt 19 4
+row 0: progression
+row 1: progression
+row 2: progression
+row 3: progression
+row 4: progression
+row 5: progression
+row 6: progression
+row 7: progression
+row 8: progression
+row 9: progression
+row 10: progression
+row 11: progression
+row 12: progression
+row 13: progression
+row 14: other
+row 15: other
+row 16: other
+row 17: other
+family CA_2345761_4_100000_19.cphf.txt: n = 18 rows, k = 100000, q = 19: 14 progression, 4 other, 0 dead
+enumeration: x = 1..99997 (99997 done), (x, row) wildcards 188, pairs failing every progression row 431451 + ruled out 166656666418548 = 166656666849999 (C(k-1,3) = 166656666849999)
+representatives (sets {0,x,y,z} failing every progression row) 431451, rechecked by rank; shifts tested in the 4 other rows 8998185506, uncovered 0
+RESULT PASS
+SCPHF-type CPHF(18; 100000, 19, 4): every set of four columns covered
+(Kaggle: finished, exit 0, wall 1355.9 s, 11 Nov 2026)

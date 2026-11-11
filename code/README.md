@@ -49,7 +49,7 @@ a covering array CA(n(q^t - q) + q; t, k, q). The checkers are in `checker/` (CC
 | `pq_cphf3big_v1.c` | uncommitted (built 2026-11-03 17:10 +04) | t = 3 to 100,000 columns in little memory: no pair lists; old columns classed by direction from the new point, O(k) per row | 3 |
 | `pq_cphf3big_v2.c` | uncommitted (built 2026-11-03 17:35 +04) | v1 with cheaper scoring of candidate points, sampled scoring where full scoring costs too much, wider branching above the exact last rows, and new options | 2 (and the first run of 1 more) |
 | `pq_cphf3big_v3.c` | 62ea2eb | v2 with branching over the last random row and new default settings | 30 |
-| `cphf4p/t4ref_v1.c` (with `gfq.h`, `famio.h`) | 44ef896 | t = 4 to 100,000 columns, partly cyclic: Singer rows of GF(q^4), affine rows a^j (GF(q^3)) and (b^j, j) (GF(q^2) x GF(q)); the sets through column 0 failing every progression row found by refinement; random rows, the last repaired; also the exact refinement checker (`t4ref check`) | 2 (strength4/, q = 25, 23) |
+| `cphf4p/t4ref_v1.c` (with `gfq.h`, `famio.h`) | 44ef896 | t = 4 to 100,000 columns, partly cyclic: Singer rows of GF(q^4), affine rows a^j (GF(q^3)) and (b^j, j) (GF(q^2) x GF(q)); the sets through column 0 failing every progression row found by refinement; random rows, the last repaired; also the exact refinement checker (`t4ref check`) | 3 (strength4/, q = 25, 23, 19) |
 | `cphf4p/t4ref_v2.c` | 0b50387 | v1 with sideways moves in the last-row repair and 20,000,000 rounds | 1 (strength4/, q = 17) |
 
 "Last run" counts each family once, by the program of the run that wrote it. 28 families were grown in two runs: a
