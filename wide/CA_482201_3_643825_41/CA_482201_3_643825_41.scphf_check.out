@@ -1,0 +1,7 @@
+pq_scphf3_bigcheck_q64.c (= checker/pq_scphf3_bigcheck.c with MAXQ 32 -> 64, one line; sha256 8f0506bd6f1e3ec427c10138fe636197850603ce9e11c5dae56e2737db7172b4), exact check of every column triple
+build: cc -O3 -march=native -o pq_scphf3_bigcheck_q64 pq_scphf3_bigcheck_q64.c; run: nice -n 10 ./pq_scphf3_bigcheck_q64 41 FILE 2000 (Apple M5 Pro, shared machine)
+file checked: the search output in the search coding (point id x q + y), q41_n7.final.txt, sha256 0a332d5d96d00ad75ed22c6b39002899b3ca8945595a01f38ee70c876ccb83c0; its rows plus q^2 are the rows of CA_482201_3_643825_41.cphf.txt
+run: 2026-11-16 08:13:28 +0400 to 2026-11-16 09:41:30 +0400 (exit 0)
+SCPHF(7; 643825, 41^2, 3): 44478510538589400 column triples checked (largest column in [2, 643825)), 0 never non-collinear; 4011 s, 1172472497963 label tests beyond the splits
+CA(482201; 3, 643825, 41): 2000 random column triples, 0 missing a tuple
+PASS
