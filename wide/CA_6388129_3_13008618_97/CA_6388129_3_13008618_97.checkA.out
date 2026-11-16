@@ -1,0 +1,8 @@
+checker/pq_scphf3orb_checkA.c (sha256 770681a7e2da460c952c6ed16048d4bb6136e1c2a3a8d4e7207ca8e184233a9b): pq_scphf3_bigcheck for orbit families; verifies the group itself, expands, counts distinct columns, checks every triple with a representative
+build: cc -O3 -march=native -o pq_scphf3orb_checkA pq_scphf3orb_checkA.c -lpthread; run: PQ_THREADS=T nice -n 10 ./pq_scphf3orb_checkA q FILE 2000
+file checked: the search output in the search coding (point id x q + y), sha256 f8ef6641a0603335903da7438751b5a9fec6951233599de9db664f728720e076; its representative rows plus q^2 are the rows of CA_6388129_3_13008618_97.orbit.txt, its header lines the same
+run: on Modal (app qv-t3orb, run pq-t3orb-43f6dcb3, one container with 4 CPUs, the same source as above, built with cc -O3 -march=x86-64-v3), PQ_THREADS=4, 16 Nov 2026 about 15:52 to 16:02 +04 (513 s wall)
+orbit family: 2709 representatives, group Z_98 x Z_49 (matrices invertible, map lines onto lines, commute, G1^M1 = G2^M2 = I in every row), 13008618 columns, 13008618 distinct
+SCPHF(7; 13008618, 97^2, 3): 229214047844095524 column triples with a representative checked (representatives [0, 2709)), 0 never non-collinear; 2013 s CPU, 513 s wall, 4 threads, 156620459825 label tests beyond the splits
+CA(6388129; 3, 13008618, 97): 2000 random column triples, 0 missing a tuple
+PASS
