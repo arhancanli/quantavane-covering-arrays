@@ -29,12 +29,12 @@ count" below). That check replaces what this paragraph used to say: the cut-off 
 construction of Shokri and Moura gives "about 3% fewer rows" there were wrong. For odd q their (q+1)-plication reaches
 (q + 1)(q^2 + q + 1) columns, and at q = 27 it has about 20% fewer rows than our six-row family, not 3%.
 
-In all, the families give 70,222,741 cells (3, q, k) at their own alphabets past every table. Of these, 36,653,872
-are not beaten by any published construction or bound we found, and only these are counted: 29,309,560 where our
+In all, the families give 79,527,250 cells (3, q, k) at their own alphabets past every table. Of these, 44,681,184
+are not beaten by any published construction or bound we found, and only these are counted: 36,713,923 where our
 array is smaller than every published construction we found (category (a), the only ones we call records) and
-7,344,312 where a published existence bound gives an array of the same size (category (t), a tie). The other
-33,568,869 are beaten by published work and are not counted: 24,834,256 by explicit constructions (category (b);
-all 18,140,165 cells of the alphabet-193 family are here) and 8,734,613 by a published existence method (category
+7,967,261 where a published existence bound gives an array of the same size (category (t), a tie). The other
+34,846,066 are beaten by published work and are not counted: 25,577,513 by explicit constructions (category (b);
+all 18,140,165 cells of the alphabet-193 family are here) and 9,268,553 by a published existence method (category
 (b*)). The categories of each family are in the table "Which cells count" below. Cells reached by fusing symbols
 (5,713,735 from the families of 8 and 11 November) are not counted; of the 1,039,275 of them at prime-power alphabets
 that we checked, 702,142 are beaten by published constructions. Published constructions we did not find or could not
@@ -142,6 +142,7 @@ new (automorphisms are a standard aid in covering-array search); the arrays and 
 | [CA_2722681_3_10998546_73](CA_2722681_3_10998546_73/) | SCPHF(7; 10998546, 73^2, 3), 4017 orbits of Z_74 x Z_37 | CA(2,722,681; 3, 10,998,546, 73) | 10,604,127 (k 394,420 to 10,998,546) |
 | [CA_50322241_3_25366664_193](CA_50322241_3_25366664_193/) | SCPHF(7; 25366664, 193^2, 3), 1348 orbits of Z_194 x Z_97 | CA(50,322,241; 3, 25,366,664, 193) | 18,140,165 (k 7,226,500 to 25,366,664) |
 | [CA_1588501_3_9757994_61](CA_1588501_3_9757994_61/) | SCPHF(7; 9757994, 61^2, 3), 5077 orbits of Z_62 x Z_31 | CA(1,588,501; 3, 9,757,994, 61) | 9,527,231 (k 230,764 to 9,757,994) |
+| [CA_2104939_3_9609828_67](CA_2104939_3_9609828_67/) | SCPHF(7; 9609828, 67^2, 3), 8313 orbits of Z_68 x Z_17 | CA(2,104,939; 3, 9,609,828, 67) | 9,304,509 (k 305,320 to 9,609,828) |
 
 ## Which cells count (16 November 2026)
 
@@ -193,7 +194,8 @@ families, the 2018 papers of Colbourn, Lanus and Sarkar and of Colbourn and Lanu
 | [CA_9064549_3_15996200_109](CA_9064549_3_15996200_109/) | 7 | 14,689,181 (k 1,307,020 to 15,996,200) | 2,912,405 (k 1,307,020 to 4,219,424) | 4,592,805 (k 4,219,425 to 8,812,229) | 3,537,620 (k 8,812,230 to 12,349,849) | 3,646,351 (k 12,349,850 to 15,996,200) | 7,183,971 |
 | [CA_50322241_3_25366664_193](CA_50322241_3_25366664_193/) | 7 | 18,140,165 (k 7,226,500 to 25,366,664) | 18,140,165 (k 7,226,500 to 25,366,664) | none | none | none | 0 |
 | [CA_1588501_3_9757994_61](CA_1588501_3_9757994_61/) | 7 | 9,527,231 (k 230,764 to 9,757,994) | 419,225 (k 230,764 to 649,988) | 485,612 (k 649,989 to 1,135,600) | 444,789 (k 1,135,601 to 1,580,389) | 8,177,605 (k 1,580,390 to 9,757,994) | 8,622,394 |
-| **all** | | **70,222,741** | **24,834,256** | **8,734,613** | **7,344,312** | **29,309,560** | **36,653,872** |
+| [CA_2104939_3_9609828_67](CA_2104939_3_9609828_67/) | 7 | 9,304,509 (k 305,320 to 9,609,828) | 743,257 (k 305,320 to 1,048,576) | 533,940 (k 1,048,577 to 1,582,516) | 622,949 (k 1,582,517 to 2,205,465) | 7,404,363 (k 2,205,466 to 9,609,828) | 8,027,312 |
+| **all** | | **79,527,250** | **25,577,513** | **9,268,553** | **7,967,261** | **36,713,923** | **44,681,184** |
 
 ## What each folder holds
 
