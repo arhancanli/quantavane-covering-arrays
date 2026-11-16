@@ -23,9 +23,9 @@ A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted whe
 
 That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
 
-In all, 19,269,206 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
-15,262,363 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
-and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 24,982,941 with
+In all, 31,355,645 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
+27,348,802 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
+and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 37,069,380 with
 them. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
 
 | folder | family | array | cells at v = q | cells by fusing |
@@ -117,6 +117,7 @@ new (automorphisms are a standard aid in covering-array search); the arrays and 
 | folder | family | array | cells at v = q |
 |---|---|---|---|
 | [CA_9064549_3_15996200_109](CA_9064549_3_15996200_109/) | SCPHF(7; 15996200, 109^2, 3), 2644 orbits of Z_110 x Z_55 | CA(9,064,549; 3, 15,996,200, 109) | 14,689,181 (k 1,307,020 to 15,996,200) |
+| [CA_6388129_3_13008618_97](CA_6388129_3_13008618_97/) | SCPHF(7; 13008618, 97^2, 3), 2709 orbits of Z_98 x Z_49 | CA(6,388,129; 3, 13,008,618, 97) | 12,086,439 (k 922,180 to 13,008,618) |
 
 ## What each folder holds
 

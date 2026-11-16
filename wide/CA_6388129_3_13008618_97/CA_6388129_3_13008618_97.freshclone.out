@@ -1,0 +1,11 @@
+Fresh-clone reproduction (16 Nov 2026, about 16:44-17:20 +04, Modal app qv-t3orb-fresh, one container with 4 CPUs): a new git clone of this repository at commit 6ca8edd5b6f2281876d7b0b6c227c3dabb695968; both orbit checkers built from that clone's checker/ (cc -O3) and run on that clone's CA_6388129_3_13008618_97.orbit.txt (sha256 da08b0e75cc35132b144f5350353eccdf85f7d4a4ac76cf07e565ca4136923aa); check A on the same rows minus q^2 (the search coding).
+checker sha256: pq_scphf3orb_checkA.c 770681a7e2da460c952c6ed16048d4bb6136e1c2a3a8d4e7207ca8e184233a9b, fullcheck3orb.c 590e3a5ac7f89815c9f774be2a245e0f298fced5f845e41724b0ec81c0bb5723
+--- fullcheck3orb, 4 threads, exit 0, 1281 s wall
+orbit family: 2709 representatives, group Z_98 x Z_49 (every matrix invertible and line-preserving, G1 G2 = G2 G1, G1^M1 = G2^M2 = I, every row), 13008618 columns, 13008618 distinct
+SCPHF(7; 13008618, 97, 3) (CA_6388129_3_13008618_97.orbit.txt): all 229214047844095524 triples that contain a representative decided by Algorithm R from each representative; 148318489496 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 4 threads, 1272 s
+PASS
+--- pq_scphf3orb_checkA, PQ_THREADS=4, exit 0, 889 s wall
+orbit family: 2709 representatives, group Z_98 x Z_49 (matrices invertible, map lines onto lines, commute, G1^M1 = G2^M2 = I in every row), 13008618 columns, 13008618 distinct
+SCPHF(7; 13008618, 97^2, 3): 229214047844095524 column triples with a representative checked (representatives [0, 2709)), 0 never non-collinear; 3282 s CPU, 833 s wall, 4 threads, 156620459825 label tests beyond the splits
+CA(6388129; 3, 13008618, 97): 2000 random column triples, 0 missing a tuple
+PASS
