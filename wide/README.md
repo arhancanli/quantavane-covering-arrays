@@ -15,20 +15,32 @@ CA(n(q^3 - q) + q; 3, k, q). By Lemma 3.1 of Colbourn, Keri, Rivas Soriano and S
 
 ## The families and the cells they fill
 
-A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted when all three of these hold:
+A cell is a strength, alphabet and width (3, v, k). Below, a cell is listed when all three of these hold, and it is counted
+only when, in addition, no published construction or bound we found beats it (categories (a) and (t) of "Which cells
+count" below):
 
 - the ca-tools table has no entry for it today (k above 100,000 at v up to 25; any k above 25);
 - the family, or its fused array, gives an array there;
 - the constructions of the ca-tools derived lookup give no smaller size there. We ran tools/derive_table.py from ca-tools at commit ce719cb on a copy of the table, with these families and their fused arrays added and its ladder of widths continued past 100,000.
 
-That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
+That lookup has no baseline above 25, and it does not cover every published construction. So on 16 November 2026 we
+compared every family, width by width, with the published constructions and bounds we could find (see "Which cells
+count" below). That check replaces what this paragraph used to say: the cut-off q(q^2 + q + 1) and the claim that the
+construction of Shokri and Moura gives "about 3% fewer rows" there were wrong. For odd q their (q+1)-plication reaches
+(q + 1)(q^2 + q + 1) columns, and at q = 27 it has about 20% fewer rows than our six-row family, not 3%.
 
-In all, 60,695,510 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
-56,688,667 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
-and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 66,409,245 with
-them. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
+In all, the families give 60,695,510 cells (3, q, k) at their own alphabets past every table. Of these, 28,031,478
+are not beaten by any published construction or bound we found, and only these are counted: 21,131,955 where our
+array is smaller than every published construction we found (category (a), the only ones we call records) and
+6,899,523 where a published existence bound gives an array of the same size (category (t), a tie). The other
+32,664,032 are beaten by published work and are not counted: 24,415,031 by explicit constructions (category (b);
+all 18,140,165 cells of the alphabet-193 family are here) and 8,249,001 by a published existence method (category
+(b*)). The categories of each family are in the table "Which cells count" below. Cells reached by fusing symbols
+(5,713,735 from the families of 8 and 11 November) are not counted; of the 1,039,275 of them at prime-power alphabets
+that we checked, 702,142 are beaten by published constructions. Published constructions we did not find or could not
+read could still beat some cells of category (a) or (t).
 
-| folder | family | array | cells at v = q | cells by fusing |
+| folder | family | array | widths past the tables at v = q | cells by fusing |
 |---|---|---|---|---|
 | [CA_1024_3_165004_4](CA_1024_3_165004_4/) | SCPHF(17; 165004, 4^2, 3) | CA(1,024; 3, 165,004, 4) | 65,004 (k 100,001 to 165,004) | none |
 | [CA_1685_3_154375_5](CA_1685_3_154375_5/) | SCPHF(14; 154375, 5^2, 3) | CA(1,685; 3, 154,375, 5) | 54,375 (k 100,001 to 154,375) | none |
@@ -73,8 +85,9 @@ Families over a prime alphabet q from 37 to 61 with seven rows, grown from nothi
 lines), seed 1000 + q, 40,000 CPU seconds at most. Each family is checked by `checker/pq_scphf3_bigcheck_q64.c` on the
 search output and by `checker/fullcheck3_q64.c` on the family file: the repository's two checkers with MAXQ 32 -> 64
 (one line each). For a prime q the Conway field is GF(q) itself, so there is no separate Conway check. A cell (3, q, k)
-is counted only at the family's own alphabet q and only for k above q(q^2 + q + 1), where the construction of Shokri
-and Moura gives fewer rows; the ca-tools table has no entries above alphabet 25. Fused cells are not counted here.
+is listed only at the family's own alphabet q and only for k above q(q^2 + q + 1) (a cut-off we used then; the
+categories of "Which cells count" decide which widths count); the ca-tools table has no entries above alphabet 25.
+Fused cells are not counted here.
 
 The families over q = 37 and 41 (their rows are in the table above) are the search's checkpoints at about 9,800 and 9,662 CPU seconds (the runs were stopped then; seeds 1037 and 1041). With it, the families
 here give 4,580,025 cells at their own alphabets.
@@ -118,16 +131,67 @@ they and `checker/fullcheck3_q256.c` (fullcheck3 with MAXQ 256) on the full expa
 there (its cost grows as q^3).
 
 Found by `code/search/pq_cphf3orb.c` (pq_cphf3big v4 with the group added; with the trivial group it reproduces v4
-byte for byte). A cell (3, q, k) is counted only at the family's own alphabet q, for k above q(q^2 + q + 1) (Shokri and
-Moura) and above any narrower family of ours at that q. Fused cells are not counted. That a search used a group is not
+byte for byte). The widths listed per family below are those past every table and above any narrower family of ours at that q; which
+of them count is in the table "Which cells count". Fused cells are not counted. That a search used a group is not
 new (automorphisms are a standard aid in covering-array search); the arrays and their widths are the results.
 
-| folder | family | array | cells at v = q |
+| folder | family | array | widths past the tables at v = q |
 |---|---|---|---|
 | [CA_9064549_3_15996200_109](CA_9064549_3_15996200_109/) | SCPHF(7; 15996200, 109^2, 3), 2644 orbits of Z_110 x Z_55 | CA(9,064,549; 3, 15,996,200, 109) | 14,689,181 (k 1,307,020 to 15,996,200) |
 | [CA_6388129_3_13008618_97](CA_6388129_3_13008618_97/) | SCPHF(7; 13008618, 97^2, 3), 2709 orbits of Z_98 x Z_49 | CA(6,388,129; 3, 13,008,618, 97) | 12,086,439 (k 922,180 to 13,008,618) |
 | [CA_2722681_3_10998546_73](CA_2722681_3_10998546_73/) | SCPHF(7; 10998546, 73^2, 3), 4017 orbits of Z_74 x Z_37 | CA(2,722,681; 3, 10,998,546, 73) | 10,604,127 (k 394,420 to 10,998,546) |
 | [CA_50322241_3_25366664_193](CA_50322241_3_25366664_193/) | SCPHF(7; 25366664, 193^2, 3), 1348 orbits of Z_194 x Z_97 | CA(50,322,241; 3, 25,366,664, 193) | 18,140,165 (k 7,226,500 to 25,366,664) |
+
+## Which cells count (16 November 2026)
+
+For each family (n rows over the alphabet q, so N = n(q^3 - q) + q rows in the covering array) and each width k past
+the tables, we compared N with these published routes, in this order:
+
+- (b) an explicit published construction with fewer rows reaches k: the (q+1)-plication of Shokri and Moura (J.
+  Combin. Des. 33(4) (2025); read through Shokri's 2026 thesis, chapter 5), for odd prime powers q, with
+  6q^3 - (13q^2 - 5q)/2 - 1 rows up to (q + 1)(q^2 + q + 1) columns; a perfect hash family PHF(3; k, v, 3) of Shangguan
+  and Ge (2016, from 3-AP-free sets) or of Fuji-Hara (2015, from quadrics and Hermitian varieties) composed with the
+  covering array CA(2q^3 - 1; 3, q^2 + q + 1, q) of Raaphorst, Moura and Stevens, 6q^3 - 5 rows; and the oversampling
+  existence bound for a CPHF with n - 1 rows (Colbourn, Lanus and Sarkar, Des. Codes Cryptogr. 2018, as restated by
+  Colbourn, 2024);
+- (b*) the same oversampling method applied to a Sherwood CPHF with one, two or three restricted pairs of rows
+  (Colbourn and Lanus, 2018): q^2 - q fewer rows than ours for each restricted pair;
+- (t) the oversampling method for a Sherwood CPHF with our n rows: the same size as ours (a tie);
+- (a) none of these reaches k: our array is smaller than every published construction we found.
+
+Two programs, written separately, compute these ranges and agree on every family; a fresh clone reproduces their
+outputs (they are not yet in this repository). Not read in full, and so open: Dougherty's tables of perfect hash
+families, the 2018 papers of Colbourn, Lanus and Sarkar and of Colbourn and Lanus, and Shokri and Moura's paper itself.
+
+| folder | rows n | past-table widths | (b) explicit construction smaller | (b*) restricted oversampling smaller | (t) tie with oversampling | (a) smaller than all found | counted (a) + (t) |
+|---|---|---|---|---|---|---|---|
+| [CA_1024_3_165004_4](CA_1024_3_165004_4/) | 17 | 65,004 (k 100,001 to 165,004) | none | none | none | 65,004 (k 100,001 to 165,004) | 65,004 |
+| [CA_1685_3_154375_5](CA_1685_3_154375_5/) | 14 | 54,375 (k 100,001 to 154,375) | none | none | none | 54,375 (k 100,001 to 154,375) | 54,375 |
+| [CA_3703_3_137618_7](CA_3703_3_137618_7/) | 11 | 37,618 (k 100,001 to 137,618) | none | none | none | 37,618 (k 100,001 to 137,618) | 37,618 |
+| [CA_5048_3_116455_8](CA_5048_3_116455_8/) | 10 | 16,455 (k 100,001 to 116,455) | none | none | none | 16,455 (k 100,001 to 116,455) | 16,455 |
+| [CA_7209_3_221150_9](CA_7209_3_221150_9/) | 10 | 121,150 (k 100,001 to 221,150) | none | none | none | 121,150 (k 100,001 to 221,150) | 121,150 |
+| [CA_11891_3_207658_11](CA_11891_3_207658_11/) | 9 | 107,658 (k 100,001 to 207,658) | none | none | none | 107,658 (k 100,001 to 207,658) | 107,658 |
+| [CA_17485_3_134368_13](CA_17485_3_134368_13/) | 8 | 34,368 (k 100,001 to 134,368) | none | none | none | 34,368 (k 100,001 to 134,368) | 34,368 |
+| [CA_32656_3_322146_16](CA_32656_3_322146_16/) | 8 | 222,146 (k 100,001 to 322,146) | none | none | none | 222,146 (k 100,001 to 322,146) | 222,146 |
+| [CA_34289_3_106533_17](CA_34289_3_106533_17/) | 7 | 6,533 (k 100,001 to 106,533) | none | none | none | 6,533 (k 100,001 to 106,533) | 6,533 |
+| [CA_47899_3_160839_19](CA_47899_3_160839_19/) | 7 | 60,839 (k 100,001 to 160,839) | none | none | none | 60,839 (k 100,001 to 160,839) | 60,839 |
+| [CA_85031_3_302074_23](CA_85031_3_302074_23/) | 7 | 202,074 (k 100,001 to 302,074) | none | none | none | 202,074 (k 100,001 to 302,074) | 202,074 |
+| [CA_109225_3_408135_25](CA_109225_3_408135_25/) | 7 | 308,135 (k 100,001 to 408,135) | none | none | none | 308,135 (k 100,001 to 408,135) | 308,135 |
+| [CA_117963_3_108143_27](CA_117963_3_108143_27/) | 6 | 87,704 (k 20,440 to 108,143) | 757 (k 20,440 to 21,196) | none | none | 86,947 (k 21,197 to 108,143) | 86,947 |
+| [CA_146189_3_135764_29](CA_146189_3_135764_29/) | 6 | 110,505 (k 25,260 to 135,764) | 871 (k 25,260 to 26,130) | none | none | 109,634 (k 26,131 to 135,764) | 109,634 |
+| [CA_178591_3_167721_31](CA_178591_3_167721_31/) | 6 | 136,938 (k 30,784 to 167,721) | 993 (k 30,784 to 31,776) | none | none | 135,945 (k 31,777 to 167,721) | 135,945 |
+| [CA_196448_3_184913_32](CA_196448_3_184913_32/) | 6 | 151,089 (k 33,825 to 184,913) | none | none | none | 151,089 (k 33,825 to 184,913) | 151,089 |
+| [CA_137619_3_534635_27](CA_137619_3_534635_27/) | 7 | 349,722 (k 184,914 to 534,635) | none | none | none | 349,722 (k 184,914 to 534,635) | 349,722 |
+| [CA_170549_3_684678_29](CA_170549_3_684678_29/) | 7 | 499,765 (k 184,914 to 684,678) | none | none | none | 499,765 (k 184,914 to 684,678) | 499,765 |
+| [CA_208351_3_860049_31](CA_208351_3_860049_31/) | 7 | 675,136 (k 184,914 to 860,049) | none | none | none | 675,136 (k 184,914 to 860,049) | 675,136 |
+| [CA_229184_3_944542_32](CA_229184_3_944542_32/) | 7 | 759,629 (k 184,914 to 944,542) | none | none | none | 759,629 (k 184,914 to 944,542) | 759,629 |
+| [CA_354349_3_647632_37](CA_354349_3_647632_37/) | 7 | 595,573 (k 52,060 to 647,632) | 108,992 (k 52,060 to 161,051) | 31,486 (k 161,052 to 192,537) | 72,726 (k 192,538 to 265,263) | 382,369 (k 265,264 to 647,632) | 455,095 |
+| [CA_482201_3_643825_41](CA_482201_3_643825_41/) | 7 | 573,182 (k 70,644 to 643,825) | 108,549 (k 70,644 to 179,192) | 98,259 (k 179,193 to 277,451) | 105,747 (k 277,452 to 383,198) | 260,627 (k 383,199 to 643,825) | 366,374 |
+| [CA_2722681_3_10998546_73](CA_2722681_3_10998546_73/) | 7 | 10,604,127 (k 394,420 to 10,998,546) | 1,025,438 (k 394,420 to 1,419,857) | 722,976 (k 1,419,858 to 2,142,833) | 847,051 (k 2,142,834 to 2,989,884) | 8,008,662 (k 2,989,885 to 10,998,546) | 8,855,713 |
+| [CA_6388129_3_13008618_97](CA_6388129_3_13008618_97/) | 7 | 12,086,439 (k 922,180 to 13,008,618) | 2,116,861 (k 922,180 to 3,039,040) | 2,803,475 (k 3,039,041 to 5,842,515) | 2,336,379 (k 5,842,516 to 8,178,894) | 4,829,724 (k 8,178,895 to 13,008,618) | 7,166,103 |
+| [CA_9064549_3_15996200_109](CA_9064549_3_15996200_109/) | 7 | 14,689,181 (k 1,307,020 to 15,996,200) | 2,912,405 (k 1,307,020 to 4,219,424) | 4,592,805 (k 4,219,425 to 8,812,229) | 3,537,620 (k 8,812,230 to 12,349,849) | 3,646,351 (k 12,349,850 to 15,996,200) | 7,183,971 |
+| [CA_50322241_3_25366664_193](CA_50322241_3_25366664_193/) | 7 | 18,140,165 (k 7,226,500 to 25,366,664) | 18,140,165 (k 7,226,500 to 25,366,664) | none | none | none | 0 |
+| **all** | | **60,695,510** | **24,415,031** | **8,249,001** | **6,899,523** | **21,131,955** | **28,031,478** |
 
 ## What each folder holds
 
