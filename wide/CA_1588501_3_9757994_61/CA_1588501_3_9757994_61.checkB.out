@@ -1,0 +1,7 @@
+checker/fullcheck3orb2.c (sha256 e6bcf7b4dfd13915f3f9ff6d647698d6257479518aece12a649259c8b901cf81): fullcheck3 for orbit families, written apart from the search and from pq_scphf3orb_checkA2 (own arithmetic, own expansion by matrix powers, sorting for distinctness, Algorithm R from each representative)
+build (from a fresh clone of this repository at commit 866183c): cc -O3 -o fullcheck3orb2 fullcheck3orb2.c -lpthread; run: nice -n 10 ./fullcheck3orb2 q FILE T, T = 3 at load under 40, else 1 (Apple M5 Pro, shared machine)
+file checked: CA_1588501_3_9757994_61.orbit.txt (byte for byte), sha256 5bbc752b33b8722f0ec2206db82e8e8f7838154fdb4f729a27b348b4147bdd17; local folder prefix removed below
+run: ended 2026-11-16 21:38:35 +0400
+orbit family: 5077 representatives, group Z_62 x Z_31 (every matrix invertible and line-preserving, G1 G2 = G2 G1, G1^M1 = G2^M2 = I, every row), 9757994 columns, 9757994 distinct
+SCPHF(7; 9757994, 61, 3) (q61_n7.cert.txt): all 241711953153897156 triples that contain a representative decided by Algorithm R from each representative; 230513049189 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 3 threads, 1029 s
+PASS
