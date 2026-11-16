@@ -1,8 +1,9 @@
-# Strength 3 past 100,000 columns, and alphabets 27 to 32 (8 November 2026; four larger families 11 November 2026)
+# Strength 3 past 100,000 columns, and alphabets 27 and above (8 November 2026; four larger families 11 November 2026; alphabet 41, 16 November 2026)
 
-Twenty Sherwood covering perfect hash families of strength 3 are kept here, one folder each. Twelve take the ladders
+Twenty-one Sherwood covering perfect hash families of strength 3 are kept here, one folder each. Twelve take the ladders
 of q = 4 to 25 past 100,000 columns, up to 408,135. Eight are over the alphabets 27, 29, 31 and 32: four with six rows
-(8 November) and four with seven rows that reach 534,635 to 944,542 columns (11 November, see below). All of them lie
+(8 November) and four with seven rows that reach 534,635 to 944,542 columns (11 November, see below). One is over the
+alphabet 41 with seven rows and 643,825 columns (16 November, see below). All of them lie
 outside the scope of the ca-tools covering array table, which keeps strengths 2 to 6, alphabets up to 25 and widths
 up to 100,000 (Christopher Smolen, ca-tools issue #54, 7 November 2026). So the table does not list them, and we keep
 them here.
@@ -22,8 +23,10 @@ A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted whe
 
 That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
 
-In all, 9,720,578 cells: 4,006,843 at the families' own alphabets and 5,713,735 by fusing (4,403,175 from the sixteen
-families of 8 November and 5,317,403 from the four of 11 November). Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
+In all, 4,580,025 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
+573,182 from the family of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
+and 5,317,403 from the four of 11 November; fused cells of the 16 November family are not counted), 10,293,760 with
+them. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
 
 | folder | family | array | cells at v = q | cells by fusing |
 |---|---|---|---|---|
@@ -47,6 +50,7 @@ families of 8 November and 5,317,403 from the four of 11 November). Smaller arra
 | [CA_170549_3_684678_29](CA_170549_3_684678_29/) | SCPHF(7; 684678, 29^2, 3) | CA(170,549; 3, 684,678, 29) | 499,765 (k 184,914 to 684,678) | v = 26: 150,043 (CA(170,543; 3, k, 26), k 534,636 to 684,678); v = 27: 150,043 (CA(170,545; 3, k, 27), k 534,636 to 684,678); v = 28: 499,765 (CA(170,547; 3, k, 28), k 184,914 to 684,678) |
 | [CA_208351_3_860049_31](CA_208351_3_860049_31/) | SCPHF(7; 860049, 31^2, 3) | CA(208,351; 3, 860,049, 31) | 675,136 (k 184,914 to 860,049) | v = 26 to 29: 175,371 each (CA(208,341 + 2(v - 26); 3, k, v), k 684,679 to 860,049); v = 30: 675,136 (CA(208,349; 3, k, 30), k 184,914 to 860,049) |
 | [CA_229184_3_944542_32](CA_229184_3_944542_32/) | SCPHF(7; 944542, 32^2, 3) | CA(229,184; 3, 944,542, 32) | 759,629 (k 184,914 to 944,542) | v = 26 to 31: 84,493 each (CA(229,172 + 2(v - 26); 3, k, v), k 860,050 to 944,542) |
+| [CA_482201_3_643825_41](CA_482201_3_643825_41/) | SCPHF(7; 643825, 41^2, 3) | CA(482,201; 3, 643,825, 41) | 573,182 (k 70,644 to 643,825) | not counted |
 
 ## The four families of 11 November 2026
 
