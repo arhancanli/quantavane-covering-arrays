@@ -75,11 +75,7 @@ search output and by `checker/fullcheck3_q64.c` on the family file: the reposito
 is counted only at the family's own alphabet q and only for k above q(q^2 + q + 1), where the construction of Shokri
 and Moura gives fewer rows; the ca-tools table has no entries above alphabet 25. Fused cells are not counted here.
 
-| folder | family | array | cells at v = q |
-|---|---|---|---|
-| [CA_482201_3_643825_41](CA_482201_3_643825_41/) | SCPHF(7; 643825, 41^2, 3) | CA(482,201; 3, 643,825, 41) | 573,182 (k 70,644 to 643,825) |
-
-The q = 41 family is the search's checkpoint at 9,662 CPU seconds (the run was stopped then). With it, the families
+The family over q = 41 (its row is in the table above) is the search's checkpoint at 9,662 CPU seconds (the run was stopped then). With it, the families
 here give 4,580,025 cells at their own alphabets.
 
 ## What each folder holds
