@@ -110,6 +110,13 @@ the new ones on the compact files; all PASS, and red controls (a duplicated repr
 matrix) failed in each program that could see them. The two new checkers report the same number of uncovered triples
 on every red and random file whose group is valid, and fullcheck3orb's self-test matches brute force.
 
+For alphabets above 127 the version-2 programs are used: `code/search/pq_cphf3orb2.c` (no table of size q^4; the
+same families as pq_cphf3orb for the same seed at q = 13 to 109), `checker/pq_scphf3orb_checkA2.c` (labels per
+representative) and `checker/fullcheck3orb2.c` (MAXQ 256), the same counts as version 1 on every test file; at q = 193
+they and `checker/fullcheck3_q256.c` (fullcheck3 with MAXQ 256) on the full expansion all PASS a 56,454-column family
+(29,985,398,669,204 triples), and version 2 fails its red control. Their covering-array spot check uses 50 samples
+there (its cost grows as q^3).
+
 Found by `code/search/pq_cphf3orb.c` (pq_cphf3big v4 with the group added; with the trivial group it reproduces v4
 byte for byte). A cell (3, q, k) is counted only at the family's own alphabet q, for k above q(q^2 + q + 1) (Shokri and
 Moura) and above any narrower family of ours at that q. Fused cells are not counted. That a search used a group is not
