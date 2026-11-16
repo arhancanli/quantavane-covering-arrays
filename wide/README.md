@@ -1,6 +1,6 @@
 # Strength 3 past 100,000 columns, and alphabets 27 and above (8 November 2026; four larger families 11 November 2026; alphabet 41, 16 November 2026)
 
-Twenty-one Sherwood covering perfect hash families of strength 3 are kept here, one folder each. Twelve take the ladders
+Sherwood covering perfect hash families of strength 3 are kept here, one folder each: twenty from 8 and 11 November, and those of 16 November listed in the last two sections. Twelve take the ladders
 of q = 4 to 25 past 100,000 columns, up to 408,135. Eight are over the alphabets 27, 29, 31 and 32: four with six rows
 (8 November) and four with seven rows that reach 534,635 to 944,542 columns (11 November, see below). One is over the
 alphabet 41 with seven rows and 643,825 columns (16 November, see below). All of them lie
