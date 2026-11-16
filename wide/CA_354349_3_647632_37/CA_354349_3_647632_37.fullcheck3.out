@@ -1,0 +1,15 @@
+fullcheck3_q64.c (= checker/fullcheck3.c with MAXQ 32 -> 64, one line; sha256 1d4d9e25ce40d5df1182c31352223c93e9e4b355de419020a9a7a0d45074ecdb), a second exact checker written separately from the search and from pq_scphf3_bigcheck.c
+build: cc -O3 -o fullcheck3_q64 fullcheck3_q64.c -lpthread; run: nice -n 10 ./fullcheck3_q64 37 FILE 1 (Apple M5 Pro, shared machine)
+file checked: q37_n7.cert.txt (certificate coding), sha256 3677dac8bff859b3e15af98e7ded5690771c3ec9f6978e5564870d81ebc10428; its lines that start with a digit are byte for byte the rows of CA_354349_3_647632_37.cphf.txt (sha256 of those lines in both: 87841311d08e12247ddc50d861b75dd0c2ccfccdb98fa216d42856bf548c9c97)
+ended 2026-11-16 17:33:09 +0400 (exit 0); local folder prefix removed below
+SCPHF(7; 647632, 37, 3) (q37_n7.cert.txt): all 45272203819682160 triples of columns decided by Algorithm R from each largest column; 919434374657 label evaluations, 0 surviving pairs confirmed by determinants, 0 uncovered, 0 internal disagreements; 1 threads, 11717 s
+PASS
+self-test for q = 37 (run separately on 16 Nov 2026 after the check):
+selftest q 37: 1 rows, 30 columns: brute force 152, Algorithm R 152 uncovered triples
+selftest q 37: 2 rows, 35 columns: brute force 4, Algorithm R 4 uncovered triples
+selftest q 37: 3 rows, 40 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 37: 4 rows, 45 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 37: 1 rows, 50 columns: brute force 547, Algorithm R 547 uncovered triples
+selftest q 37: 2 rows, 55 columns: brute force 26, Algorithm R 26 uncovered triples
+selftest q 37: 3 rows, 60 columns: brute force 0, Algorithm R 0 uncovered triples
+selftest q 37: 4 rows, 65 columns: brute force 0, Algorithm R 0 uncovered triples

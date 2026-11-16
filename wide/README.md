@@ -23,9 +23,9 @@ A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted whe
 
 That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
 
-In all, 31,355,645 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
-27,348,802 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
-and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 37,069,380 with
+In all, 31,951,218 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
+27,944,375 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
+and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 37,664,953 with
 them. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
 
 | folder | family | array | cells at v = q | cells by fusing |
@@ -50,6 +50,7 @@ them. Smaller arrays may still be known for some of these cells from constructio
 | [CA_170549_3_684678_29](CA_170549_3_684678_29/) | SCPHF(7; 684678, 29^2, 3) | CA(170,549; 3, 684,678, 29) | 499,765 (k 184,914 to 684,678) | v = 26: 150,043 (CA(170,543; 3, k, 26), k 534,636 to 684,678); v = 27: 150,043 (CA(170,545; 3, k, 27), k 534,636 to 684,678); v = 28: 499,765 (CA(170,547; 3, k, 28), k 184,914 to 684,678) |
 | [CA_208351_3_860049_31](CA_208351_3_860049_31/) | SCPHF(7; 860049, 31^2, 3) | CA(208,351; 3, 860,049, 31) | 675,136 (k 184,914 to 860,049) | v = 26 to 29: 175,371 each (CA(208,341 + 2(v - 26); 3, k, v), k 684,679 to 860,049); v = 30: 675,136 (CA(208,349; 3, k, 30), k 184,914 to 860,049) |
 | [CA_229184_3_944542_32](CA_229184_3_944542_32/) | SCPHF(7; 944542, 32^2, 3) | CA(229,184; 3, 944,542, 32) | 759,629 (k 184,914 to 944,542) | v = 26 to 31: 84,493 each (CA(229,172 + 2(v - 26); 3, k, v), k 860,050 to 944,542) |
+| [CA_354349_3_647632_37](CA_354349_3_647632_37/) | SCPHF(7; 647632, 37^2, 3) | CA(354,349; 3, 647,632, 37) | 595,573 (k 52,060 to 647,632) | not counted |
 | [CA_482201_3_643825_41](CA_482201_3_643825_41/) | SCPHF(7; 643825, 41^2, 3) | CA(482,201; 3, 643,825, 41) | 573,182 (k 70,644 to 643,825) | not counted |
 
 ## The four families of 11 November 2026
@@ -75,7 +76,7 @@ search output and by `checker/fullcheck3_q64.c` on the family file: the reposito
 is counted only at the family's own alphabet q and only for k above q(q^2 + q + 1), where the construction of Shokri
 and Moura gives fewer rows; the ca-tools table has no entries above alphabet 25. Fused cells are not counted here.
 
-The family over q = 41 (its row is in the table above) is the search's checkpoint at 9,662 CPU seconds (the run was stopped then). With it, the families
+The families over q = 37 and 41 (their rows are in the table above) are the search's checkpoints at about 9,800 and 9,662 CPU seconds (the runs were stopped then; seeds 1037 and 1041). With it, the families
 here give 4,580,025 cells at their own alphabets.
 
 ## Families made of group orbits (16 November 2026)
