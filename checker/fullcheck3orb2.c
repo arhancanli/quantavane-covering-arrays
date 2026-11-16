@@ -1,4 +1,5 @@
-/* fullcheck3orb2.c (16 Nov 2026, evening): fullcheck3orb with MAXQ 256 (nothing else changed; its tables are q^2).
+/* fullcheck3orb2.c (16 Nov 2026, evening): fullcheck3orb with MAXQ 256 (its tables are q^2), the group test visiting each
+   line once, and (later that evening) a small-class path in refine that visits only the labels present.
 
    fullcheck3orb.c (16 Nov 2026): fullcheck3 (below; MAXQ 64) for a family given as orbits (pq_cphf3orb's output, its
    representatives in the ca-tools coding q^2 + x q + y): header lines "# orbit family: ... M1 a M2 b reps R ...",
@@ -238,6 +239,35 @@ static void refine(struct wk *w, int depth, int *mem, int sz) {
                 if (w->np == w->cap) w->pb = realloc(w->pb, sizeof(long long) * (w->cap = w->cap ? 2 * w->cap : 1024));
                 w->pb[w->np++] = (long long)a << 32 | (unsigned)b;
             }
+        return;
+    }
+    if (sz <= 24) {  /* 16 Nov evening: a small class visits only the labels present (the loops over all q + 1 labels
+                        cost most of the time at large q); the same child classes, members in the same order */
+        int r = depth, ul[24], uc[24], nu = 0, nw = 0, wlist[24];
+        uint8_t lab[24];
+        const uint8_t *xr = X + (size_t)r * k, *yr = Y + (size_t)r * k;
+        int cx = xr[w->c], cy = yr[w->c];
+        w->evals += sz;
+        for (int i = 0; i < sz; i++) {
+            int j = mem[i];
+            uint8_t l = DIR[SUB[xr[j]][cx] * q + SUB[yr[j]][cy]];
+            lab[i] = l;
+            if (l == WILD) { wlist[nw++] = j; continue; }
+            int u = 0;
+            while (u < nu && ul[u] != l) u++;
+            if (u == nu) { ul[nu] = l; uc[nu++] = 0; }
+            uc[u]++;
+        }
+        ensure(w, depth + 1, sz);
+        int *child = w->buf[depth + 1];
+        for (int u = 0; u < nu; u++) {
+            if (uc[u] + nw < 2) continue;
+            int m = 0;
+            for (int i = 0; i < sz; i++) if (lab[i] == ul[u]) child[m++] = mem[i];
+            for (int i = 0; i < nw; i++) child[m++] = wlist[i];
+            refine(w, depth + 1, child, m);
+        }
+        if (!nu && nw >= 2) { memcpy(child, wlist, sizeof(int) * nw); refine(w, depth + 1, child, nw); }
         return;
     }
     ensure(w, depth, sz);
