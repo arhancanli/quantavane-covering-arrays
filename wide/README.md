@@ -23,9 +23,9 @@ A cell is a strength, alphabet and width (3, v, k). Below, a cell is counted whe
 
 That lookup has no baseline above 25. So for v above 25 we also left out k up to q(q^2 + q + 1). There, the construction of Shokri and Moura (J. Combin. Des. 2025), with Bush's orthogonal array CA(q^3; 3, q + 1, q) as its ingredient, gives about 3% fewer rows than these arrays. Here q is the alphabet, or the next prime power above it.
 
-In all, 4,580,025 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
-573,182 from the family of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
-and 5,317,403 from the four of 11 November; fused cells of the 16 November family are not counted), 10,293,760 with
+In all, 19,269,206 cells at the families' own alphabets: 4,006,843 from the twenty families of 8 and 11 November and
+15,262,363 from the families of 16 November. Fusing gives 5,713,735 more (4,403,175 from the sixteen families of 8 November
+and 5,317,403 from the four of 11 November; fused cells of the 16 November families are not counted), 24,982,941 with
 them. Smaller arrays may still be known for some of these cells from constructions that the lookup does not cover.
 
 | folder | family | array | cells at v = q | cells by fusing |
@@ -77,6 +77,46 @@ and Moura gives fewer rows; the ca-tools table has no entries above alphabet 25.
 
 The family over q = 41 (its row is in the table above) is the search's checkpoint at 9,662 CPU seconds (the run was stopped then). With it, the families
 here give 4,580,025 cells at their own alphabets.
+
+## Families made of group orbits (16 November 2026)
+
+These families are unions of orbits of a group G = Z_M1 x Z_M2 that acts on every row by an invertible 2 x 2 matrix
+over GF(q): multiplication by an element of norm 1 of GF(q^2), the point (x, y) read as x + y w with w^2 the least
+non-residue mod q. The file `NAME.orbit.txt` holds, in the ca-tools coding, the representatives (n rows), and in its
+header the two matrices G1 and G2 of every row with their orders M1 and M2. The family is
+{ (G1_r^i G2_r^j c_r)_r : c a representative, 0 <= i < M1, 0 <= j < M2 }, column t M1 M2 + i M2 + j
+(`checker/expand_orbit.py` writes it out in full).
+
+Why checking the triples that contain a representative is enough: an invertible linear map sends three distinct,
+non-collinear points to three distinct, non-collinear points and back, so G maps covered triples to covered triples.
+G maps the family onto itself, and the column G1^i G2^j c of any triple goes to c under G1^(M1 - i) G2^(M2 - j). So
+every triple of the family is the image of a triple that contains a representative, and is covered exactly when that
+one is.
+
+Each family is checked by two programs, each of which verifies the group itself (every matrix invertible and sending
+every line onto a line, G1 G2 = G2 G1, G1^M1 = G2^M2 = I in every row), expands the family with its own code, counts
+its columns distinct, and decides every triple that contains a representative:
+
+- `checker/pq_scphf3orb_checkA.c`, from `pq_scphf3_bigcheck.c` (each representative takes the place of the largest
+  column, with all other columns as members; determinant confirmation and the covering-array spot check kept), on
+  the search output;
+- `checker/fullcheck3orb.c`, from `fullcheck3.c` (Algorithm R from each representative over all other columns;
+  expansion by matrix powers; distinctness by sorting), on `NAME.orbit.txt`.
+
+Before any family here was counted, the new and the old checkers were run side by side: the old ones on full
+expansions of orbit families at q = 7, 13, 19 and 41 (149,940 columns at q = 41, every one of its C(k, 3) triples),
+the new ones on the compact files; all PASS, and red controls (a duplicated representative, a changed entry, a broken
+matrix) failed in each program that could see them. The two new checkers report the same number of uncovered triples
+on every red and random file whose group is valid, and fullcheck3orb's self-test matches brute force.
+
+Found by `code/search/pq_cphf3orb.c` (pq_cphf3big v4 with the group added; with the trivial group it reproduces v4
+byte for byte). A cell (3, q, k) is counted only at the family's own alphabet q, for k above q(q^2 + q + 1) (Shokri and
+Moura) and above any narrower family of ours at that q. Fused cells are not counted. That a search used a group is not
+new (automorphisms are a standard aid in covering-array search); the arrays and their widths are the results.
+
+| folder | family | array | cells at v = q |
+|---|---|---|---|
+| [CA_9064549_3_15996200_109](CA_9064549_3_15996200_109/) | SCPHF(7; 15996200, 109^2, 3), 2644 orbits of Z_110 x Z_55 | CA(9,064,549; 3, 15,996,200, 109) | 14,689,181 (k 1,307,020 to 15,996,200) |
 
 ## What each folder holds
 
