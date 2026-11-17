@@ -1,0 +1,8 @@
+checker/pq_scphf3orb_checkA2.c (sha256 8eb45623dd233b476e007c38025297ee232424eacb7136228542d9db9b748adc): pq_scphf3_bigcheck for orbit families; verifies the group itself, expands, counts distinct columns, checks every triple with a representative
+build (from a fresh clone of this repository at commit f523ba1): cc -O3 -march=native -o pq_scphf3orb_checkA2 pq_scphf3orb_checkA2.c -lpthread; run: PQ_THREADS=T nice -n 10 ./pq_scphf3orb_checkA2 q FILE 2000, T = 3 at load under 40, else 1 (Apple M5 Pro, shared machine; the gate log names T)
+file checked: the search output in the search coding (point id x q + y), sha256 7b8acacc81e110aa49a677e5407d44da1768a106c24eb1003eae1c9d9484be74; its representative rows plus q^2 are the rows of CA_9064549_3_33994950_109.orbit.txt, its header lines the same
+run: started after 2026-11-17 03:15:44 +0400; ended 2026-11-17 04:12:12 +0400
+orbit family: 5619 representatives, group Z_110 x Z_55 (matrices invertible, map lines onto lines, commute, G1^M1 = G2^M2 = I in every row), 33994950 columns, 33994950 distinct
+SCPHF(7; 33994950, 109^2, 3): 3246817002822843294 column triples with a representative checked (representatives [0, 5619)), 0 never non-collinear; 9484 s CPU, 3378 s wall, 3 threads, 799138906581 label tests beyond the splits
+CA(9064549; 3, 33994950, 109): 50 random column triples, 0 missing a tuple
+PASS
