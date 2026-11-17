@@ -1,0 +1,7 @@
+CPHF candidate: n=3 k=546 q=16 t=3 mode=full
+checked 26979680 t-sets, uncovered 0
+RESULT: CPHF(3; 546, 16, 3) - gives CA(12286; 3, 546, 16)
+red control (one entry changed):
+CPHF candidate: n=3 k=546 q=16 t=3 mode=full
+checked 26979680 t-sets, uncovered 152
+first uncovered: 0 1 272

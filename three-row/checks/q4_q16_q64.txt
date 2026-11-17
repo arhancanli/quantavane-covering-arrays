@@ -1,0 +1,18 @@
+q 4 N 21 k 42 triples tested 1640 uncovered 0 -> PASS: CPHF(3; 2N, q, 3)
+q 4 N 21 k 42 triples tested 1640 uncovered 64 -> FAIL
+q 16 N 273 k 546 triples tested 296480 uncovered 0 -> PASS: CPHF(3; 2N, q, 3)
+q 16 N 273 k 546 triples tested 296480 uncovered 2464 -> FAIL
+q 64 N 4161 k 8322 triples tested 69230720 uncovered 0 -> PASS: CPHF(3; 2N, q, 3)
+q 64 N 4161 k 8322 triples tested 69230720 uncovered 137344 -> FAIL
+q 4 N 21 t 7 k 42 tested 1640 uncovered 0 -> PASS
+q 4 N 21 t 8 k 42 tested 1640 uncovered 12 -> FAIL
+q 4 N 21 t 7 k 42 tested 1640 uncovered 0 -> PASS
+q 4 N 21 t 8 k 42 tested 1640 uncovered 12 -> FAIL
+q 16 N 273 t 91 k 546 tested 296480 uncovered 0 -> PASS
+q 16 N 273 t 92 k 546 tested 296480 uncovered 48 -> FAIL
+q 16 N 273 t 91 k 546 tested 296480 uncovered 0 -> PASS
+q 16 N 273 t 92 k 546 tested 296480 uncovered 48 -> FAIL
+q 64 N 4161 t 1387 k 8322 tested 69230720 uncovered 0 -> PASS
+q 64 N 4161 t 1388 k 8322 tested 69230720 uncovered 192 -> FAIL
+q 64 N 4161 t 1387 k 8322 tested 69230720 uncovered 0 -> PASS
+q 64 N 4161 t 1388 k 8322 tested 69230720 uncovered 192 -> FAIL
