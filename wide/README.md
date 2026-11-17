@@ -29,12 +29,12 @@ count" below). That check replaces what this paragraph used to say: the cut-off 
 construction of Shokri and Moura gives "about 3% fewer rows" there were wrong. For odd q their (q+1)-plication reaches
 (q + 1)(q^2 + q + 1) columns, and at q = 27 it has about 20% fewer rows than our six-row family, not 3%.
 
-In all, the families give 98,629,940 cells (3, q, k) at their own alphabets past every table. Of these, 63,783,874
-are not beaten by any published construction or bound we found, and only these are counted: 55,816,613 where our
+In all, the families give 101,456,897 cells (3, q, k) at their own alphabets past every table. Of these, 66,363,588
+are not beaten by any published construction or bound we found, and only these are counted: 58,270,584 where our
 array is smaller than every published construction we found (category (a), the only ones we call records) and
-7,967,261 where a published existence bound gives an array of the same size (category (t), a tie). The other
-34,846,066 are beaten by published work and are not counted: 25,577,513 by explicit constructions (category (b);
-all 18,140,165 cells of the alphabet-193 family are here) and 9,268,553 by a published existence method (category
+8,093,004 where a published existence bound gives an array of the same size (category (t), a tie). The other
+35,093,309 are beaten by published work and are not counted: 25,707,682 by explicit constructions (category (b);
+all 18,140,165 cells of the alphabet-193 family are here) and 9,385,627 by a published existence method (category
 (b*)). The categories of each family are in the table "Which cells count" below. Cells reached by fusing symbols
 (5,713,735 from the families of 8 and 11 November) are not counted; of the 1,039,275 of them at prime-power alphabets
 that we checked, 702,142 are beaten by published constructions. Published constructions we did not find or could not
@@ -145,6 +145,7 @@ new (automorphisms are a standard aid in covering-array search); the arrays and 
 | [CA_2104939_3_9609828_67](CA_2104939_3_9609828_67/) | SCPHF(7; 9609828, 67^2, 3), 8313 orbits of Z_68 x Z_17 | CA(2,104,939; 3, 9,609,828, 67) | 9,304,509 (k 305,320 to 9,609,828) |
 | [CA_9064549_3_33994950_109](CA_9064549_3_33994950_109/) | SCPHF(7; 33994950, 109^2, 3), 5619 orbits of Z_110 x Z_55 | CA(9,064,549; 3, 33,994,950, 109) | 17,998,750 (k 15,996,201 to 33,994,950) |
 | [CA_354349_3_1751572_37](CA_354349_3_1751572_37/) | SCPHF(7; 1751572, 37^2, 3), 2426 orbits of Z_38 x Z_19 | CA(354,349; 3, 1,751,572, 37) | 1,103,940 (k 647,633 to 1,751,572) |
+| [CA_556291_3_2908356_43](CA_556291_3_2908356_43/) | SCPHF(7; 2908356, 43^2, 3), 6009 orbits of Z_44 x Z_11 | CA(556,291; 3, 2,908,356, 43) | 2,826,957 (k 81,400 to 2,908,356) |
 
 ## Which cells count (16 November 2026)
 
@@ -199,7 +200,8 @@ families, the 2018 papers of Colbourn, Lanus and Sarkar and of Colbourn and Lanu
 | [CA_2104939_3_9609828_67](CA_2104939_3_9609828_67/) | 7 | 9,304,509 (k 305,320 to 9,609,828) | 743,257 (k 305,320 to 1,048,576) | 533,940 (k 1,048,577 to 1,582,516) | 622,949 (k 1,582,517 to 2,205,465) | 7,404,363 (k 2,205,466 to 9,609,828) | 8,027,312 |
 | [CA_9064549_3_33994950_109](CA_9064549_3_33994950_109/) | 7 | 17,998,750 (k 15,996,201 to 33,994,950) | none | none | none | 17,998,750 (k 15,996,201 to 33,994,950) | 17,998,750 |
 | [CA_354349_3_1751572_37](CA_354349_3_1751572_37/) | 7 | 1,103,940 (k 647,633 to 1,751,572) | none | none | none | 1,103,940 (k 647,633 to 1,751,572) | 1,103,940 |
-| **all** | | **98,629,940** | **25,577,513** | **9,268,553** | **7,967,261** | **55,816,613** | **63,783,874** |
+| [CA_556291_3_2908356_43](CA_556291_3_2908356_43/) | 7 | 2,826,957 (k 81,400 to 2,908,356) | 130,169 (k 81,400 to 211,568) | 117,074 (k 211,569 to 328,642) | 125,743 (k 328,643 to 454,385) | 2,453,971 (k 454,386 to 2,908,356) | 2,579,714 |
+| **all** | | **101,456,897** | **25,707,682** | **9,385,627** | **8,093,004** | **58,270,584** | **66,363,588** |
 
 ## What each folder holds
 
