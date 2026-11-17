@@ -50,3 +50,21 @@ full proof is in preparation.
 - checks/cphfcheck_q16_keeper_tool.txt: the ca-tools checker tools/cphf/cphfcheck.c, mode full, on the q = 16 file.
   It checks 26,979,680 t-sets with 0 uncovered, and gives CA(12286; 3, 546, 16). A file with one entry changed leaves
   152 uncovered.
+
+## Two more families (17 November 2026, later the same day)
+
+- families/CA_12256_3_468_16.cphf.txt: a Sherwood CPHF(3; 468, 16, 3), giving CA(12256; 3, 468, 16). It is the q = 16
+  family restricted to the columns whose rows 1 and 3 lie off the line X0 = 0 and whose row 2 lies off
+  X0 + 4X1 + 3X2 = 0. Each row is then written in affine coordinates, with first coordinate 1. Deleting columns keeps
+  the covering property. For every q = 4^s and any choice of such lines (the same line L in rows 1 and 3), at most
+  5(q+1) columns go, and since x -> bx fixes no line, at least 2q^2 - 3q - 2 columns remain. That gives
+  CA(3q^3 - 2q; 3, 2q^2 - 3q - 2, q). This pair of lines keeps the most at q = 16, 468.
+  Rebuild: `python3 code/sherwood_restrict.py families/CA_12286_3_546_16.cphf.txt out.txt`.
+- families/CA_373_3_62_5.cphf.txt: a CPHF(3; 62, 5, 3), giving CA(373; 3, 62, 5). It is a sporadic two-orbit family
+  over GF(125) = GF(5)[X]/(X^3 - X^2 - 1) with primitive element alpha = 1 + X. The columns are (g, 3g, 4g) and
+  (g, 3g + 4, 4g + 20) in Singer exponents mod 31, point i being alpha^i, written in the basis 1, X, X^2. Rebuild:
+  `cc -O2 -o eo code/export_orbit.c && ./eo 5 3 4 4 20 > cols.txt && python3 code/rows_base.py cols.txt 5 out.txt`.
+  The same search over all two-orbit arrays of this form finds solutions at q = 4 and 5 only, among q = 3, 4, 5, 7, 8,
+  9 and 11.
+- checks/round2_468_and_q5.txt: both families pass the ca-tools checker tools/cphf/cphfcheck.c (mode full) and
+  code/cphf_filecheck.c, and red controls fail in both.

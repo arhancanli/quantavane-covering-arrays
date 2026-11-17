@@ -1,0 +1,18 @@
+== CA_12256_3_468_16 (Sherwood restriction): ca-tools cphfcheck full
+CPHF candidate: n=3 k=468 q=16 t=3 mode=full (affine: first coordinate 1)
+checked 16974516 t-sets, uncovered 0
+RESULT: CPHF(3; 468, 16, 3) - gives CA(12286; 3, 468, 16) and, affine, CA(12256; 3, 468, 16)
+== code/cphf_filecheck.c on the same family (one column per line)
+c468.txt: k 468 rows 3 q 16 triples 16974516 uncovered 0 -> PASS
+red control (one entry changed):
+c468red.txt: k 468 rows 3 q 16 triples 16974516 uncovered 7 -> FAIL
+== CA_373_3_62_5: ca-tools cphfcheck full
+CPHF candidate: n=3 k=62 q=5 t=3 mode=full
+checked 37820 t-sets, uncovered 0
+RESULT: CPHF(3; 62, 5, 3) - gives CA(373; 3, 62, 5)
+== code/cphf_filecheck.c on the q = 5 columns (export_orbit 5 3 4 4 20)
+q5cols.txt: k 62 rows 3 q 5 triples 37820 uncovered 0 -> PASS
+red control (export_orbit 5 3 4 4 21):
+CPHF candidate: n=3 k=62 q=5 t=3 mode=full
+checked 37820 t-sets, uncovered 124
+first uncovered: 0 12 56
